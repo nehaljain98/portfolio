@@ -173,7 +173,7 @@
       background-image:url(../img/bg.png);
       /* background-position: top center;
       background-repeat: no-repeat; */
-      background-attachment:scroll;
+      background-attachment:fixed;
       background-size: cover;
       width: auto;
       height: 100vh;
@@ -328,7 +328,7 @@
   }
 
   #dhousing_module_description:hover {
-    background:#DD876D;
+    background:#eabb97;
     box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
                 inset -4px -4px 6px -1px rgba(255,255,255,0.7),
                 -0.5px -0.5px 0px rgba(255,255,255,1),
@@ -345,7 +345,7 @@
   }
 
   #explored_module_description:hover {
-    background: #DD876D;
+    background: #eabb97;
     box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
                 inset -4px -4px 6px -1px rgba(255,255,255,0.7),
                 -0.5px -0.5px 0px rgba(255,255,255,1),
@@ -362,7 +362,7 @@
   }
 
   #dcc_module_description:hover {
-    background:	#DD876D;
+    background:	#eabb97;
     box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
                 inset -4px -4px 6px -1px rgba(255,255,255,0.7),
                 -0.5px -0.5px 0px rgba(255,255,255,1),
@@ -379,7 +379,7 @@
   }
 
   #cstem_module_description:hover {
-    background:	#DD876D;
+    background:	#eabb97;
     box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
                 inset -4px -4px 6px -1px rgba(255,255,255,0.7),
                 -0.5px -0.5px 0px rgba(255,255,255,1),

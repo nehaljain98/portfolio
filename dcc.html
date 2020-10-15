@@ -23,6 +23,7 @@
 
         <!-- My Styles -->
         <link rel="stylesheet" href="styles/styles.css">
+        <link rel="stylesheet" href="styles/dcc_styles.css">
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Exo+2:500i|Open+Sans" rel="stylesheet">
@@ -196,17 +197,6 @@
                         <ul>
                         <li>Context Study</li>
                         <li>User Painpoints</li>
-                        <li>User Interviews</li>
-                        </ul>
-                        </div>
-                    </li>
-
-                    <li class="col-lg-3 col-6">
-                        <div class="timestamp">
-                        <img class="w-100" src="img/process.svg" alt="Process">
-                        <span class="timeline_task">Analysis</span>
-                        <ul>
-                        <li>Problem Statement</li>
                         <li>User Personas</li>
                         </ul>
                         </div>
@@ -215,8 +205,9 @@
                     <li class="col-lg-3 col-6">
                         <div class="timestamp">
                         <img class="w-100" src="img/process.svg" alt="Process">
-                        <span class="timeline_task">Design</span>
+                        <span class="timeline_task">Ideation</span>
                         <ul>
+                        <li>Information Architecture</li>
                         <li>Wireframes</li>
                         <li>Hi-fi Mockup</li>
                         </ul>
@@ -235,7 +226,7 @@
 
                     <li class="col-lg-3 col-6">
                         <div class="timestamp">
-                        <img class="w-100" src="img/process.svg" alt="Process">
+                        <img class="w-100" src="img/processcomp.svg" alt="Process">
                         <span class="timeline_task">Conclusion</span>
                         <ul>
                         <li>Assessment</li>
@@ -245,62 +236,82 @@
                         </li>
                     </ul>
                 </section>
-        </section>        
-            <div class="row justify-content-center">
-              <section class=" col-md-6   col-12">
-                <div class="lightbox_image" style=" height:350px; overflow: hidden; width: 100%; display: inline-block;">
-                  <!-- thumbnail image wrapped in a link -->
-                  <a href="#img1">
-                    <img src="images/internship/team.png" style="width:100%" alt="steps">
-                  </a>
+        </section>      
+        
+        
+        <section class="col-12">
+          <h4 style="margin:30px 0 20px; font-size: 27px;">Research</h4>
+            <h5>Who are our users?</h5>
+            <p>Since the user types are straight forward, we categorized them into 5 user groups:</p>
+            <p>Design Students: This website will be used by the students to navigate design workshops, design events and job opportunities. They can also refer to the blog which will have professional articles such as preparing for the events.</p>
+            <p>Design Faculty: The design faculty will have a similar goal of being aware of the events. They will also need to be able to get information on alumni and events from the previous years.</p>
+            <p>UC Davis Design Alumni: The alumni will be connected to current design students through this website and will initially begin their mentorship program throught the website</p>
+            <p>Recruiters: The recruiters will be encouraged to </p>
+            <p>The DCC Board: This website will need to be accessed and edited by the board members. They will maintain relevant information which requires editing to be easy and the site to work for longevity.</p>
+            
+            <h5>User Interviews</h5>
+            <p>To get more understanding of what these users’ goals and pain points on the site were, we conducted more in-depth interviews where we would walk through the website with 5 people from each user group. The during the interviews we performed a contextual inquity (or walkthrough) of the website with our interviewees to observe how they used the site and what information they wanted to access. We also asked them both preestablished and followup questions about their goals and habits as users.Based off of those interviews, we were able to create personas (who are fictional people with motivations and oppinions that average those of the people interviewed).</p>
+
+            <h5>User Pain Points</h5>
+            <p>The following are the core problems this design aims to solve:</p>
+            <p>Publicize job opportunities and professional workshops</p>
+            <p>Connect design students and alumni through the mentorship program</p>
+            <p>Promote the club's events and newsletter</p>
+    </section>   
     
-                  <!-- lightbox container hidden with CSS -->
-                  <a href="#_" class="lightbox" id="img1">
-                    <img src="images/internship/team.png" alt="steps">
-                  </a>
-                </div>
-              </section>
-              <section class=" col-md-6   col-12">
-                <div class="lightbox_image" style=" height:350px; overflow: hidden; width: 100%; display: inline-block;">
-                  <!-- thumbnail image wrapped in a link -->
-                  <a href="#img2">
-                    <img src="images/internship/henry.jpg" style="width:100%" alt="steps">
-                  </a>
+    <section class="col-12">
+      <h4 style="margin:30px 0 20px; font-size: 27px;">Ideation</h4>
+
+        <h5>Information Architecture</h5>
+          <p>Organizing and grouping user flows for effecient navigation.
+
+            Since the organization of information on the website was an issue brought up in our personas, we wanted to take a look at the persona use cases and see:
+            
+            Where their final page destinations were on the sitemap
+            What user navigation paths looked
+            The person icons indicate the ending page for each of the personas' navigation paths.
+            We wanted to make sure that all of our personas, especially the international students, could access their information quickly without having to read a lot of text. So we restructured the site to facilitate the access of information from the use cases, (the information that they desired most).
+            
+            <img class="w-100" src="img/dcc-ia.svg" alt="DCC IA Design" style="margin-bottom: 2rem;">
+
+            Since students are the majority of the user population, we made sure that all of the information that they need is within the “Academics” section because that’s where they tend to look first (based off of our interview observations). To do this, we regrouped and added some relevant pages to the section. Previously, academic information was scattered outside of “Academics” in sections like “About” and “Programs & Services”. Now, more relevant information is in the section, and as seen in the revised sitemap, more students’ use cases fall in “Academics”.
+              
+            We also wanted to include multiple paths for users to reach their desired page. This way, no matter what the user navigation decisions, users can reach their destinations more quickly.</p>
+    </section> 
+
+    <section class="col-12">
+      <h4 style="margin:30px 0 20px; font-size: 27px;">Feedback</h4>
+
+        <h5>Prototype</h5>
+        <p>After finalizing the ideas generated in the wireframes, we built our prototype. This prototype contains the pages relevant to each of the use cases since we would use it for subsequent usability tests.</p>
+        <video class="w-100" style="height: 746px;" autoplay><source src="img/dcc.mp4" type="video/mp4"></video>
+          
+    </section> 
+
     
-                  <!-- lightbox container hidden with CSS -->
-                  <a href="#_" class="lightbox" id="img2">
-                    <img src="images/internship/henry.jpg" alt="steps">
-                  </a>
-                </div>
-              </section>
-              <section class=" col-md-6   col-12">
-                <div class="lightbox_image" style=" height:350px; overflow: hidden; width: 100%; display: inline-block;">
-                  <!-- thumbnail image wrapped in a link -->
-                  <a href="#img3">
-                    <img src="images/internship/friends.jpg" style="width:100%" alt="steps">
-                  </a>
-    
-                  <!-- lightbox container hidden with CSS -->
-                  <a href="#_" class="lightbox" id="img3">
-                    <img src="images/internship/friends.jpg" alt="steps">
-                  </a>
-                </div>
-              </section>
-              <section class=" col-md-6   col-12">
-                <div class="lightbox_image" style=" height:350px; overflow: hidden; width: 100%; display: inline-block;">
-                  <!-- thumbnail image wrapped in a link -->
-                  <a href="#img4">
-                    <img src="images/internship/friends2.jpg" style="width:100%" alt="steps">
-                  </a>
-    
-                  <!-- lightbox container hidden with CSS -->
-                  <a href="#_" class="lightbox" id="img4">
-                    <img src="images/internship/friends2.jpg" alt="steps">
-                  </a>
-                </div>
-              </section>
-            </div>
-          </div>
+    <section class="col-12">
+      <h4 style="margin:30px 0 20px; font-size: 27px;">Conclusion</h4>
+
+        <h5>Outcome</h5>
+        <p>After the usability tests, the team used a Powerpoint and Functional Specification Report to present our process and results to key stakeholders in the Design department. They liked our ideas, however, they also explained to us that they were against coding the website from scratch.  Our intent was to use our user research and design a website that could be useful and accessible for which reason we decided to use a 
+          
+          There could be a number of reasonable explanations of our professor's attitude against coding the website from scratch:
+          
+          Changing the site is a lot of work on anyone (as the board does not have a team of other web developers)
+          There is no way for the current board to forsee the future board's priorities and continuation of the website would be jeapordized
+          The board is always busy with a lot of other projects
+
+          Regardless, it’s a little bit disappointing to see progress hindered by matters that hadn't considered. Nevertheless, I am grateful for this complication, because there are lessons here that a lot of students don’t get to learn about in more ordinary projects.
+          
+          Longevity is as important as the design itself when considering implementation.
+          
+          What I've learned: Unless the team can carry on a website that requires to be maintained by collaborating with web developers and programmers, a web developing tool is the best bet for that design. I understand that while the website could not be coded, it still followed our prototypes design and we figured out a way to use the tool to our advantage.
+
+          Thinking Forward
+          Get user feedback while wireframing rather than making personal choices about the layout
+          Try to increase communication with the stakeholders and team to understand their personal limitations
+          Understand the hidden variables and obstacles between the project and its implementation by asking more questions to clients</p>
+    </section> 
     
         <div class="container">
           <div class="row justify-content-center">

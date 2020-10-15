@@ -165,23 +165,31 @@
   /* Extra large devices (large desktops, 1200px and up) */
   @media (min-width: 1200px) {
      #cover_image {
+      width: auto;
+      height: 100vh;
       position: absolute;
       overflow: hidden;
       top: 0;
       left: 0;
       right:0;
-      background-image:url(../img/bg.png);
+      
       /* background-position: top center;
       background-repeat: no-repeat; */
-      background-attachment:fixed;
-      background-size: cover;
-      width: auto;
-      height: 100vh;
+      /* background-attachment:fixed;
+      background-size: cover; */
+      
       /* transform: translateZ(-2px) scale(3); */
       /* transform-style: preserve-3d;
       transform: translate3d(700px, 0, -800px) rotateY(30deg); */
 
     } 
+
+    .cover-image {
+      background-image:url(../img/bg.png);
+      background-size: cover;
+      background-position: top center;
+      background-attachment: scroll;
+  }
 
     /* #placeholdersoyoucanscroll{
       height:80vh;
@@ -451,32 +459,33 @@
 
   /* Fade in Animation */
 
-  @keyframes fadeInUp {
+  /* @keyframes fadeInUp {
     from {
-      transform: translate3d(0, 20px, 0);
+        transform: translate3d(0,40px,0)
     }
 
     to {
-      transform: translate3d(0, 0, 0);
-      opacity: 1;
+        transform: translate3d(0,0,0);
+        opacity: 1
     }
   }
 
   @-webkit-keyframes fadeInUp {
     from {
-      transform: translate3d(0, 20px, 0);
+        transform: translate3d(0,40px,0)
     }
 
     to {
-      transform: translate3d(0, 0, 0);
-      opacity: 1;
+        transform: translate3d(0,0,0);
+        opacity: 1
     }
   }
 
   .animated {
-    animation-delay: 0.7s;
-    animation-duration: 2s;
-    -webkit-animation-duration: 2s;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both
   }
 
   .animatedFadeInUp {
@@ -487,4 +496,6 @@
     opacity: 0;
     animation-name: fadeInUp;
     -webkit-animation-name: fadeInUp;
-  }
+  } */
+
+

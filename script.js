@@ -93,16 +93,36 @@
                     var bottom_of_window = $(window).scrollTop() + $(window).height();
         
                     /* Adjust the "200" to either have a delay or that the content starts fading a bit before you reach it  */
-                    bottom_of_window = bottom_of_window + 200;  
+                    bottom_of_;window = bottom_of_window + 300;  
         
                     if( bottom_of_window > bottom_of_object ){
         
-                        $(this).animate({'opacity':'1'},1000);
+                        $(this).animate({'opacity':'1'},1000)
         
                     }
                 }); 
         
             });
         });
+
+        // var coverImage = document.querySelector("#cover-image");
+    
+        // function setTranslate(xPos, yPos, el) {
+        //     el.style.transform = `translate3d(${xPos}px, ${yPos}px, 0)`;
+        // }
+    
+        // window.addEventListener("DOMContentLoaded", scrollLoop, false);
+    
+        // var xScrollPosition;
+        // var yScrollPosition;
+    
+        // function scrollLoop() {
+        //     xScrollPosition = window.scrollX;
+        //     yScrollPosition = window.scrollY;
+    
+        //     setTranslate(0, yScrollPosition * -0.5, coverImage);
+    
+        //     requestAnimationFrame(scrollLoop);
+        // }
 
     })();

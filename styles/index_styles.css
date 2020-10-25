@@ -139,6 +139,18 @@
       justify-content: center;
       text-align: justify;
   }
+
+  #resum a{
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0.5555555555555556rem !important;
+    padding:0.6rem;
+    padding-right: 1.6666666666666667rem;
+    padding-left: 1.6666666666666667rem;
+    color: #d4a181;
+    border: 2px solid;
+    font-weight: bold;
+  }
 }
 
 
@@ -164,14 +176,7 @@
 
   /* Extra large devices (large desktops, 1200px and up) */
   @media (min-width: 1200px) {
-     #cover_image {
-      width: auto;
-      height: 100vh;
-      position: absolute;
-      overflow: hidden;
-      top: 0;
-      left: 0;
-      right:0;
+
       
       /* background-position: top center;
       background-repeat: no-repeat; */
@@ -182,18 +187,23 @@
       /* transform-style: preserve-3d;
       transform: translate3d(700px, 0, -800px) rotateY(30deg); */
 
-    } 
-
-    .cover-image {
-      background-image:url(../img/bg.png);
+    #cover-image {
+      background-image:url(../img/bg.svg);
+      background-repeat: no-repeat;
       background-size: cover;
       background-position: top center;
-      background-attachment: scroll;
+      position: absolute;
+      top:0;
+      left:0;
+      right:0;
+      width: auto;
+      height: 100vh;
+      z-index: -3;
+      transition: 0.5s ease;
+transform: translate3d(0, 0, 0);
+     
   }
 
-    /* #placeholdersoyoucanscroll{
-      height:80vh;
-     } */
 
     #header_text {
       padding: 26% 0 20% 11.5%;
@@ -202,31 +212,7 @@
     #header_text p {
       font-size: 2rem;
     }
-    /* #header_text p:nth-of-type(even) {
-      font-size: 0.8rem;
-      margin-bottom: 0px;
-    } */
-/* 
-    #projects{
-      height:100vh;
-    } */
-
-    #landing_illustration {
-      display: block;
-      position: relative;
-      top: 0;
-      left: 0;
-      z-index: -2;
-    }
-
-    #landing_illustration_head {
-      display: block;
-      position: absolute;
-      top: 0;
-      left: 0;
-      z-index: -1;
-    }
-  }
+   
 
   @media only screen and (min-device-height: 1120px) {
     #spacer {

@@ -6,6 +6,7 @@
 
          <!-- add Normalize CSS from CDN styles across browsers -->
          <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
         <!-- Font Awesome -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -113,7 +114,7 @@
             
                     <div class="col-md-6   col-12   module_wrapper">
                         <a class="module_link" href="dhousing">
-                        <div class="module">
+                        <div class="module" data-aos="fade-up">
                             <div id="dhousing_image" class="module_image"></div>
             
                             <div class="module_description" id="dhousing_module_description" >
@@ -126,7 +127,7 @@
 
                     <div class="col-md-6   col-12   module_wrapper">
                         <a class="module_link" id="explored_module_description" href="explored">
-                        <div class="module">
+                        <div class="module" data-aos="fade-up">
                             <div id="explored_image" class="module_image"></div>
             
                             <div class="module_description" id="explored_module_description">
@@ -139,7 +140,7 @@
             
                     <div class="col-md-6   col-12   module_wrapper">
                         <a class="module_link" href="dcc">
-                        <div class="module">
+                        <div class="module" data-aos="fade-up">
                             <div id="dcc_image" class="module_image"></div>
             
                             <div class="module_description" id="dcc_module_description">
@@ -213,6 +214,10 @@
         <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+          </script>
 
         
     </body>

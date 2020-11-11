@@ -23,6 +23,7 @@
 
         <!-- My Styles -->
         <link rel="stylesheet" href="styles/styles.css">
+        <link rel="stylesheet" href="styles/dcc_styles.css">
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Exo+2:500i|Open+Sans" rel="stylesheet">
@@ -45,41 +46,41 @@
 
     <body>
         <header>
-         <!-- Navbar -->
-            <!-- <nav id="headernav">
-              <ul>
-                  <li class="nav-object">
-                      <a class="nav-link" href="#main" class="selected">Nehal Jain</a>
-                  </li>
-                  <li class="nav-object">
-                      <a class="nav-link" href="#about" >About</a>
-                  </li>
-                  <li class="nav-object">
-                      <a class="nav-link" href=#projects>Work</a>
-                  </li>
+          <nav id ="headernav" class="navbar navbar-expand-lg navbar-light">
+
+            <a class="navbar-brand" href="index#main" class="selected">Nehal Jain</a>
+          
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+
+                <li class="nav-object">
+                    <a class="nav-link" href=index#projects>Work</a>
+                </li>
+                <li class="nav-object">
+                    <a class="nav-link" href="index#about" >About</a>
+                </li>
+          
               </ul>
-      </nav> -->
-          <nav id="headernav1">
-            <ul>
-                <li class="nav-object"><a class="nav-link" href="index#main">Nehal Jain</a></li>
-                <li class="nav-object"><a class="nav-link" href="index#projects">Work</a></li>
-                <li class="nav-object"><a class="nav-link" href="index#about">About</a></li>
-            </ul>
-        </nav>
+            </div>
+          </nav>
         </header>
->
+
         <div class="span-12" data-module="image">
-          <div style="margin-top: 50px" class="ce-image" data-align="left"><img class="is-content" src="img/explored1.jpg" width="100%" alt="exlporeD App Banner" caption="" data-width="original" data-scaling="no"></div>
+          <div style="margin-top: 50px" class="ce-image" data-align="left"><img class="is-content" src="img/explored1.jpg" width="100%" alt="Dseign Careers Club Banner" caption="" data-width="original" data-scaling="no"></div>
         </div>
 
         <div style="padding-top: 60px" id="dccprompt" class="container">
             <div data-content-for="sm">
               <!-- Summary Section -->
-              <section class="title_header col-12"><h2>exploreD App Design</h2></section>
+              <section class="title_header col-12"><h2>Design Careers Club Website</h2></section>
               <!-- Summary Section -->
               <div class="clearfix">
                 <section class="col-sm-12">
-                  <img class="float-right" src="img/explored.png"alt="DCC Web" width="500" height="320">
+                  <img class="float-right" src="img/explored.png" alt="DCC Web" width="400" height="300">
                 </section>
 
                 <section class="col-sm-7">
@@ -242,14 +243,185 @@
           <h4 style="margin:30px 0 20px; font-size: 27px;">Research</h4>
             <h5>Who are our users?</h5>
             <p>Since the user types are straight forward, we categorized them into 5 user groups:</p>
-            <p>Design Students: This website will be used by the students to navigate design workshops, design events and job opportunities</p>
-            <p>Design Faculty: The design faculty will have a similar goal of being aware of the events. They will also need to be able to get information on alumni and events from the previous years.</p>
-            <p>UC Davis Design Alumni: The alumni will be connected to current design students through this website and will initially begin their mentorship program throught the website</p>
-            <p>Recruiters: The recruiters will be encouraged to </p>
-            <p>The DCC Board: This website will need to be accessed and edited by the board members. They will maintain relevant information which requires editing to be easy and the site to work for longevity.</p>
+            <p><b>Design Students:</b> This website will be used by the students to navigate design workshops, design events and job opportunities. They can also refer to the blog which will have professional articles such as preparing for the events.</p>
+            <p><b>Design Faculty:</b> The design faculty will have a similar goal of being aware of the events. They will also need to be able to get information on alumni and events from the previous years.</p>
+            <p><b>UC Davis Design Alumni:</b> The alumni will be connected to current design students through this website and will initially begin their mentorship program throught the website</p>
+            <p><b>Recruiters:</b> The recruiters will be encouraged to </p>
+            <p><b>The DCC Board:</b> This website will need to be accessed and edited by the board members. They will maintain relevant information which requires editing to be easy and the site to work for longevity.</p>
             
             <h5>User Interviews</h5>
             <p>To get more understanding of what these users’ goals and pain points on the site were, we conducted more in-depth interviews where we would walk through the website with 5 people from each user group. The during the interviews we performed a contextual inquity (or walkthrough) of the website with our interviewees to observe how they used the site and what information they wanted to access. We also asked them both preestablished and followup questions about their goals and habits as users.Based off of those interviews, we were able to create personas (who are fictional people with motivations and oppinions that average those of the people interviewed).</p>
+
+            <section class="col-md-8   col-12">
+              <!-- Persona Cards -->
+              <div id="carouselExampleIndicators" class="carousel slide persona_carousel" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="persona_wrapper col-lg-9 col-12">
+                      <div class="card">
+                        <img class="card-img-top"src="img/dccuserone.png"  >
+                        <div class="card-body">
+                          <h4 class="victoria"><i class="fas fa-user-circle"></i> Victoria</h4>
+                          <h7 class="victoria">Design Student</h7>
+                          <h5 class="card-title">Goals:</h5>
+                          <ul>
+                            <li>Access event and workshops information</li>
+                             <li> Register for events and get tickets</li>
+                             <li> Get recruitment opportunity in the design group</li>
+                             <li> Sign up for mentorship program with the alumni</li>
+                          </ul>
+                          <h5 class="card-title">Pain Points:</h5>
+                          <ul>
+                            <li>The website not being mobile friendly</li>
+                             <li> Not being able to access information easily</li>
+                             <li> Not being aesthetically pleasing</li>
+                          </ul>
+                          <div class="card-footer">
+                            <h5 class="card-title">Use Case:</h5>
+                            <ol>
+                              <li>Interested in <u>events, workshops, mentorship</u></li>
+                              <li><u>Professional opportunities</u> and mentorship </li>
+                            </ol>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="persona_wrapper col-lg-9 col-12">
+                        <div class="card">
+                          <img class="card-img-top" src="img/dccusertwo.png">
+                          <div class="card-body">
+                            <h4 class="glenda"><i class="fas fa-user-circle"></i> Glenda</h4>
+                            <h7 class="glenda">Design Faculty</h7>
+                            <h5 class="card-title">Goals:</h5>
+                            <ul>
+                              <li>Promote job opportunities and events to students</li>
+                              <li>Contact the board and club members</li>
+                              <li> Access alumni information for department purposes</li>
+                            </ul>
+                            <h5 class="card-title">Pain Points:</h5>
+                            <ul>
+                              <li>The website not being easy to navigate</li>
+                              <li>Layout of website is confusing</li>
+                              <li>Outdated information on events and alumni</li>
+                            </ul>
+                            <div class="card-footer">
+                              <h5 class="card-title">Use Case:</h5>
+                              <ol>
+                                <li>1. The website being <u>mobile friendly</u></li>
+                                <li>Being able to access <u>information</u> easily </li>
+                              </ol>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="persona_wrapper col-lg-9 col-12">
+                      <div class="card" >
+                        <img class="card-img-top" src="img/dccuserthree.png">
+                        <div class="card-body">
+                          <h4 class="john"><i class="fas fa-user-circle"></i> John</h4>
+                          <h7 class="john">Design Recruiter</h7>
+                          <h5 class="card-title">Goals:</h5>
+                          <ul>
+                            <li>Being able to connect with students</li>
+                            <li>Getting event information and materials online</li>
+                            <li>Viewing portfolios to choose the right candidate</li>
+                          </ul>
+                          <h5 class="card-title">Frustrations:</h5>
+                          <ul>
+                            <li>Unreliable information and inaccessible event forms</li>
+                            <li>The overall website being unintuitive</li>
+                            <li>Not being able to contact the board and club members</li>
+                          </ul>
+                          <div class="card-footer">
+                            <h5 class="card-title">Use Cases:</h5>
+                            <ol>
+                              <li>The student information being available </li>
+                              <li>Connect with students and faculty</li>
+                            </ol>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="carousel-item">
+                    <div class="persona_wrapper col-lg-9 col-12">
+                      <div class="card" >
+                        <img class="card-img-top" src="img/dccuserfour.png">
+                        <div class="card-body">
+                          <h4 class="jamie"><i class="fas fa-user-circle"></i> Jamie</h4>
+                          <h7 class="jamie">Design Alumni</h7>
+                          <h5 class="card-title">Goals:</h5>
+                          <ul>
+                            <li>Answer questions about the UWP program with reference to the website</li>
+                            <li>Manage and update content on the website</li>
+                            <li>Keep up to date with current events within the department</li>
+                          </ul>
+                          <h5 class="card-title">Frustrations:</h5>
+                          <ul>
+                            <li>The website doesn’t look nice and is not up to date with UC Davis’s design aesthetic</li>
+                            <li>Some information is outdated</li>
+                            <li>Hard to navigate the website/information is hard to find</li>
+                            <li>There is too much information on the website</li>
+                          </ul>
+                          <div class="card-footer">
+                            <h5 class="card-title">Use Case:</h5>
+                            <ol>
+                              <li><u>Mentor/mentee program</u> and contact information</li>
+                              <li>Connecting with board and faculty</li>
+                            </ol>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                 
+                  <div class="carousel-item">
+                    <div class="persona_wrapper col-lg-9 col-12">
+                      <div class="card">
+                        <img class="card-img-top" src="img/dccuserfive.png">
+                        <div class="card-body">
+                          <h4 class="vivian"><i class="fas fa-user-circle"></i> Vivian</h4>
+                          <h7 class="vivian">The Board Member</h7>
+                          <h5 class="card-title">Goals:</h5>
+                          <ul>
+                            <li>Editing and managing the website</li>
+                             <li> Updating for events and workshops</li>
+                             <li> Gaining traction on newsletter and blog</li>
+                          </ul>
+                          <h5 class="card-title">Frustrations:</h5>
+                          <ul>
+                            <li>The website and layout is confusing</li>
+                            <li>Not being able to edit information easily</li>
+                            <li>The recruitment process is not clearly available</li>
+                          </ul>
+                          <div class="card-footer">
+                            <h5 class="card-title">Use Case:</h5>
+                            <ol>
+                              <li><u>Editing and managing</u> the website</li>
+                                <li><u>Recruitment</u> and events process  </li>
+                            </ol>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                   
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"><i class="fas fa-chevron-left"></i></span>
+                      <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"><i class="fas fa-chevron-right"></i></span>
+                  <span class="sr-only">Next</span>
+                </a>
+                    </div>
+              </section>
 
             <h5>User Pain Points</h5>
             <p>The following are the core problems this design aims to solve:</p>
@@ -268,51 +440,47 @@
             
             Where their final page destinations were on the sitemap
             What user navigation paths looked
-            The person icons indicate the ending page for each of the personas' navigation paths.</p>
+            The person icons indicate the ending page for each of the personas' navigation paths.
+            We wanted to make sure that all of our personas, especially the international students, could access their information quickly without having to read a lot of text. So we restructured the site to facilitate the access of information from the use cases, (the information that they desired most).
+            
+            <img class="w-100" src="img/dcc-ia.svg" alt="DCC IA Design" style="margin-bottom: 2rem;">
 
-            <p>Our Revised Sitemap
-              We wanted to make sure that all of our personas, especially the international students, could access their information quickly without having to read a lot of text. So we restructured the site to facilitate the access of information from the use cases, (the information that they desired most).
+            Since students are the majority of the user population, we made sure that all of the information that they need is within the “Academics” section because that’s where they tend to look first (based off of our interview observations). To do this, we regrouped and added some relevant pages to the section. Previously, academic information was scattered outside of “Academics” in sections like “About” and “Programs & Services”. Now, more relevant information is in the section, and as seen in the revised sitemap, more students’ use cases fall in “Academics”.
               
-              Since students are the majority of the user population, we made sure that all of the information that they need is within the “Academics” section because that’s where they tend to look first (based off of our interview observations). To do this, we regrouped and added some relevant pages to the section. Previously, academic information was scattered outside of “Academics” in sections like “About” and “Programs & Services”. Now, more relevant information is in the section, and as seen in the revised sitemap, more students’ use cases fall in “Academics”.
-              
-              We also wanted to include multiple paths for users to reach their desired page. This way, no matter what the user navigation decisions, users can reach their destinations more quickly.</p>
+            We also wanted to include multiple paths for users to reach their desired page. This way, no matter what the user navigation decisions, users can reach their destinations more quickly.</p>
     </section> 
 
     <section class="col-12">
       <h4 style="margin:30px 0 20px; font-size: 27px;">Feedback</h4>
 
         <h5>Prototype</h5>
-
-    
+        <p>After finalizing the ideas generated in the wireframes, we built our prototype. This prototype contains the pages relevant to each of the use cases since we would use it for subsequent usability tests.</p>
+        <video class="w-100" style="height: 746px;" autoplay><source src="img/dcc.mp4" type="video/mp4"></video>
+          
     </section> 
+
     
     <section class="col-12">
       <h4 style="margin:30px 0 20px; font-size: 27px;">Conclusion</h4>
 
         <h5>Outcome</h5>
-        <p>After the usability tests, the team used a Powerpoint and Functional Specification Report to present our process and results to key stakeholders in the UWP department. They liked our ideas, however, they also explained to us that the department was facing internal debate. The webmaster, (who was not present at our presentation), is the person in charge of making changes to the site. Even though most of the department demands change, the webmaster seems to have a lot of leverage in his insistence to keep the website the same. Their intent was to use our user research and redesigns to show the webmaster how problematic the website experience actually is.
+        <p>After the usability tests, the team used a Powerpoint and Functional Specification Report to present our process and results to key stakeholders in the Design department. They liked our ideas, however, they also explained to us that they were against coding the website from scratch.  Our intent was to use our user research and design a website that could be useful and accessible for which reason we decided to use a 
           
-          There could be a number of reasonable explanations of the webmaster's attitude towards this ongoing discussion:
+          There could be a number of reasonable explanations of our professor's attitude against coding the website from scratch:
           
-          Changing the site is a lot of work on him (as he does not have a team of other web developers)
-          Changing the site will force people who are used to using the site to relearn the new site
-          He may be currently busy with other projects
+          Changing the site is a lot of work on anyone (as the board does not have a team of other web developers)
+          There is no way for the current board to forsee the future board's priorities and continuation of the website would be jeapordized
+          The board is always busy with a lot of other projects
+
           Regardless, it’s a little bit disappointing to see progress hindered by matters that hadn't considered. Nevertheless, I am grateful for this complication, because there are lessons here that a lot of students don’t get to learn about in more ordinary projects.
           
-          Persuasion is as important as the design itself when considering implementation.
+          Longevity is as important as the design itself when considering implementation.
           
-          What I've learned: Beyond implementation limitations and the quality of your design deliverables, people still need to be persuaded to invest in your ideas. I need to work on my use metrics and verbal communications to enhance my ability sell ideas.
-          
-          Exploring Implementation
-          In an effort to understand where the webmaster might be coming from, and to understand how UC Davis websites are implemented, I talked to one of my friends who works as an Web Design intern for the UC Davis School of Argiculture.
-          
-          He informed me that the university uses a tool called Sitefarm to build it's websites, which houses templates and assets for creating sites, so a redesign that follows existing UC Davis patterns would be made easier through that resource.
-          
-          Nevertheless, he estimates that with all of the information that would need to be migrated from the old website, the effort could easily take between 1 and 2 months.
-          
+          What I've learned: Unless the team can carry on a website that requires to be maintained by collaborating with web developers and programmers, a web developing tool is the best bet for that design. I understand that while the website could not be coded, it still followed our prototypes design and we figured out a way to use the tool to our advantage.
+
           Thinking Forward
           Get user feedback while wireframing rather than making personal choices about the layout
-          Try to increase the number of participants in the interviews and usability tests to get more accurate results
+          Try to increase communication with the stakeholders and team to understand their personal limitations
           Understand the hidden variables and obstacles between the project and its implementation by asking more questions to clients</p>
     </section> 
     

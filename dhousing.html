@@ -1,350 +1,393 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-        <title>Nehal Jain</title>
+<head>
+	<title>Nehal Jain | Portfolio | Davis Housing Website Redesign</title>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- add Normalize CSS from CDN styles across browsers -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+  
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="assets/bootstrap-4.0.0-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/bootstrap-4.4.1-dist/css/bootstrap.css">
 
-         <!-- add Normalize CSS from CDN styles across browsers -->
-         <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+  <!-- Page Specific Styles -->
+  <link rel="stylesheet" type="text/css" href="styles/dhousing_styles.css">
 
-        <!-- Font Awesome -->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
-        <!-- Reset -->
-        <link rel="stylesheet" href="styles/reset.css">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171077534-1"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="assets/bootstrap-4.0.0-dist/css/bootstrap.css">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" href="assets/bootstrap-4.4.1-dist/css/bootstrap.css">
+  gtag('config', 'UA-171077534-1');
+</script>
 
-        <!-- Page Specific Styles -->
-        <link rel="stylesheet" href="styles/index_styles.css">
+</head>
 
-        <!-- My Styles -->
-        <link rel="stylesheet" href="styles/styles.css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Exo+2:500i|Open+Sans" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700|Titillium+Web:400,600,700" rel="stylesheet">
+<body>
 
-        <!-- Add meta viewport tag needed for mobile devices -->
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+	<header>
+    <nav id ="headernav" class="navbar navbar-expand-lg navbar-light">
 
-        <!-- External Styles -->
+      <a class="navbar-brand" href="index#main" class="selected">Nehal Jain</a>
+    
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
 
-        <!-- Favicon -->
-        <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
-        <link rel="manifest" href="images/favicon/site.webmanifest">
-        <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5">
-        <meta name="msapplication-TileColor" content="#da532c">
-        <meta name="theme-color" content="#ffffff"> 
-    </head>
+          <li class="nav-object">
+              <a class="nav-link" href=index#projects>Work</a>
+          </li>
+          <li class="nav-object">
+              <a class="nav-link" href="index#about" >About</a>
+          </li>
+    
+        </ul>
+      </div>
+    </nav>
+  </header>
 
-    <body>
-        <header>
-            <!-- Navbar -->
-            <!-- <nav id="headernav">
-              <ul>
-                  <li class="nav-object">
-                      <a class="nav-link" href="#main" class="selected">Nehal Jain</a>
-                  </li>
-                  <li class="nav-object">
-                      <a class="nav-link" href="#about" >About</a>
-                  </li>
-                  <li class="nav-object">
-                      <a class="nav-link" href=#projects>Work</a>
-                  </li>
-              </ul>
-      </nav> -->
-        <nav id="headernav1">
-          <ul>
-              <li class="nav-object"><a class="nav-link" href="index#main">Nehal Jain</a></li>
-              <li class="nav-object"><a class="nav-link" href="index#projects">Work</a></li>
-              <li class="nav-object"><a class="nav-link" href="index#about">About</a></li>
-          </ul>
-      </nav>
-        </header>
->
-        <div class="span-12" data-module="image">
-          <div style="margin-top: 50px" class="ce-image" data-align="left"><img class="is-content" src="img/dhousing1.jpg" width="100%" alt="Davis Housing Banner" caption="" data-width="original" data-scaling="no"></div>
+
+  <div class="intro-bg">
+    <div class="intro">
+          <div id="project-date">January - March 2020</div>
+          <div id="project-title">Designing A New Way to Find Housing</div>
+          <div id="project-description">
+            <a target=”_blank”  href = "https://davishousing.com/">Davis Housing</a> is a website for consumers that provides access to Davis housing locations through an information-based search bar. The wesbite wants to help customers find the right place to live based on their wants and needs.
+          </div>
+    </div>
+</div>
+        
+<div class="bg-img">
+  <img src="img/dhousbanner.png" alt="davishousing-banner">
+</div>
+
+<div class="project-details-container">
+  <div class="project-details">
+        <div class="detail-container">
+            <div class="detail-title">Duration</div>
+            <div class="emoji-img">⏱</div>
+            <div class="details-description">12 weeks</div>
+        </div>
+    </div>
+
+
+  <div class="project-details">
+        <div class="detail-container">
+            <div class="detail-title">Tools</div>
+            <div class="emoji-img">✒️</div>
+            <div class="details-description">Figma<br>Notion<br>Google Sheets</div>
+        </div>
+  </div>
+
+
+  <div class="project-details">
+        <div class="detail-container">
+            <div class="detail-title">Team</div>
+            <div class="emoji-img">👫</div>
+            <div class="details-description">Nehal Jain<br>Emma Chisholm
+              <br>Macy Lu
+            </div>
+        </div>
+  </div>
+
+
+  <div class="project-details">
+        <div class="detail-container">
+            <div class="detail-title">My Role</div>
+            <div class="emoji-img">👩🏻</div>
+            <div class="details-description">UX Designer<br>Searchbar Layout<br>Listings Page</div>
+        </div>
+  </div>
+
+</div>
+
+
+  
+<div class="storyline-bg">
+  <div class="storyline">
+      <div class="storyline-title">The Story</div>
+      <div class="storyline-description">
+        My team and I were challenged to build off of the current website and redesign the user experience. For the purpose of this Knowledge Base redesign, we planned and executed market research, user research, user testing, prototypes, visual design, and collaborated directly with the product manager and other stakeholders.
+        <br><br>
+        <b>The main objectives:</b> <br><br> 1) Redesign the entire website to provide users with a smooth and pleasant experience 
+        <br> 2) Apply a unique feature to stand-out from the competition
+        <br> 3) Design for scalability and future feature integrations
+        <br><br>
+        <b>My Role:</b> <br><br> I designed and prototyped the searchbar, listings and advertising layout of the website.
+        My team and I all contributed to research, idea generation, and the final presentation. We all worked frequently and closely with Davis Housing's CTO to get feedback and build our solutions.
+      </div>
+  </div>
+</div>
+
+<div class="color-bg">
+  <div class="problem-space-container">
+      <div class="small-process-title">Problem Space</div>
+      <div class="main-step-title">What is the current housing situation and why is it a problem?</div>
+          <div class="step-description">
+            With Davis being a university town, the space is flooded with students looking for housing. The apartments are rented out in a cycle of succession of four years and there is a constant need of apartments.   
+            Moreover, the locals in Davis want to find houses to rent or buy based on their personal parameters. Looking for housing is a tedious process. 
+            People need to take out valuable time to look at multitudes of factors affecting their decision. Usually, this is a joint decision which makes it harder to communicate and come to a conclusion.
+            <div class="step-description-img">
+              <img src="img/dho1.png" alt="animated housing imagery">
+            </div>
+
+          </div>
+  </div>
+</div>
+
+
+<div class="background">
+  <div class="current-experience-container">
+    <div class="text">
+      <div class="small-text-title">Current Experience</div>
+          <div class="current-experience-title">Why aren't users engaging with the online presence of this service?</div>
+          This is what the current app experience looks like. In this quick demo, we can see that the davis housing website is in desperated need of a redesign. It is wasting important space and not giving any real information but lists of the apartments. Moreover, the current color scheme and logo is off-brand. 
+        </div>
+              <div class="current-experience-img">
+                <img src="img/dh.gif" alt="current davis housing experience gif">
+              </div>
+  </div>
+
+  <div class="opportunity-container">
+    <div class="small-text-title">Space for opportunity</div>
+    <div class="problem-title">What if we focused on allowing customers to share and communicate their housing options?</div>
+</div>
+
+
+
+<div class="solution-container">
+		<div class="storyline">
+				<div class="storyline-title">The Solution</div>
+				<div class="storyline-description">
+          We designed a set of new features within the website that supports a much wider range of needs. The new design takes new and returning users on a more controlled,
+          personalized journey and uses unique features such as the map quick look to list view, filtering, and social features that allows users to share their likes, dislikes and even find potential roommates.
+          By integrating these features and re-designing the branding, Davis Housing creates a smooth and guided experience that improves their house-searching epxerience.
+				</div>
+		</div>
+		<div class="redesign-banner">
+			<img src="img/dhousing.png" alt="davis housing redesign banner">
+		</div>
+</div>
+
+
+<div class="break-down-container">
+  <div class="break-down-heading">
+    <div class="small-text-title">How did we get there?</div>
+        <div class="storyline-title">User Research</div>
+  </div>
+
+      <div class="break-down-row">
+        <div class="final-gif">
+          <img src="images/JAPA/Prototyping/search-gif.gif" alt="search location gif">
+          <img src="images/JAPA/Prototyping/filterfinal-gif.gif" alt="filter feature gif">
         </div>
 
-        <div style="padding-top: 60px" id="dccprompt" class="container">
-            <div data-content-for="sm">
-              <!-- Summary Section -->
-              <section class="title_header col-12"><h2>Davis Housing Website</h2></section>
-              <!-- Summary Section -->
-              <div class="clearfix">
-                <section class="col-sm-12">
-                  <img class="float-right" src="img/dhousing.png" alt="Davis Housing Web" width="400" height="300">
-                </section>
-
-                <section class="col-sm-7">
-                <p style="text-align: justify; margin:40px 0 15px 0; font-size: 1.33333rem; line-height: 1.4em;" data-mce-style="text-align: justify; font-size: 1.33333rem;"><a data-mce-href="http://www.designcareersclub.org/" href="http://www.designcareersclub.org/">Design Careers Club</a>&nbsp; is a registered student organisation that hosts student workshops, alumni events and design industry day.</p>
-                
-                <p style="margin-top:50px">As the President of the Design Careers Club, I designed the website with a talented marketing team over the course of a quarter. Under the supervision of Professor Young, we created wireframes, addressed and considered user profiles, and implemented the best course of action for the club.</p>
-                </section>    
-              </div>
-              
-
-              <section class="col-sm-12">
-              <h4 style="margin:30px 0 20px; font-size: 27px;">Project Details</h4>
-              <div style="padding:0 70px 0 7px;" class="row"><div id="column_00398710e" class="column" data-xl-width="3"> 
-              <div class="content-wrapper">
-
-              <div style="padding:0 70px 0 7px;" class="column-content" data-module="paragraph">
-                <div class="is-content"><div data-content-for="xl"><h3>Role</h3></div></div>
-              </div>
-            
-              <div style="padding:0 70px 0 7px;" class="column-content" data-module="paragraph">
-                <div class="is-content"><div data-content-for="xl"><p style="font-size: 0.777778rem; line-height: 1.22222rem;" data-mce-style="font-size: 0.777778rem; line-height: 1.22222rem;">UX Designer</p></div></div>
-              </div>
-            
-                </div>
-              </div><div class="column" data-xl-width="3">
-                <div class="content-wrapper">
-                  
-              <div style="padding:0 70px 0 15px;" class="column-content" data-module="paragraph">
-                <div class="is-content"><div data-content-for="xl"><h3>Timeframe<br></h3></div></div>
-              </div>
-            
-              <div style="padding:0 70px 0 15px;" class="column-content" data-module="paragraph">
-                <div class="is-content"><div data-content-for="xl"><p style="font-size: 0.777778rem;" data-mce-style="font-size: 0.777778rem;">January - March 2020</p></div></div>
-              </div>
-            
-                </div>
-              </div><div class="column" data-xl-width="3">
-                <div class="content-wrapper">
-                  
-              <div style="padding:0 70px 0 15px;" class="column-content" data-module="paragraph">
-                <div class="is-content"><div data-content-for="xl"><h3>Tools</h3></div></div>
-              </div>
-            
-              <div style="padding:0 70px 0 15px;" class="column-content" data-module="paragraph">
-                <div class="is-content"><div data-content-for="xl"><p style="font-size: 0.777778rem; line-height: 1.22222rem;" data-mce-style="font-size: 0.777778rem; line-height: 1.22222rem;">Adobe Illustrator, Adobe Photoshop</p></div></div>
-              </div>
-            
-                </div>
-              </div><div class="column" data-xl-width="3">
-                <div class="content-wrapper">
-                  
-              <div style="padding:0 70px 0 15px;" class="column-content" data-module="paragraph">
-                <div class="is-content"><div data-content-for="xl"><h3>Team</h3></div></div>
-              </div>
-            
-              <div style="padding:0 70px 0 15px;" class="column-content" data-module="paragraph">
-                <div class="is-content"><div data-content-for="xl"><p style="font-size: 0.777778rem;" data-mce-style="font-size: 0.777778rem;">Professor Jyayi Young and Sarrah Solomon</p></div></div>
-              </div>
-              </div>
-              </div></div>
-            </section>
-
-            <section class="col-12">
-              <h4 style="margin:30px 0 20px; font-size: 27px;">Objective</h4>
-              <section  id="block_obj">
-                <h3>The entire design department depends on the club to contact alumni and recruiters for the development of design students.</h3>
-              </section>
-                <p>Our objective was to create a multi-purpose website that could continue for the course of the club. Since the club's leadership changes on an annual basis, we decided to use a website building platform such as weebly for the sake of longevity. We discussed coding the website from scratch and inviting developers to the team but this would have worked against the club and the objective of continued legacy of the website. </p>
-              </section>
-              
-            
-            <!-- <section class="col-md-6   col-12">
-              <h4>Skills and Tools Involved</h4>
-              <div class="skills_section">
-                <div class="skill">
-                  <p class="skill_text">Principle</p>
-                </div>
-                <div class="skill">
-                  <p class="skill_text">Sketch</p>
-                </div>
-                <div class="skill">
-                  <p class="skill_text">HiFi Prototyping</p>
-                </div>
-                <div class="skill">
-                  <p class="skill_text">UX Research</p>
-                </div>
-                <div class="skill">
-                  <p class="skill_text">Flow Mapping
-                  </p>
-                </div>
-                <div class="skill">
-                  <p class="skill_text">Affinity Mapping</p>
-                </div>
-                <div class="skill">
-                  <p class="skill_text">Usability Testing</p>
-                </div>
-                <div class="skill">
-                  <p class="skill_text">Design Visioning</p>
-                </div>
-                <div class="skill">
-                  <p class="skill_text">Stakeholder Presentations</p>
-                </div>
-              </div>
-            </section> -->
-
-            <section class="col-12">
-              <h4 style="margin:30px 0 20px; font-size: 27px;">Process</h4>
-                <section class="col-12" style="padding-top: 2rem;">
-                    <ul class="timeline row" id="timeline">
-                    <li class="col-lg-3 col-6">
-                        <div class="timestamp">
-                        <img class="w-100" src="img/process.svg" alt="Process">
-                        <span class="timeline_task">Research</span>
-                        <ul>
-                        <li>Context Study</li>
-                        <li>User Painpoints</li>
-                        <li>User Personas</li>
-                        </ul>
-                        </div>
-                    </li>
-
-                    <li class="col-lg-3 col-6">
-                        <div class="timestamp">
-                        <img class="w-100" src="img/process.svg" alt="Process">
-                        <span class="timeline_task">Ideation</span>
-                        <ul>
-                        <li>Information Architecture</li>
-                        <li>Wireframes</li>
-                        <li>Hi-fi Mockup</li>
-                        </ul>
-                        </div>
-                    </li>
-
-                    <li class="col-lg-3 col-6">
-                        <div class="timestamp">
-                        <img class="w-100" src="img/process.svg" alt="Process">
-                        <span class="timeline_task">Feedback</span>
-                        <ul>
-                        <li>Prototype</li>
-                        <li>Usability Testing</li>
-                        </ul>
-                        </div>
-
-                    <li class="col-lg-3 col-6">
-                        <div class="timestamp">
-                        <img class="w-100" src="img/processcomp.svg" alt="Process">
-                        <span class="timeline_task">Conclusion</span>
-                        <ul>
-                        <li>Assessment</li>
-                        <li>Reflections</li>
-                        </ul>
-                        </div>
-                        </li>
-                    </ul>
-                </section>
-        </section>      
-        
-        
-        <section class="col-12">
-          <h4 style="margin:30px 0 20px; font-size: 27px;">Research</h4>
-            <h5>Who are our users?</h5>
-            <p>Since the user types are straight forward, we categorized them into 5 user groups:</p>
-            <p>Design Students: This website will be used by the students to navigate design workshops, design events and job opportunities</p>
-            <p>Design Faculty: The design faculty will have a similar goal of being aware of the events. They will also need to be able to get information on alumni and events from the previous years.</p>
-            <p>UC Davis Design Alumni: The alumni will be connected to current design students through this website and will initially begin their mentorship program throught the website</p>
-            <p>Recruiters: The recruiters will be encouraged to </p>
-            <p>The DCC Board: This website will need to be accessed and edited by the board members. They will maintain relevant information which requires editing to be easy and the site to work for longevity.</p>
-            
-            <h5>User Interviews</h5>
-            <p>To get more understanding of what these users’ goals and pain points on the site were, we conducted more in-depth interviews where we would walk through the website with 5 people from each user group. The during the interviews we performed a contextual inquity (or walkthrough) of the website with our interviewees to observe how they used the site and what information they wanted to access. We also asked them both preestablished and followup questions about their goals and habits as users.Based off of those interviews, we were able to create personas (who are fictional people with motivations and oppinions that average those of the people interviewed).</p>
-
-            <h5>User Pain Points</h5>
-            <p>The following are the core problems this design aims to solve:</p>
-            <p>Publicize job opportunities and professional workshops</p>
-            <p>Connect design students and alumni through the mentorship program</p>
-            <p>Promote the club's events and newsletter</p>
-    </section>   
-    
-    <section class="col-12">
-      <h4 style="margin:30px 0 20px; font-size: 27px;">Ideation</h4>
-
-        <h5>Information Architecture</h5>
-          <p>Organizing and grouping user flows for effecient navigation.
-
-            Since the organization of information on the website was an issue brought up in our personas, we wanted to take a look at the persona use cases and see:
-            
-            Where their final page destinations were on the sitemap
-            What user navigation paths looked
-            The person icons indicate the ending page for each of the personas' navigation paths.</p>
-
-            <p>Our Revised Sitemap
-              We wanted to make sure that all of our personas, especially the international students, could access their information quickly without having to read a lot of text. So we restructured the site to facilitate the access of information from the use cases, (the information that they desired most).
-              
-              Since students are the majority of the user population, we made sure that all of the information that they need is within the “Academics” section because that’s where they tend to look first (based off of our interview observations). To do this, we regrouped and added some relevant pages to the section. Previously, academic information was scattered outside of “Academics” in sections like “About” and “Programs & Services”. Now, more relevant information is in the section, and as seen in the revised sitemap, more students’ use cases fall in “Academics”.
-              
-              We also wanted to include multiple paths for users to reach their desired page. This way, no matter what the user navigation decisions, users can reach their destinations more quickly.</p>
-    </section> 
-
-    <section class="col-12">
-      <h4 style="margin:30px 0 20px; font-size: 27px;">Feedback</h4>
-
-        <h5>Prototype</h5>
-
-    
-    </section> 
-    
-    <section class="col-12">
-      <h4 style="margin:30px 0 20px; font-size: 27px;">Conclusion</h4>
-
-        <h5>Outcome</h5>
-        <p>After the usability tests, the team used a Powerpoint and Functional Specification Report to present our process and results to key stakeholders in the UWP department. They liked our ideas, however, they also explained to us that the department was facing internal debate. The webmaster, (who was not present at our presentation), is the person in charge of making changes to the site. Even though most of the department demands change, the webmaster seems to have a lot of leverage in his insistence to keep the website the same. Their intent was to use our user research and redesigns to show the webmaster how problematic the website experience actually is.
-          
-          There could be a number of reasonable explanations of the webmaster's attitude towards this ongoing discussion:
-          
-          Changing the site is a lot of work on him (as he does not have a team of other web developers)
-          Changing the site will force people who are used to using the site to relearn the new site
-          He may be currently busy with other projects
-          Regardless, it’s a little bit disappointing to see progress hindered by matters that hadn't considered. Nevertheless, I am grateful for this complication, because there are lessons here that a lot of students don’t get to learn about in more ordinary projects.
-          
-          Persuasion is as important as the design itself when considering implementation.
-          
-          What I've learned: Beyond implementation limitations and the quality of your design deliverables, people still need to be persuaded to invest in your ideas. I need to work on my use metrics and verbal communications to enhance my ability sell ideas.
-          
-          Exploring Implementation
-          In an effort to understand where the webmaster might be coming from, and to understand how UC Davis websites are implemented, I talked to one of my friends who works as an Web Design intern for the UC Davis School of Argiculture.
-          
-          He informed me that the university uses a tool called Sitefarm to build it's websites, which houses templates and assets for creating sites, so a redesign that follows existing UC Davis patterns would be made easier through that resource.
-          
-          Nevertheless, he estimates that with all of the information that would need to be migrated from the old website, the effort could easily take between 1 and 2 months.
-          
-          Thinking Forward
-          Get user feedback while wireframing rather than making personal choices about the layout
-          Try to increase the number of participants in the interviews and usability tests to get more accurate results
-          Understand the hidden variables and obstacles between the project and its implementation by asking more questions to clients</p>
-    </section> 
-    
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-md-6 col-12">
-              <a class="back_home" href="index.html"><button type="button" class="btn btn-outline-white back_home_button">Back Home</button></a>
-            </div>
+        <div class="break-down-text">
+          <div class="break-down-title">Needs and Personas</div>
+          <div class="break-down-description">
+            After inserting, removing, and rearranging pages on the sitemap the team was able to start sketching new website layouts. As we sketched and wireframed, we explored layouts that followed existing common patterns, but also explored new features to give the design an edge.
+            <br>During the wireframing process, we decided that it was important to focus on the social features that allow sharing and reacting. We also incorporated a modern redesign which would reduce their cognitive load. Abiding by stylistic standards was significant to gaining the traction and audience that we wanted.
           </div>
         </div>
-    
+      </div>
+</div>
+
+<div class="break-down-container">
+      <div class="break-down-row">
+        <div class="break-down-text">
+          <div class="break-down-title">Competitive Research</div>
+          <div class="break-down-description">
+            Macy and I explored search bar features being used by other competitive websites. Based off of this research, we created an apartments market research master list on Google Docs. We noted down all the features and categorized them into different groups under each webite. This helped us gather data which allowed us to isolate our website's individual features.
+          </div>
+        </div>
+
+        <div class="final-gif">
+          <img src="img/h1.png" alt="housing website 1">
+          <img src="img/h2.png" alt="housing website 2">
+        </div>
+      </div>
+</div>
+
+<div class="break-down-container">
+  <div class="break-down-row">
+    <div class="final-gif">
+      <img src="img/stakeholder.png" alt="stakeholder png">
+    </div>
+
+    <div class="break-down-text">
+      <div class="break-down-title">Exploratory Studies</div>
+      <div class="break-down-description">
+        Macy distributed an internal survey to understand how different stakeholders within the company – engineers, sales, product marketers – felt about search. Both of us conducted an audit and documentation of all the types of objects search surfaces to see what are all the attributes that people could be searching or filtering by.
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="break-down-container">
+    <div class="break-down-row">
+      <div class="break-down-text">
+        <div class="break-down-title">Strategy</div>
+        <div class="break-down-description">
+          Search and getting to information are a priority. The majority of users enjoy looking for specifics instead of browsing through all the information. We also wanted to take inspiration from the Davis Housing magazine and use methods from editorial design so that the listings base is a delight to read.
+        <br>
+        <br>
+        To further narrow the search, users can customize their preferences with the filter feature.
+        </div>
+      </div>
+
+      <div class="finall-gif">
+        <img src="img/strategy1.png" alt="strategy one png">
+        <img src="img/strategy2.png" alt="strategy two png">
+      </div>
+    </div>
+</div>
+
+<div class="img-break">
+<img src="img/dhbreak.png" alt="japa quote img break">
+</div>
+
+
+<div class="break-down-container">
+	<div class="break-down-heading">
+    <div class="small-text-title">What were the next steps?</div>
+    <div class="storyline-title">Ideation</div>
+	</div>
+
+			<div class="break-down-row">
+				<!-- <div class="final-gif">
+					<img src="images/JAPA/Prototyping/search-gif.gif" alt="search location gif">
+					<img src="images/JAPA/Prototyping/filterfinal-gif.gif" alt="filter feature gif">
+				</div> -->
+        <div class="break-down-row">
+          <div class="break-down-text">
+            <div class="break-down-title">Information Architecture</div>
+            <div class="break-down-description">
+              Since the organization of information on the website was an issue brought up in our personas, we wanted to take a look at the persona use cases and see:
+              <br><br>1. Where their final page destinations were on the sitemap
+              <br>2. What user navigation paths looked 
+          </div></div>
+        </div>
+  </div>
+</div>
+
+
+<div class="break-down-container">
+			<div class="break-down-row">
+				<!-- <div class="final-gif">
+					<img src="images/JAPA/Prototyping/driver-safety-gif.gif" alt="driver safety gif">
+				</div> -->
+
+				<div class="break-down-text">
+					<div class="break-down-title">Wireframes</div>
+					<div class="break-down-description">
+            After inserting, removing, and rearranging pages on the sitemap the team was able to start sketching new website layouts. As we sketched and wireframed, we explored layouts that followed existing common patterns, but also explored new features to give the design an edge.During the wireframing process, we decided that it was important to focus on the social features that allow sharing and reacting. We also incorporated a modern redesign which would reduce their cognitive load. Abiding by stylistic standards was significant to gaining the traction and audience that we wanted.
+					</div>
+				</div>
+			</div>
+</div>
+
+
+<div class="img-break">
+		<img src="images/JAPA/mid-section-img2.png" alt="japa quote img break2">
+</div>
+
+<div class="break-down-container">
+	<div class="break-down-heading">
+    <div class="small-text-title">What were the final steps?</div>
+    <div class="storyline-title">Validation</div>
+	</div>
+
+			<div class="break-down-row">
+				<!-- <div class="final-gif">
+					<img src="images/JAPA/Prototyping/search-gif.gif" alt="search location gif">
+					<img src="images/JAPA/Prototyping/filterfinal-gif.gif" alt="filter feature gif">
+				</div> -->
+        <div class="break-down-row">
+          <div class="break-down-text">
+            <div class="break-down-title">Prototype</div>
+            <div class="break-down-description">
+              Since the organization of information on the website was an issue brought up in our personas, we wanted to take a look at the persona use cases and see:
+              <br><br>1. Where their final page destinations were on the sitemap
+              <br>2. What user navigation paths looked 
+          </div></div>
+        </div>
+  </div>
+</div>
+
+
+<div class="break-down-container">
+			<div class="break-down-row">
+				<!-- <div class="final-gif">
+					<img src="images/JAPA/Prototyping/driver-safety-gif.gif" alt="driver safety gif">
+				</div> -->
+
+				<div class="break-down-text">
+					<div class="break-down-title">Usability Testing</div>
+					<div class="break-down-description">
+            After inserting, removing, and rearranging pages on the sitemap the team was able to start sketching new website layouts. As we sketched and wireframed, we explored layouts that followed existing common patterns, but also explored new features to give the design an edge.During the wireframing process, we decided that it was important to focus on the social features that allow sharing and reacting. We also incorporated a modern redesign which would reduce their cognitive load. Abiding by stylistic standards was significant to gaining the traction and audience that we wanted.
+					</div>
+				</div>
+			</div>
+</div>
+
+<div class="break-down-container">
+    <div class="break-down-row">
+        <div class="break-down-text">
+              <div class="process-heading">The Fun Part: Iterate, Usability Tests, Repeat</div>
+              <div class="process-description">
+                  For each of our focus areas of the app, we all conducted usability testing and continued iterating until reaching the product's final forms.
+                  <br><br>
+                  I'll be focusing on what I did in this section.
+                  I built off the original app's bare bones structure and designed an interactive parking facility layout. After I went through several iterations of wireframes and mid-fidelity prototypes and
+                  incorporated feedback from the team, I prepared some high-fidelity prototypes for A/B and usability testing.
+
+              </div>
+        </div>
+        <div class="process-img">
+            <img src="images/JAPA/Prototyping/iterations.png" alt="iterations overview">
+        </div>
+    </div></div>
+
         <!-- Footer -->
         <footer class="footer navbar-light bg-light">
-            <div class="container text-center">
-            <a target="_blank"href="https://www.linkedin.com/in/nehalj98/"><i class="fab fa-linkedin-in"></i></a>
-            <a href="mailto:nnjain@ucdavis.edu"><i class="fas fa-envelope"></i></a>
-            </div>
-        </footer>
+          <div class="process-row">
+          <a target="_blank"href="https://www.linkedin.com/in/nehalj98/"><i class="fab fa-linkedin-in"></i></a>
+          <a href="mailto:nnjain@ucdavis.edu"><i class="fas fa-envelope"></i></a>
+          </div>
+      </footer>
+
+        <div id="back-to-top" class="back-to-top" style="display: block; opacity: 1;">
+          <a ><svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="53px" height="20px" viewBox="0 0 53 20" enable-background="new 0 0 53 20" xml:space="preserve">
+          <g id="Ebene_3"></g>
+          <g> <polygon points="43.886,16.221 42.697,17.687 26.5,4.731 10.303,17.688 9.114,16.221 26.5,2.312 	"></polygon></g>
+          </svg> </a>
+       </div>
         
         <!-- Custom JS -->
         <script src="script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script src="aos.js"></script>
+        <script type="text/javascript">
+          AOS.init({
+              duration: 2000
+            });
+        </script>
 
         <!-- JQuery -->
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     
-    
-    
     </div>
-       
-        
-    </body>
-   
+
+</body>
 </html>

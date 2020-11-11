@@ -62,7 +62,10 @@
     #about1a img{
       width:70%;
       height: 50%;
+      border: 0;
       justify-content: center;
+      box-shadow: 10px 10px 20px rgba(174, 174, 192, 0.4), -20px -20px 20px rgba(255, 255, 255, 0.66);
+      border-radius: 20px;
   }
 
   #about1b{
@@ -84,6 +87,9 @@
     font-weight: bold;
   }
 
+  .headernav{
+    background-color: #F8F8FF;
+  }
 
   .project_modules .col-12,
     .project_modules .col-md-6 {
@@ -212,77 +218,6 @@
 
     /*<--------- nav ---------->*/
 
-    #headernav{
-        z-index: 1000;
-        background-color:	#F8F8FF;
-        width: 100%;
-        position: fixed;
-        -webkit-box-shadow: 0px 0px 51px -20px rgba(0,0,0,0.75);
-        -moz-box-shadow: 0px 0px 51px -20px rgba(0,0,0,0.75);
-        box-shadow: 0px 0px 51px -20px rgba(0,0,0,0.75);
-      }
-
-      #headernav1{
-        z-index: 1000;
-        background-color:	#F8F8FF;
-        width: 100%;
-        position: fixed;
-        -webkit-box-shadow: 0px 0px 51px -20px rgba(0,0,0,0.75);
-        -moz-box-shadow: 0px 0px 51px -20px rgba(0,0,0,0.75);
-        box-shadow: 0px 0px 51px -20px rgba(0,0,0,0.75);
-      }
-
-    
-    #headernav ul{
-        padding:0px;
-        margin:3px 76% 3px 0%;
-        list-style-type: none;
-        display: flex;
-        justify-content: flex-end;
-    }
-
-    #headernav1 ul{
-      padding:0px;
-      margin:1% 70% 1% 0%;
-      list-style-type: none;
-      display: flex;
-      justify-content: flex-end;
-  }
-
-    .nav-object{
-        margin-top: 8px;
-    }
-
-    .nav-object a{
-        text-decoration: none;
-        text-align: center;
-        font-size: 16px;
-        font-family: 'Source Sans Pro', sans-serif;
-        color: gray;
-        border-bottom: none;
-        padding-right: 45px;
-        padding-left:0px;
-    }
-
-    #headernav li:first-child a{
-        font-size: 22px;
-        font-weight: bold;
-        color: #5C4033;
-    }
-    
-    #headernav li:first-child a:hover {
-        color:black;
-    }
-
-    #headernav1 li:first-child a{
-      font-size: 22px;
-      font-weight: bold;
-      color: #535150;
-  }
-   
-    #headernav1 li:first-child a:hover {
-        color:black;
-    }
 
     #header_text h2{
       padding: 0;
@@ -320,15 +255,16 @@
       width:50%;
       height: 100%;
       margin:150px 0px 100px 150px;
-      padding: 15px;
+      /* padding: 15px; */
       display: block;
       flex-flow: column;
       justify-content: center;
-      text-align: justify;
+      /* text-align: justify; */
   }
 
   #about1a img{
-    padding:5%;
+    margin:5%;
+    margin-top: 10%;
     width: 80%;
   }
 
@@ -341,7 +277,7 @@
       display: block;
       flex-flow: column;
       justify-content: center;
-      text-align: justify;
+      text-align: left;
   }
 
   #resum a{

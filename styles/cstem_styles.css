@@ -256,8 +256,8 @@
 
 .step-description img{
   position: absolute;
-  top: 20%;
-  height: 300px;
+  top: 5%;
+  height: 400px;
 
 
 }
@@ -266,7 +266,7 @@
 /**👋----------------Current Experience------------------👋**/
 .background{
   background-color: white;
-  height: 19000px;
+  height: 10000px;
 }
 .current-experience-container{
   display: flex;

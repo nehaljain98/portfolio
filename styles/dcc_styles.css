@@ -269,7 +269,7 @@
 /**👋----------------Current Experience------------------👋**/
 .background{
   background-color: white;
-  height: 19000px;
+  height: 9900px;
 }
 .current-experience-container{
   display: flex;
@@ -371,7 +371,8 @@
 .redesign-banner{
   position: relative;
   top: 400px;
-
+  width: auto;
+  background: #28abe2;
   margin: 0;
 
 }
@@ -381,8 +382,11 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 840px;
-
+  height: 740px;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  margin-top: 4%;
+  margin-bottom: 4%;
   margin-right: auto;
   margin-left: auto;
 
@@ -443,10 +447,18 @@
 
 .final-giff{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
-  padding-left: 23%;
+  /* padding-left: 23%; */
   
+}
+
+.final-giff img{
+  height: 220px;
+}
+
+.final-giff img:first-child {
+  padding-bottom: 2%;
 }
 
 .final-gif{

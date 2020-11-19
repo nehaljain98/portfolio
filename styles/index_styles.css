@@ -87,10 +87,6 @@
     font-weight: bold;
   }
 
-  .headernav{
-    background-color: #F8F8FF;
-  }
-
   .project_modules .col-12,
     .project_modules .col-md-6 {
       padding-right: 0;
@@ -166,7 +162,7 @@
   #explored_image {
     background: url(../img/explored.png) no-repeat;
     background-position: center;
-    background-size: 75%;
+    background-size: 15%;
   }
 
   #explored_module_description:hover {
@@ -441,7 +437,7 @@
   #explored_image {
     background: url(../img/explored.png) no-repeat;
     background-position: center;
-    background-size: 105%;
+    background-size: 45%;
   }
 
   #explored_module_description:hover {

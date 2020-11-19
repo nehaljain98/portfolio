@@ -87,6 +87,10 @@
     font-weight: bold;
   }
 
+  .navbar-expand-lg{
+    background-color: #F8F8FF;
+  }
+
   .project_modules .col-12,
     .project_modules .col-md-6 {
       padding-right: 0;

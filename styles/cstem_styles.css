@@ -13,7 +13,9 @@
     width: 100%;
   }
 
-
+  .navbar-expand-lg{
+    background-color: white;
+  }
 /**----------------Intro-------------------**/
 .intro-bg{
   position: absolute;
@@ -397,11 +399,28 @@
   top: 1760px;
 }
 
+.imgg-break{
+  display: flex;
+  justify-content: center;
+
+  position: relative;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  top: 1760px;
+}
+
 .img-break img{
   position: relative;
   margin-left: auto;
   margin-right: auto;
   height: 300px;
+}
+
+.imgg-break img{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  height: 600px;
 }
 
 /**👋----------------Break Down------------------👋**/

@@ -91,6 +91,10 @@
     background-color: #F8F8FF;
   }
 
+  footer{
+    background-color: #F8F8FF; 
+  }
+  
   .project_modules .col-12,
     .project_modules .col-md-6 {
       padding-right: 0;
@@ -170,6 +174,23 @@
   }
 
   #explored_module_description:hover {
+    background: #eabb97;
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+                inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+                -0.5px -0.5px 0px rgba(255,255,255,1),
+                0.5px 0.5px 0px rgba(0,0,0,0.15),
+                0px 12px 10px -10px rgba(0,0,0,0.05);
+    border:1px solid rgba(0,0,0,0.01);
+    transform: translateY(2px);
+  }
+
+  #ui_image {
+    background: url(../img/ui.png) no-repeat;
+    background-position: center;
+    background-size: 45%;
+  }
+
+  #ui_module_description:hover {
     background: #eabb97;
     box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
                 inset -4px -4px 6px -1px rgba(255,255,255,0.7),
@@ -445,6 +466,23 @@
   }
 
   #explored_module_description:hover {
+    background: #eabb97;
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+                inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+                -0.5px -0.5px 0px rgba(255,255,255,1),
+                0.5px 0.5px 0px rgba(0,0,0,0.15),
+                0px 12px 10px -10px rgba(0,0,0,0.05);
+    border:1px solid rgba(0,0,0,0.01);
+    transform: translateY(2px);
+  }
+
+  #ui_image {
+    background: url(../img/ui.png) no-repeat;
+    background-position: center;
+    background-size: 105%;
+  }
+
+  #ui_module_description:hover {
     background: #eabb97;
     box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
                 inset -4px -4px 6px -1px rgba(255,255,255,0.7),

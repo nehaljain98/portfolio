@@ -16,6 +16,7 @@
   .navbar-expand-lg{
     background-color: white;
   }
+
 /**----------------Intro-------------------**/
 .intro-bg{
   position: absolute;
@@ -76,7 +77,7 @@
 #project-description a{
   font-weight: 700;
   text-decoration: none;
-  color:#FFBF00;
+  color:#28abe2;
 }
 
 
@@ -140,14 +141,14 @@
 .details-description{
   border: solid 2px #E2E2E2;
   border-radius: 15px;
-  padding: 20px 30px 20px 30px;
+  padding: 7px 30px 20px 30px;
   height: 120px;
 }
 
 
 .details-description a{
   text-decoration: none;
-  color: #FFBF00;
+  color: #8A2BE2;
 }
 
 /**----------------The Story-------------------**/
@@ -215,7 +216,7 @@
   height: 649.86px;
   top: 1600px;
 
-  background: #FFBF00;
+  background: #8A2BE2;
   z-index: 2;
 
 }
@@ -258,8 +259,8 @@
 
 .step-description img{
   position: absolute;
-  top: 5%;
-  height: 400px;
+  top: 1%;
+  height: 500px;
 
 
 }
@@ -268,7 +269,7 @@
 /**👋----------------Current Experience------------------👋**/
 .background{
   background-color: white;
-  height: 12500px;
+  height: 7800px;
 }
 .current-experience-container{
   display: flex;
@@ -297,7 +298,7 @@
   font-weight: 700;
   letter-spacing: 5px;
   padding-bottom: 15px;
-  color: #FFBF00;
+  color: #8A2BE2;
 }
 
 .current-experience-title{
@@ -311,17 +312,10 @@
 .current-experience-img img{
   position: relative;
   width: auto;
-  height: 400px;
-
+  height: 350px;
+  top:16%;
   filter: drop-shadow(3px 4px 20px rgba(0, 0, 0, 0.15));
 }
-
-.current-experience-img{
-  padding-left: 50px;
-}
-
-
-
 
 /**👋----------------Problem------------------👋**/
 .problem-container{
@@ -361,7 +355,7 @@
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  top: 1400px;
+  top: 1300px;
 
   z-index: 2;
 
@@ -369,8 +363,9 @@
 
 .redesign-banner{
   position: relative;
-  top: 400px;
-
+  top: 300px;
+  width: auto;
+  background: #8A2BE2;
   margin: 0;
 
 }
@@ -380,8 +375,11 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 840px;
-
+  height: 740px;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  margin-top: 4%;
+  margin-bottom: 4%;
   margin-right: auto;
   margin-left: auto;
 
@@ -399,28 +397,11 @@
   top: 1760px;
 }
 
-.imgg-break{
-  display: flex;
-  justify-content: center;
-
-  position: relative;
-  margin-top: 1%;
-  margin-bottom: 1%;
-  top: 1760px;
-}
-
 .img-break img{
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  height: 300px;
-}
-
-.imgg-break img{
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  height: 600px;
+  height: 500px;
 }
 
 /**👋----------------Break Down------------------👋**/
@@ -457,19 +438,26 @@
   width: 1000px;
 }
 
-.home-class{
+.final-giff{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-top: 10%;
+  /* padding-left: 23%; */
   
 }
+
+.final-giff img{
+  height: 450px;
+
+}
+
+
 
 .final-gif{
   display: flex;
   flex-direction: row;
   justify-content: center;
-
+  
 }
 
 .final-gif img{
@@ -488,10 +476,49 @@
   width: 400px;
 }
 
+.breakk-down-text{
+  margin-left:35%;
+  width: 700px;
+}
+
 .break-down-title{
   font-size: 32px;
   font-weight: 700;
   line-height: 1.8em;
+}
+
+.back_home_button {
+  border-radius: 10px;
+  margin-top: 200%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-size: .8rem;
+  font-weight: 600;
+}
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.back_home_button {
+  border-radius: 10px;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-size: .8rem;
+  font-weight: 600;
 }
 
 
@@ -576,8 +603,8 @@
   margin: 5%;
   display: flex;
   flex-direction: column;
-  justify-content: center; */
-}
+  justify-content: center;
+} */
 
 
 /**👋----------------Golden Path------------------👋**/

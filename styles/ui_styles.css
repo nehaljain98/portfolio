@@ -513,15 +513,6 @@
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
-.back_home_button {
-  border-radius: 10px;
-  width: 100%;
-  font-family: 'Roboto', sans-serif;
-  font-size: .8rem;
-  font-weight: 600;
-}
-
-
 /**👋----------------Process------------------👋**/
 /* .behind-the-scenes{
   background-color: #FFBF00;

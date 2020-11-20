@@ -269,7 +269,7 @@
 /**👋----------------Current Experience------------------👋**/
 .background{
   background-color: white;
-  height: 10200px;
+  height: 9800px;
 }
 .current-experience-container{
   display: flex;
@@ -482,11 +482,17 @@
   width: 400px;
 }
 
+.breakk-down-text{
+  margin-left:35%;
+  width: 700px;
+}
+
 .break-down-title{
   font-size: 32px;
   font-weight: 700;
   line-height: 1.8em;
 }
+
 
 .btn {
   display: inline-block;
@@ -508,10 +514,11 @@
 
 .back_home_button {
   border-radius: 10px;
-  width: 100%;
+  margin-top: 200%;
   font-family: 'Roboto', sans-serif;
   font-size: .8rem;
   font-weight: 600;
+  margin-right: 20%:
 }
 
 

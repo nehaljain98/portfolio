@@ -312,8 +312,9 @@
 .current-experience-img img{
   position: relative;
   width: auto;
-  height: 350px;
-  top:16%;
+  height: 300px;
+  top:22%;
+  padding-left: 4%;
   filter: drop-shadow(3px 4px 20px rgba(0, 0, 0, 0.15));
 }
 

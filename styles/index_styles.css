@@ -150,6 +150,23 @@
     transition: 150ms linear 0s; */
   }
 
+  #healthcave_image {
+    background: url(../img/healthcave.png) no-repeat;
+    background-position: center;
+    background-size: 40%;
+  }
+
+  #healthcave_module_description:hover {
+    background:#eabb97;
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+                inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+                -0.5px -0.5px 0px rgba(255,255,255,1),
+                0.5px 0.5px 0px rgba(0,0,0,0.15),
+                0px 12px 10px -10px rgba(0,0,0,0.05);
+    border:1px solid rgba(0,0,0,0.01);
+    transform: translateY(2px);
+  }
+
   #dhousing_image {
     background: url(../img/dhousing.png) no-repeat;
     background-position: center;
@@ -442,6 +459,23 @@
     transition: 150ms linear 0s; */
   }
 
+  #healthcave_image {
+    background: url(../img/healthcave.png) no-repeat;
+    background-position: center;
+    background-size: 105%;
+  }
+
+  #healthcave_module_description:hover {
+    background:#eabb97;
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+                inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+                -0.5px -0.5px 0px rgba(255,255,255,1),
+                0.5px 0.5px 0px rgba(0,0,0,0.15),
+                0px 12px 10px -10px rgba(0,0,0,0.05);
+    border:1px solid rgba(0,0,0,0.01);
+    transform: translateY(2px);
+  }
+
   #dhousing_image {
     background: url(../img/dhousing.png) no-repeat;
     background-position: center;
@@ -479,7 +513,7 @@
   #ui_image {
     background: url(../img/ui.png) no-repeat;
     background-position: center;
-    background-size: 105%;
+    background-size: 115%;
   }
 
   #ui_module_description:hover {

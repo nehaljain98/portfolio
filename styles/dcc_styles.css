@@ -452,7 +452,7 @@
 }
 
 .final-giff img{
-  height: 220px;
+  height: 320px;
 }
 
 .final-giff img:first-child {
@@ -482,8 +482,13 @@
   width: 400px;
 }
 
+.break-downn-text{
+  margin-left: 2%;
+  width: 700px;
+}
+
 .breakk-down-text{
-  margin-left:35%;
+  margin-left:44%;
   width: 700px;
 }
 
@@ -518,7 +523,7 @@
   font-family: 'Roboto', sans-serif;
   font-size: .8rem;
   font-weight: 600;
-  margin-right: 20%:
+  margin-right: 20%;
 }
 
 

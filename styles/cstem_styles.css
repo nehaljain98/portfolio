@@ -268,7 +268,7 @@
 /**👋----------------Current Experience------------------👋**/
 .background{
   background-color: white;
-  height: 11800px;
+  height: 12300px;
 }
 .current-experience-container{
   display: flex;
@@ -398,6 +398,17 @@
   top: 1860px;
 }
 
+.img-breakk{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  position: relative;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  top: 1860px;
+}
+
 .imgg-break{
   display: flex;
   justify-content: center;
@@ -406,6 +417,20 @@
   margin-top: 1%;
   margin-bottom: 1%;
   top: 1860px;
+}
+
+.img-breakk img{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  height: 318px;
+}
+
+.img-breakk img:first-of-type{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
 }
 
 .img-break img{

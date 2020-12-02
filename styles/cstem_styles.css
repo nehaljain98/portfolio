@@ -268,7 +268,7 @@
 /**👋----------------Current Experience------------------👋**/
 .background{
   background-color: white;
-  height: 10500px;
+  height: 11800px;
 }
 .current-experience-container{
   display: flex;
@@ -370,7 +370,7 @@
 .redesign-banner{
   position: relative;
   top: 400px;
-
+  background-color: #FFBF00;
   margin: 0;
 
 }
@@ -380,13 +380,12 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 840px;
-
+  height: 800px;
+  
   margin-right: auto;
   margin-left: auto;
 
 }
-
 
 
 .img-break{
@@ -396,7 +395,7 @@
   position: relative;
   margin-top: 1%;
   margin-bottom: 1%;
-  top: 1760px;
+  top: 1860px;
 }
 
 .imgg-break{
@@ -406,7 +405,7 @@
   position: relative;
   margin-top: 1%;
   margin-bottom: 1%;
-  top: 1760px;
+  top: 1860px;
 }
 
 .img-break img{
@@ -440,7 +439,7 @@
 
 .break-down-container{
   position: relative;
-  top: 1700px;
+  top: 1800px;
   z-index: 2;
 
   padding-top: 100px;
@@ -550,6 +549,41 @@
   font-size: 32px;
   font-weight: 700;
   line-height: 1.8em;
+}
+
+.prototype-break{
+  display: flex;
+  justify-content: center;
+
+  position: relative;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  top: 1860px;
+}
+
+#prototype_mockup {
+  background: url(../img/prototype_mockup.png);
+  background-position: center;
+  background-size: 1880px 1422px;
+}
+
+.w-100{
+  width:100%;
+}
+
+#prototype{
+  z-index: 1;
+  position: absolute;
+  top: 133px;
+  width: 936px;
+  height: 505px;
+  margin-left: 17.5%;
+}
+
+.prototype_full_column {
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 .btn {

@@ -256,7 +256,12 @@
 @media only screen and (min-width:1200px) {
 
     /*<--------- nav ---------->*/
+    .nav-link{
+      font-size:16px;
+      font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto;
+      color:black;
 
+    }
 
     #header_text h2{
       padding: 0;

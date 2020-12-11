@@ -269,7 +269,7 @@
 /**👋----------------Current Experience------------------👋**/
 .background{
   background-color: white;
-  height: 9800px;
+  height: 10100px;
 }
 .current-experience-container{
   display: flex;
@@ -459,6 +459,22 @@
   padding-bottom: 2%;
 }
 
+.finall-gif{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* padding-left: 23%; */
+  
+}
+
+.finall-gif img{
+  height: 150px;
+} 
+
+.final-giff img:first-child {
+  padding-bottom: 2%;
+}
+
 .final-gif{
   display: flex;
   flex-direction: row;
@@ -526,6 +542,75 @@
   margin-right: 20%;
 }
 
+/**👋----------------Corousel Items------------------👋**/
+
+.carousel-control-prev-icon {
+  background-image: url(../img/left-arrow.png);
+} 
+
+.carousel-control-next-icon {
+  background-image: url(../img/right-arrow.png);
+} 
+
+.persona-container{
+  position: relative;
+  top: 1700px;
+  z-index: 2;
+  padding-top: 100px;
+  margin-left:26%;
+}
+
+.persona_carousel {
+  margin-top: 1rem;
+}
+
+.carousel {
+  position: relative;
+}
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.persona_wrapper {
+  margin: auto;
+  min-height: 820px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.card {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+
+.card-img-top {
+  width: 100%;
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+}
+
+.card-body {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
 
 /**👋----------------Process------------------👋**/
 /* .behind-the-scenes{

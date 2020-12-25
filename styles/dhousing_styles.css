@@ -8,7 +8,7 @@
 
     background: none;
     background-color: white;
-    height: 6000px;
+    height: 1000px;
 
     width: 100%;
   }
@@ -152,11 +152,11 @@
 .storyline-bg{
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 112%;
   background: white;
   top: 1040px;
   bottom: 0;
-
+  padding-bottom:20px;
   z-index: 1;
 }
 
@@ -179,6 +179,17 @@
   font-weight: bold;
   font-size: 40px;
   line-height: 80px;
+}
+
+.break-down-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:300px;
+  margin-bottom:50px;
+  width: 1000px;
 }
 
 
@@ -266,8 +277,9 @@
 /**👋----------------Current Experience------------------👋**/
 .background{
   background-color: white;
-  height: 5550px;
+  height: 50px;
 }
+
 .current-experience-container{
   display: flex;
   justify-content: center;
@@ -427,16 +439,7 @@
   padding-top: 100px;
 }
 
-.break-down-row{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
 
-  margin-left: auto;
-  margin-right: auto;
-
-  width: 1000px;
-}
 
 .final-gif{
   display: flex;

@@ -1,18 +1,18 @@
 (function() {
     'use strict'; 
-        window.onscroll = function() {myFunction()};
+        // window.onscroll = function() {myFunction()};
 
-        var navbar = document.getElementById("headernav");
+        // var navbar = document.getElementById("headernav");
     
-        var sticky = navbar.offsetTop;
+        // var sticky = navbar.offsetTop;
         
-        function myFunction() {
-            if (window.pageYOffset >= sticky) {
-                navbar.classList.add("sticky")
-            } else {
-                navbar.classList.remove("sticky");
-            }
-        }
+        // function myFunction() {
+        //     if (window.pageYOffset >= sticky) {
+        //         navbar.classList.add("sticky")
+        //     } else {
+        //         navbar.classList.remove("sticky");
+        //     }
+        // }
 
         const navLinks = document.querySelectorAll('nav ul li a');
     
@@ -31,17 +31,17 @@
         console.log (originalTop);
         }
     
-        window.addEventListener('load', function(){
-            const posts = document.querySelectorAll('section');
-            const postTops = [];
-            let lastpost = posts.length - 1;
-            let pagetop;
-            let counter = 0;
-            let prevCounter = 0;
+        // window.addEventListener('load', function(){
+        //     const posts = document.querySelectorAll('section');
+        //     const postTops = [];
+        //     let lastpost = posts.length - 1;
+        //     let pagetop;
+        //     let counter = 0;
+        //     let prevCounter = 0;
     
-            posts.forEach(function(post){
-                postTops.push(Math.floor(post.getBoundingClientRect().top) + window.pageYOffset)
-            })
+        //     posts.forEach(function(post){
+        //         postTops.push(Math.floor(post.getBoundingClientRect().top) + window.pageYOffset)
+        //     })
             
     
             window.addEventListener ('scroll', function(){

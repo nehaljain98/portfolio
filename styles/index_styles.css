@@ -41,15 +41,9 @@
     
 
     #cover-image {
-      background-image:url(../img/bgbg.svg);
+      background-image:url(../img/background.svg);
       background-repeat: no-repeat;
-      /* background-size: cover; */
-      /* background-position: top center;
-      position: absolute; */
-      /* top:0;
-      left:0;
-      right:0; */
-      width: 100%;
+      width: 10%;
       z-index: -3; 
   }
 
@@ -346,7 +340,378 @@
 
 /*<---------- Portfolio Pieces----------> */
   /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 276px) {
+    #header_text h2 {
+      padding-top: 80%;
+      text-align: left;
+      margin-left: 12%;
+      font-size: 2rem;
+  }
+
+    #header_text p{
+      margin-left: 12%;
+      margin-bottom: 15%;
+    }
+    
+    #cover-image {
+      background-image:url(../img/background.svg);
+      background-repeat: no-repeat;
+      width: 5%;
+      z-index: -3; 
+  }
+
+  .module_link{
+    width:100%;
+    border-radius: 12px;
+  }
+
+  /*.module_link:hover {
+    transition: all 150ms linear 0s;
+    -webkit-box-shadow: 0px -1px 30px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px -1px 30px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px -1px 30px 1px rgba(0, 0, 0, 0.2);
+  }*/
+
+  .module {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    background:#F8F8FF;
+    border-radius: 12px;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+                -6px -6px 10px -1px rgba(255,255,255);
+    border:1px solid rgba(0,0,0,0.0);
+    transition: transform 0.5s;
+  }
+
+  .module_image {
+    width: 100%;
+    height: 450px;
+    /* background: url(https://cdn-images-1.medium.com/max/2000/1*uusQu2UO2fU8HuwDaGbcyQ@2x.png); */
+    background-position: center;
+    background-size: cover;
+  }
+
+  .module_description {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    width: 100%;
+    height: 450px;
+    border-radius: 12px;
+    background: rgba(0, 0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+/*    
+    transition: 150ms linear 0s; */
+  }
+
+  #healthcave_image {
+    background: url(../img/healthcave.png) no-repeat;
+    background-position: center;
+    background-size: 105%;
+  }
+
+  #healthcave_module_description:hover {
+    background:#eabb97;
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+                inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+                -0.5px -0.5px 0px rgba(255,255,255,1),
+                0.5px 0.5px 0px rgba(0,0,0,0.15),
+                0px 12px 10px -10px rgba(0,0,0,0.05);
+    border:1px solid rgba(0,0,0,0.01);
+    transform: translateY(2px);
+  }
+
+  #dhousing_image {
+    background: url(../img/dhousing.png) no-repeat;
+    background-position: center;
+    background-size: 60%;
+  }
+
+  #dhousing_module_description:hover {
+    background:#eabb97;
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+                inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+                -0.5px -0.5px 0px rgba(255,255,255,1),
+                0.5px 0.5px 0px rgba(0,0,0,0.15),
+                0px 12px 10px -10px rgba(0,0,0,0.05);
+    border:1px solid rgba(0,0,0,0.01);
+    transform: translateY(2px);
+  }
+
+  #explored_image {
+    background: url(../img/explored.png) no-repeat;
+    background-position: center;
+    background-size: 45%;
+  }
+
+  #explored_module_description:hover {
+    background: #eabb97;
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+                inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+                -0.5px -0.5px 0px rgba(255,255,255,1),
+                0.5px 0.5px 0px rgba(0,0,0,0.15),
+                0px 12px 10px -10px rgba(0,0,0,0.05);
+    border:1px solid rgba(0,0,0,0.01);
+    transform: translateY(2px);
+  }
+
+  #ui_image {
+    background: url(../img/ui.png) no-repeat;
+    background-position: center;
+    background-size: 115%;
+  }
+
+  #ui_module_description:hover {
+    background: #eabb97;
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+                inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+                -0.5px -0.5px 0px rgba(255,255,255,1),
+                0.5px 0.5px 0px rgba(0,0,0,0.15),
+                0px 12px 10px -10px rgba(0,0,0,0.05);
+    border:1px solid rgba(0,0,0,0.01);
+    transform: translateY(2px);
+  }
+
+  #dcc_image {
+    background: url(../img/dcc.png) no-repeat;
+    background-position: center;
+    background-size: 90%;
+  }
+
+  #dcc_module_description:hover {
+    background:	#eabb97;
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+                inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+                -0.5px -0.5px 0px rgba(255,255,255,1),
+                0.5px 0.5px 0px rgba(0,0,0,0.15),
+                0px 12px 10px -10px rgba(0,0,0,0.05);
+    border:1px solid rgba(0,0,0,0.01);
+    transform: translateY(2px);
+  }
+
+  #cstem_image {
+    background: url(../img/cstem.png) no-repeat;
+    background-position: 38% 50%;
+    background-size: 97%;
+  }
+
+  #cstem_module_description:hover {
+    background:	#eabb97;
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+                inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+                -0.5px -0.5px 0px rgba(255,255,255,1),
+                0.5px 0.5px 0px rgba(0,0,0,0.15),
+                0px 12px 10px -10px rgba(0,0,0,0.05);
+    border:1px solid rgba(0,0,0,0.01);
+    transform: translateY(2px);
+  }
+
+  .module_description > span.project_module_text {
+    line-height: 1.5rem;
+    text-align: center;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0);
+    z-index: 2;
+
+    transition: 150ms linear 0s;
+  }
+
+  .module_description:hover > span.project_module_text {
+    color: 	#F8F8FF;
+
+    transition: 150ms linear 0s;
+  }
+  }
+  
   @media (min-width: 576px) {
+    #header_text h2 {
+      padding-top: 80%;
+      text-align: left;
+      margin-left: 8%;
+      font-size: 2rem;
+  }
+    
+    #header_text p{
+      margin-left: 8%;
+      margin-bottom: 10%;
+    }
+    
+    #cover-image {
+      background-image:url(../img/background.svg);
+      background-repeat: no-repeat;
+      width: 50%;
+      z-index: -3; 
+  }
+
+  .module_link{
+    width:100%;
+    border-radius: 12px;
+  }
+
+  /*.module_link:hover {
+    transition: all 150ms linear 0s;
+    -webkit-box-shadow: 0px -1px 30px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px -1px 30px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px -1px 30px 1px rgba(0, 0, 0, 0.2);
+  }*/
+
+  .module {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    background:#F8F8FF;
+    border-radius: 12px;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+                -6px -6px 10px -1px rgba(255,255,255);
+    border:1px solid rgba(0,0,0,0.0);
+    transition: transform 0.5s;
+  }
+
+  .module_image {
+    width: 100%;
+    height: 450px;
+    /* background: url(https://cdn-images-1.medium.com/max/2000/1*uusQu2UO2fU8HuwDaGbcyQ@2x.png); */
+    background-position: center;
+    background-size: cover;
+  }
+
+  .module_description {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    width: 100%;
+    height: 450px;
+    border-radius: 12px;
+    background: rgba(0, 0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+/*    
+    transition: 150ms linear 0s; */
+  }
+
+  #healthcave_image {
+    background: url(../img/healthcave.png) no-repeat;
+    background-position: center;
+    background-size: 105%;
+  }
+
+  #healthcave_module_description:hover {
+    background:#eabb97;
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+                inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+                -0.5px -0.5px 0px rgba(255,255,255,1),
+                0.5px 0.5px 0px rgba(0,0,0,0.15),
+                0px 12px 10px -10px rgba(0,0,0,0.05);
+    border:1px solid rgba(0,0,0,0.01);
+    transform: translateY(2px);
+  }
+
+  #dhousing_image {
+    background: url(../img/dhousing.png) no-repeat;
+    background-position: center;
+    background-size: 60%;
+  }
+
+  #dhousing_module_description:hover {
+    background:#eabb97;
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+                inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+                -0.5px -0.5px 0px rgba(255,255,255,1),
+                0.5px 0.5px 0px rgba(0,0,0,0.15),
+                0px 12px 10px -10px rgba(0,0,0,0.05);
+    border:1px solid rgba(0,0,0,0.01);
+    transform: translateY(2px);
+  }
+
+  #explored_image {
+    background: url(../img/explored.png) no-repeat;
+    background-position: center;
+    background-size: 45%;
+  }
+
+  #explored_module_description:hover {
+    background: #eabb97;
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+                inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+                -0.5px -0.5px 0px rgba(255,255,255,1),
+                0.5px 0.5px 0px rgba(0,0,0,0.15),
+                0px 12px 10px -10px rgba(0,0,0,0.05);
+    border:1px solid rgba(0,0,0,0.01);
+    transform: translateY(2px);
+  }
+
+  #ui_image {
+    background: url(../img/ui.png) no-repeat;
+    background-position: center;
+    background-size: 115%;
+  }
+
+  #ui_module_description:hover {
+    background: #eabb97;
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+                inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+                -0.5px -0.5px 0px rgba(255,255,255,1),
+                0.5px 0.5px 0px rgba(0,0,0,0.15),
+                0px 12px 10px -10px rgba(0,0,0,0.05);
+    border:1px solid rgba(0,0,0,0.01);
+    transform: translateY(2px);
+  }
+
+  #dcc_image {
+    background: url(../img/dcc.png) no-repeat;
+    background-position: center;
+    background-size: 90%;
+  }
+
+  #dcc_module_description:hover {
+    background:	#eabb97;
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+                inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+                -0.5px -0.5px 0px rgba(255,255,255,1),
+                0.5px 0.5px 0px rgba(0,0,0,0.15),
+                0px 12px 10px -10px rgba(0,0,0,0.05);
+    border:1px solid rgba(0,0,0,0.01);
+    transform: translateY(2px);
+  }
+
+  #cstem_image {
+    background: url(../img/cstem.png) no-repeat;
+    background-position: 38% 50%;
+    background-size: 97%;
+  }
+
+  #cstem_module_description:hover {
+    background:	#eabb97;
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+                inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+                -0.5px -0.5px 0px rgba(255,255,255,1),
+                0.5px 0.5px 0px rgba(0,0,0,0.15),
+                0px 12px 10px -10px rgba(0,0,0,0.05);
+    border:1px solid rgba(0,0,0,0.01);
+    transform: translateY(2px);
+  }
+
+  .module_description > span.project_module_text {
+    line-height: 1.5rem;
+    text-align: center;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0);
+    z-index: 2;
+
+    transition: 150ms linear 0s;
+  }
+
+  .module_description:hover > span.project_module_text {
+    color: 	#F8F8FF;
+
+    transition: 150ms linear 0s;
+  }
   }
 
   /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
@@ -362,7 +727,23 @@
 
   /* Large devices (desktops, 992px and up) */
   @media (min-width: 992px) {
+    #header_text h2 {
+      padding-top: 0;
+      margin-left: 0;
+      font-size: 2rem;
+  }
     
+    #header_text p{
+      margin-left: 0;
+      margin-bottom: 0;
+    }
+
+    #cover-image {
+      background-image:url(../img/bg.svg);
+      background-repeat: no-repeat;
+      width: 100%;
+      z-index: -3; 
+  }
   }
 
   /* Extra large devices (large desktops, 1200px and up) */
@@ -566,50 +947,6 @@
     border:1px solid rgba(0,0,0,0.01);
     transform: translateY(2px);
   }
-
-  /* #googleprompt_image {
-    background: url(images/googleprompt/hifi1.png) no-repeat;
-    background-position: center;
-    background-size: 25%;
-  } */
-
-  /* #googleprompt_module_description:hover {
-    background: rgb(88, 165, 92, 0.8);
-    transition: 150ms linear 0s;
-  } */
-
-  /* #google_internship_image {
-    background: url() no-repeat;
-    background-position: center;
-    background-size: 25%;
-  }
-
-  #google_internship_module_description:hover {
-    background: rgba(234, 66, 53, 0.8);
-    transition: 150ms linear 0s;
-  } */
-
-    /* #ddc_image {
-    background: url(images/davis_design_collective_logo.svg) no-repeat;
-    background-position: center;
-    background-size: 40%;
-  }
-
-  #ddc_module_description:hover {
-    background: rgb(33, 173, 229, 0.8);
-    transition: 150ms linear 0s;
-  } */
-
-  /* #amazonsearch_image {
-    background: url(images/amazonsearch_image.svg) no-repeat;
-    background-position: center;
-    background-size: 50%;
-  }
-
-  #amazonsearch_module_description:hover {
-    background: rgb(255, 148, 0, 0.83);
-    transition: 150ms linear 0s;
-  } */
 
   .module_description > span.project_module_text {
     line-height: 1.5rem;

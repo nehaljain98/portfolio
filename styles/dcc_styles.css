@@ -269,7 +269,7 @@
 /**👋----------------Current Experience------------------👋**/
 .background{
   background-color: white;
-  height: 10100px;
+  height: 9460px;
 }
 .current-experience-container{
   display: flex;
@@ -489,6 +489,21 @@
 
   padding-right: 20px;
 
+}
+
+.userfinall-gif{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.userfinall-gif img{
+  position: relative;
+  width: auto;
+  height: 250px;
+  padding-right: 20px;
+  padding-bottom: 5px;
 }
 
 .break-down-text{

@@ -89,6 +89,15 @@
   footer{
     background-color: #F8F8FF; 
   }
+
+  canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
   
   .project_modules .col-12,
     .project_modules .col-md-6 {
@@ -145,13 +154,31 @@
     transition: 150ms linear 0s; */
   }
 
-  #healthcave_image {
-    background: url(../img/healthcave.png) no-repeat;
+  [data-slideInLeft].visible, [data-slideInLeft].invisible,
+  [data-slideInRight].visible, [data-slideInRight].invisible ,
+  [data-slideInBottom].visible, [data-slideInBottom].invisible {
+      opacity: 1.0;
+      transform: translate(0, 0);
+      transition: transform 0.8s ease, opacity 0.8s ease;
+  }
+
+  [data-slideInLeft].invisible {
+      opacity: 0.0;
+      transform: translate(10px, 0);
+  }
+
+  [data-slideInRight].invisible {
+      opacity: 0.0;
+      transform: translate(-10px, 0);
+  }
+
+  #freebites_image {
+    background: url(../img/freebites.png) no-repeat;
     background-position: center;
     background-size: 40%;
   }
 
-  #healthcave_module_description:hover {
+  #freebites_module_description:hover {
     background:#eabb97;
     box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
                 inset -4px -4px 6px -1px rgba(255,255,255,0.7),
@@ -194,6 +221,7 @@
                 0px 12px 10px -10px rgba(0,0,0,0.05);
     border:1px solid rgba(0,0,0,0.01);
     transform: translateY(2px);
+    
   }
 
   #ui_image {
@@ -330,10 +358,10 @@
     font-weight: bold;
   }
 
-  .project_modules .col-12,
+  /* .project_modules .col-12,
   .project_modules .col-md-6 {
     padding-bottom: 0;
-  }
+  } */
 
 }
 
@@ -408,13 +436,22 @@
     transition: 150ms linear 0s; */
   }
 
-  #healthcave_image {
-    background: url(../img/healthcave.png) no-repeat;
-    background-position: center;
-    background-size: 105%;
+  [aos="fade-right"] {
+    opacity: 1;
+    transition-property: opacity;
   }
 
-  #healthcave_module_description:hover {
+  [aos="fade-right"].aos-animate {
+    opacity: 1;
+  }
+
+  #freebites_image {
+    background: url(../img/freebites.png) no-repeat;
+    background-position: center;
+    background-size: 40%;
+  }
+
+  #freebites_module_description:hover {
     background:#eabb97;
     box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
                 inset -4px -4px 6px -1px rgba(255,255,255,0.7),
@@ -595,13 +632,13 @@
     transition: 150ms linear 0s; */
   }
 
-  #healthcave_image {
-    background: url(../img/healthcave.png) no-repeat;
+  #freebites_image {
+    background: url(../img/freebites.png) no-repeat;
     background-position: center;
-    background-size: 105%;
+    background-size: 30%;
   }
 
-  #healthcave_module_description:hover {
+  #freebites_module_description:hover {
     background:#eabb97;
     box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
                 inset -4px -4px 6px -1px rgba(255,255,255,0.7),
@@ -717,11 +754,15 @@
   /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
   @media (min-width: 768px) {
     .module_wrapper:nth-of-type(odd) {
-      padding-right: 30px;
+      padding: 70px;
     }
   
     .module_wrapper:nth-of-type(even) {
-      padding-right: 30px;
+      padding: 70px;
+    }
+
+    .row:nth-of-type(2n){
+      flex-direction: row-reverse;
     }
   }
 
@@ -846,13 +887,13 @@
     transition: 150ms linear 0s; */
   }
 
-  #healthcave_image {
-    background: url(../img/healthcave.png) no-repeat;
+  #freebites_image {
+    background: url(../img/freebites.png) no-repeat;
     background-position: center;
-    background-size: 105%;
+    background-size: 35%;
   }
 
-  #healthcave_module_description:hover {
+  #freebites_module_description:hover {
     background:#eabb97;
     box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
                 inset -4px -4px 6px -1px rgba(255,255,255,0.7),
@@ -995,14 +1036,17 @@
     -webkit-animation-fill-mode: both
   }
 
-  .animatedFadeInUp {
-    opacity: 0;
+  .animatedFadeInRight {
+    opacity: 1;
   }
 
-  .fadeInUp {
-    opacity: 0;
-    animation-name: fadeInUp;
-    -webkit-animation-name: fadeInUp;
+  .animatedFadeInLeft {
+    opacity: 1;
+  }
+  .fadeInRight {
+    opacity: 1;
   }
 
-
+  .fadeInLeftt {
+    opacity: 1;
+  }

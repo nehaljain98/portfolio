@@ -771,8 +771,13 @@
     #header_text h2 {
       padding-top: 0;
       margin-left: 0;
-      font-size: 2rem;
+      font-size: 3.7rem;
   }
+
+  #header_text h2 {
+    padding-bottom: 0.3rem;
+    margin-bottom: 0;
+}
     
     #header_text p{
       margin-left: 0;
@@ -791,7 +796,7 @@
   @media (min-width: 1200px) {
   
     #header_text {
-      padding: 26% 0 20% 11.5%;
+      padding: 26% 0 20% 7.5%;
     }
 
     #header_text p {
@@ -1007,7 +1012,7 @@
 
   /* Fade in Animation */
 
-  @keyframes fadeInUp {
+  /* @keyframes fadeInUp {
     from {
         transform: translate3d(0,40px,0)
     }
@@ -1048,5 +1053,4 @@
   }
 
   .fadeInLeftt {
-    opacity: 1;
-  }
+    opacity: 1; */

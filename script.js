@@ -157,7 +157,7 @@
                 scrolling = false;
             }
         })();
-
+ 
     import ScrollTrigger, { Trigger } from '../src/ScrollTrigger'
     import Canvas from './canvas'
 

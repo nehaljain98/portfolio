@@ -192,6 +192,9 @@ body{
   background-color: #fff !important;
 }
 
+.footercontainer{
+  padding-top:2%;
+}
 #prototype{
   z-index: 1;
   position: absolute;

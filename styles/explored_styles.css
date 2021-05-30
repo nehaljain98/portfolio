@@ -141,18 +141,20 @@ body{
   position: absolute;
   background:#fff;
   top: 800px;
-  height: 1100px;
+  height: 1150px;
   bottom: 0;
   z-index: 1;
 }
 
 footer{
   background:#fff;
-  top: 940px;
   bottom: 0;
   z-index: 1;
 }
 
+.footercontainer{
+  padding-top: 5%;
+}
 #section_qqiejmor1{
   position: absolute;
   background:#fff;
@@ -435,7 +437,7 @@ padding-right: 5px;
   position: absolute;
   background:#fff;
   top: 260px;
-  height: 700px;
+  height: 800px;
   bottom: 0;
   z-index: 1;
 }

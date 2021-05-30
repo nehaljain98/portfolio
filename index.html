@@ -1,390 +1,821 @@
-<!doctype html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-        <title>Nehal Jain</title>
-
-         <!-- add Normalize CSS from CDN styles across browsers -->
-         <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
-         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
-        <!-- Font Awesome -->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-
-        <!-- Reset -->
-        <link rel="stylesheet" href="styles/reset.css">
-
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="assets/bootstrap-4.0.0-dist/css/bootstrap.css">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" href="assets/bootstrap-4.4.1-dist/css/bootstrap.css">
-
-        <!-- Page Specific Styles -->
-        <link rel="stylesheet" href="styles/index_styles.css">
-        <link rel="stylesheet" href="assets/animate/animate.css">
+<!DOCTYPE html>
+<html lang="en-US" data-semplice="4.4.9" class="js wf-miera-n4-active wf-active">
+<head>
+	<meta charset="UTF-8" />
+	<script>document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/, '') + ' js';</script>
+	<!-- Add meta viewport tag needed for mobile devices -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+	<title>Nehal Jain &#8211; Portfolio</title>
+	
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
 
 
-        <!-- My Styles -->
-        <link rel="stylesheet" href="styles/styles.css">
-        <!-- <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Exo+2:500i|Open+Sans" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700|Titillium+Web:400,600,700" rel="stylesheet">
-       -->
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="assets/bootstrap-4.0.0-dist/css/bootstrap.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/bootstrap-4.4.1-dist/css/bootstrap.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
-        <!-- Add meta viewport tag needed for mobile devices -->
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Styles -->
+	<!-- <link rel="stylesheet" href="styles/styles.css"> -->
+	<link rel='stylesheet' id='wp-block-library-css'  href='styles/style.min.css' type='text/css' media='all' />
+	<link rel='stylesheet' id='semplice-stylesheet-css'  href='styles/semplice4.css' type='text/css' media='all' />
+	<link rel='stylesheet' id='semplice-frontend-stylesheet-css'  href='styles/semplice4.frontend.min.css' type='text/css' media='all' />
+	<link rel='stylesheet' id='mediaelement-css'  href='styles/mediaelementplayer-legacy.min.css' type='text/css' media='all' />
+	<style type="text/css" id="semplice-custom-css">.container {max-width: 1170px;}</style>
 
-        <!-- External Styles -->
+	<!-- Page Specific Styles -->
+	<link rel="stylesheet" href="styles/index_styles.css">
+	<link rel="stylesheet" href="styles/styles.css">
+	<link rel="stylesheet" href="assets/animate/animate.css">
 
-        <!-- Favicon -->
-        <link rel="icon" type="image/jpg" sizes="32x32" href="img/fvicon.jpg">
-        <link rel="icon" type="image/jpg" sizes="16x16" href="img/favicon.jpg">
-        
-    </head>
-    <body>
+	<!-- Favicon -->
+	<link rel="icon" type="image/jpg" sizes="32x32" href="img/fvicon.jpg">
+	<link rel="icon" type="image/jpg" sizes="16x16" href="img/favicon.jpg">
 
-        <canvas></canvas>
-        <header>
-         
-            <nav id ="headernav" class="navbar navbar-expand-lg navbar-light">
-
-                <a class="navbar-brand" href="#main" class="selected">Nehal Jain</a>
-              
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-              
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav mr-auto">
-    
-                    <li class="nav-object">
-                        <a class="nav-link" href=#projects>Work</a>
-                    </li>
-                    <li class="nav-object">
-                        <a class="nav-link" href="about" >About</a>
-                    </li>
-              
-                  </ul>
-                </div>
-              </nav>
-        </header>
+	<!-- Script -->
+	<script type='text/javascript' src='https://michellegore.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+	<script type='text/javascript' src='https://michellegore.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+	<script type='text/javascript' src='https://michellegore.com/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=4.2.6-78496d1'></script>
+	<script type='text/javascript' src='https://michellegore.com/wp-includes/js/mediaelement/mediaelement-migrate.min.js?ver=5.0.13'></script>
+	<script type='text/javascript'>
+	/* <![CDATA[ */
+	var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/","classPrefix":"mejs-","stretching":"responsive"};
+	/* ]]> */
+	</script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110931258-2"></script>
+</head>
 
 
-        
-        <div id="main">
-            
-           <div id= cover><div id="cover-image"></div></div>
-           <!-- <div class="background-video">
-            <video data-autoplay="" autoplay="" webkit-playsinline="" playsinline="" loop="" muted="" data-object-fit="cover" data-video="0">
-                <source src="https://michellegore.com/wp-content/uploads/2020/12/Background-Animation.mp4" type="video/mp4">
-            </video>
-        </div> -->
-            <div id="header_text" >    
-                <h2>Hello! <span style="color:#eabb97;">I'm Nehal</span>.</h2>
-                <p style="font-size: 1.7rem;">San Francisco based product and visual designer</p></div>
+<div class="sections">
+		
+	<section id="cover-302" class="semplice-cover" data-height="fullscreen" data-column-mode-sm="single" data-column-mode-xs="single" data-justify="center" data-valign="center" data-layout="grid" data-cover="visible" data-parallax="parallax" >
+		<a class="show-more show-more-visible semplice-event" data-event-type="helper" data-event="scrollToContent"><svg version="1.1" id="Ebene_2_1_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+			width="53px" height="20px" viewBox="0 0 53 20" enable-background="new 0 0 53 20" xml:space="preserve">
+			<g><polygon points="26.5,17.688 9.114,3.779 10.303,2.312 26.5,15.269 42.697,2.313 43.886,3.779 	"/></g></svg>
+		</a>
+	</section>
+</div>	
+
+	<body data-rsssl="1" class="home page-template-default page page-id-302 is-frontend dynamic-mode mejs-semplice-ui" data-post-type="page" data-post-id="302" data-breakpoint-js="xl">
+		<div id="content-holder" data-active-post="302">		
+		<div id="content-302" class="content-container active-content ">
+		<header class="nav_a4k4mp84b semplice-navbar active-navbar non-sticky-nav" data-cover-transparent="enabled" data-bg-overlay-visibility="hidden" data-mobile-fallback="enabled" style="opacity: 1; transform: none;">
+			<div class="container" data-nav="logo-left-menu-right">
+				<div class="navbar-inner menu-type-text" data-xl-width="12" data-navbar-type="container">
+				<div class="logo navbar-left" data-font="font_shi8d64tg"><a href="https://nehalj.com" title="Nehal Jain">Nehal Jain</a></div>
+				<nav class="standard navbar-right" data-font="font_k0ixjyago"><ul class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-480"><a href="https://nehalj.com/work"><span>Work</span></a></li>
+				<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-537"><a href="https://nehalj.com/play"><span>Play</span></a></li>
+				<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-491"><a href="https://nehalj.com/about"><span>About</span></a></li>
+				</ul></nav>
+					<div class="hamburger navbar-right semplice-menu"><a class="open-menu menu-icon"><span></span></a></div>
+			</div>
+		</div>
+	</header>
+							
+	<div id="overlay-menu">
+		<div class="overlay-menu-inner" data-xl-width="12">
+			<nav class="overlay-nav" data-justify="center" data-align="align-middle">
+				<ul class="container">
+					<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-480"><a href="https://nehalj.com/work"><span>Work</span></a></li>
+					<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-537"><a href="https://nehalj.com/play"><span>Play</span></a></li>
+					<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-491"><a href="https://nehalj.com/about"><span>About</span></a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+				
+	
+	<div class="transition-wrap">
+	<div class="sections">
+						
+		<section id="cover-302" class="semplice-cover" data-height="fullscreen" data-column-mode-sm="single" data-column-mode-xs="single" data-justify="center" data-valign="center" data-layout="grid" data-cover="visible" data-parallax="parallax" style="height: 900px;">
+			<a class="show-more show-more-visible semplice-event" data-event-type="helper" data-event="scrollToContent"><svg version="1.1" id="Ebene_2_1_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="53px" height="20px" viewBox="0 0 53 20" enable-background="new 0 0 53 20" xml:space="preserve">
+<g>
+<polygon points="26.5,17.688 9.114,3.779 10.303,2.312 26.5,15.269 42.697,2.313 43.886,3.779 	"></polygon>
+</g>
+</svg>
+</a>
+	<div class="background-video">
+		<video data-autoplay="" autoplay="" webkit-playsinline="" playsinline="" loop="" muted="" data-object-fit="cover" data-video="0">
+			<source src="img/bg.mp4" type="video/mp4">
+		</video>
+	</div>
+
+			<div class="container">
+			<div id="row_uwlre99dm" class="row"><div id="column_vtrase99n" class="column blur" data-xl-width="9">
+		<div class="content-wrapper">
+			
+	<div id="content_dyyji20zi" class="column-content" data-module="paragraph">
+		<div class="is-content has-xs"><div data-content-for="xl"><p style="text-align: center; font-size: 1rem;" data-mce-style="text-align: center; font-size: 1rem;"><span class="font_n9wcytiar" style="letter-spacing: 0.166667rem; color: rgb(255, 255, 255);" data-mce-style="letter-spacing: 0.166667rem; color: #ffffff;">VISUAL &amp; PRODUCT DESIGNER</span></p></div><div data-content-for="xs"><p style="text-align: center; font-size: 0.777778rem;" data-mce-style="text-align: center; font-size: 0.777778rem;"><span class="font_n9wcytiar" style="letter-spacing: 0.166667rem; color: rgb(255, 255, 255);" data-mce-style="letter-spacing: 0.166667rem; color: #ffffff;">VISUAL &amp; PRODUCT DESIGNER</span></p></div></div>
+	</div>
+
+	<div id="content_qkrpafcb4" class="column-content" data-module="paragraph">
+		<div class="is-content has-xs"><div data-content-for="xl"><p style="font-size: 5.55556rem; text-align: center;" data-mce-style="font-size: 5.55556rem; text-align: center;"><span class="font_2fuhd72et" style="color: rgb(255, 255, 255); letter-spacing: 0rem;" data-mce-style="color: #ffffff; letter-spacing: 0rem;">Nehal Jain</span></p></div><div data-content-for="xs"><p style="font-size: 2.77778rem; text-align: center; line-height: 5rem;" data-mce-style="font-size: 2.77778rem; text-align: center; line-height: 5rem;"><span class="font_2fuhd72et" style="color: rgb(255, 255, 255); letter-spacing: 0rem;" data-mce-style="color: #ffffff; letter-spacing: 0rem;">Nehal Jain</span></p></div></div>
+	</div>
+
+	<div id="content_r5zivawxd" class="column-content" data-module="paragraph">
+		<div class="is-content has-xs"><div data-content-for="xl"><p style="font-size: 0.888889rem; text-align: center;" data-mce-style="font-size: 0.888889rem; text-align: center;"><span class="font_k0ixjyago" style="color: rgb(255, 255, 255); letter-spacing: 0.0277778rem;" data-mce-style="color: #ffffff; letter-spacing: 0.0277778rem;">Product Designer @ FreeBites</span></p></div><div data-content-for="xs"><p style="font-size: 0.777778rem; text-align: center;" data-mce-style="font-size: 0.777778rem; text-align: center;"><span class="font_k0ixjyago" style="color: rgb(255, 255, 255); letter-spacing: 0.0277778rem;" data-mce-style="color: #ffffff; letter-spacing: 0.0277778rem;">Previously Web Designer @ Davis Housing</span></p></div></div>
+	</div>
+		</div>
+	</div></div>
+			</div>
+		</section>
+
+	<section id="section_wk3d92dv7" class="content-block" data-column-mode-sm="single" data-column-mode-xs="single" data-gutter="yes" data-layout="grid" data-height="dynamic" data-valign="center">
+		<div class="background-video"></div>
+			<div class="container">
+				<div id="row_v6c93mh4f" class="row">
+					
+					<div id="column_pwr7komj2" class="column" data-xl-width="5" data-valign="center" style="opacity: 0.995593; transform: translate3d(0px, 0px, 0px);">
+						<div class="content-wrapper">
+							
+							<div id="content_zkw89v3t4" class="column-content" data-module="paragraph">
+								<div class="is-content"><div data-content-for="xl"><p style="font-size: 0.888889rem;" data-mce-style="font-size: 0.888889rem;"><span style="letter-spacing: 0.111111rem;" data-mce-style="letter-spacing: 0.111111rem;" class="font_n9wcytiar"><span data-mce-style="color: #a5a5a5; font-family: Karla, sans-serif;" style="color: #a5a5a5; font-family: Karla, sans-serif;">FREEBITES PRODUCT DESIGNER</span></span></p></div></div>
+							</div>
+
+							<div id="content_7ypv7aqfm" class="column-content" data-module="paragraph">
+								<div class="is-content"><div data-content-for="xl"><p style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight:500; font-size: 1.66667rem; line-height: 2.22222rem;" data-mce-style=" font-size: 1.66667rem; line-height: 2.22222rem;"><span class="font_3zzun8rvt">Designing the web consumer experience and redesigning the branding</span></p></div></div>
+							</div>
+
+							<div id="content_doduglyuv" class="column-content" data-module="image">
+								<div class="ce-image" data-align="left"><img class="is-content" src="img/freebites-tag.svg" alt="freebites-tag" caption="" data-width="original" data-scaling="no"></div>
+							</div>
+
+							<div id="content_8j4alqy1p" class="column-content" data-module="paragraph">
+								<div class="is-content"><div data-content-for="xl"><p style="font-family:'Lucida Sans', sans-serif; font-size: 1.11111rem;" data-mce-style="font-size: 1.11111rem;"><span class="font_3qmflxvbd">Collaborating with a team of designers and engineers to simplify web information architecture and redesigned UI that represents a community that reduces food insecurity</span></p></div></div>
+							</div>
+
+							<div id="content_j0se69ex6" class="column-content" data-module="button" style="transform: matrix(1, 0, 0, 1, -10, 0);">
+								<div class="ce-button" data-align="left">
+									<div class="is-content" data-width="auto">
+										<a data-font="font_n9wcytiar" href="" target="_self">IN PROCESS</a>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					
+				<div id="column_ja0yvznxi" class="column spacer-column" data-xl-width="1">
+					<div class="content-wrapper"></div>
+				</div>
+				
+				<div id="column_5lzlevomp" class="column" data-xl-width="5">
+					<div class="content-wrapper">	
+						<div id="content_qqsp7arqh" class="column-content" data-module="video" style="transform: translate3d(6.16395px, 0px, 0px);">
+							<div class="ce-video" data-hide-controls="on" data-transparent-controls="on" style="width: 100%; max-width: 100%">
+								<span class="mejs-offscreen">Image</span>
+								<div id="mep_0" class="mejs-container mejs-container-keyboard-inactive video mejs-video" tabindex="0" role="application" aria-label="Video Player" style="width: 481.656px; height: 481.656px; min-width: 0px;">
+									<div class="mejs-inner">
+										<div class="mejs-mediaelement">
+											<mediaelementwrapper id="mejs_247025208450951" poster="">
+												<video class="video is-content" width="900" height="900" webkit-playsinline="" playsinline="" preload="none" poster="img/home1.jpg" loop="" autoplay="" muted="" id="mejs_247025208450951_html5" src="img/home1.jpg" style="width: 481.656px; height: 481.656px;" data-video="1">
+													<source src="img/home1.jpg" type="img/jpg">
+												</video>
+											</mediaelementwrapper>
+										</div>
+
+										<div class="mejs-layers">
+											<div class="mejs-poster mejs-layer" style="background-image: url(&quot;img/home1.jpg&quot;); width: 100%; height: 100%; display: none;">
+												<img class="mejs-poster-img" width="0" height="0" src="img/home1.jpg">
+											</div>
+											
+											<div class="mejs-overlay mejs-layer" style="width: 100%; height: 100%; display: none;">
+												<div class="mejs-overlay-loading">
+													<span class="mejs-overlay-loading-bg-img"></span>
+												</div>
+											</div>
+											
+											<div class="mejs-overlay mejs-layer" style="display: none; width: 100%; height: 100%;">
+												<div class="mejs-overlay-error"></div>
+											</div>
+											
+											<div class="mejs-overlay mejs-layer mejs-overlay-play" style="width: 100%; height: 100%; display: none;">
+												<div class="mejs-overlay-button" role="button" tabindex="0" aria-label="Play" aria-pressed="false"></div>
+											</div>
+										</div>
+							
+										<div class="mejs-controls mejs-offscreen" style="opacity: 0;">
+											<div class="mejs-button mejs-playpause-button mejs-pause">
+												<button type="button" aria-controls="mep_0" title="Pause" aria-label="Pause" tabindex="0"></button>
+											</div>
+							
+							<div class="mejs-time mejs-currenttime-container" role="timer" aria-live="off">
+								<span class="mejs-currenttime">00:00</span>
+							</div>
+							
+							<div class="mejs-time-rail">
+								<span class="mejs-time-total mejs-time-slider" role="slider" tabindex="0">
+									<span class="mejs-time-buffering" style="display: none;"></span>
+									<span class="mejs-time-loaded" style="transform: scaleX(1);"></span>
+									<span class="mejs-time-current" style="transform: scaleX(0.2);"></span>
+									<span class="mejs-time-hovered no-hover"></span>
+									<span class="mejs-time-handle" style="transform: translateX(20px);">
+										<span class="mejs-time-handle-content"></span></span><span class="mejs-time-float"><span class="mejs-time-float-current">00:00</span><span class="mejs-time-float-corner"></span></span></span>
+									
+							</div>
+							
+							<div class="mejs-time mejs-duration-container"><span class="mejs-duration">00:06</span></div>
+							<div class="mejs-button mejs-volume-button mejs-unmute"><button type="button" aria-controls="mep_0" title="Unmute" aria-label="Unmute" tabindex="0"></button><a href="javascript:void(0);" class="mejs-volume-slider" aria-label="Volume Slider" aria-valuemin="0" aria-valuemax="100" role="slider" aria-orientation="vertical" aria-valuenow="0" aria-valuetext="0%"><span class="mejs-offscreen">Use Up/Down Arrow keys to increase or decrease volume.</span>
+							<div class="mejs-volume-total">
+												<div class="mejs-volume-current" style="bottom: 0px; height: 0%;">
+												</div><div class="mejs-volume-handle" style="bottom: 0%; margin-bottom: -3px;"></div></div></a></div>
+												<div class="mejs-button mejs-fullscreen-button"><button type="button" aria-controls="mep_0" title="Fullscreen" aria-label="Fullscreen" tabindex="0"></button>
+								</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+	
+				<div id="column_mpbi69odn" class="column" data-xl-width="1">
+					<div class="content-wrapper">
+						<div id="content_mvh7iisxh" class="column-content hide-for-mobile" data-module="image" style="transform: translate3d(0.0665449px, 0px, 0px);">
+							<div class="ce-image" data-align="right"><img class="is-content" src="img/cover1.jpg" alt="Freebites-rectangle" caption="" data-width="original" data-scaling="no"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+			
+	<section id="section_9opph6sj0" class="content-block" data-column-mode-sm="single" data-column-mode-xs="single" data-gutter="yes" data-layout="grid" data-height="dynamic" data-valign="center" >
+		<div class="background-video"></div>
+			<div class="container">
+				<div id="row_vqfy4zpi2" class="row">
+					<div id="column_oik3g1vmq" class="column" data-xl-width="1">
+						<div class="content-wrapper">
+							<div id="content_z7gk7jge9" class="column-content hide-for-mobile" data-module="image" style="transform: translate3d(-170.894px, 0px, 0px);">
+								<div class="ce-image" data-align="right"><img class="is-content" src="img/cover2.jpg" alt="rectangle-dhousing" caption="" data-width="original" data-scaling="no"></div>
+							</div>
+						</div>
+					</div>
+					
+					<div id="column_3eyg28pib" class="column" data-xl-width="5">
+						<div class="content-wrapper">
+							<div id="content_yov1sbjo1" class="column-content" data-module="video">
+								<div class="ce-video" data-hide-controls="on" data-transparent-controls="on" style="width: 100%; max-width: 100%">
+								<span class="mejs-offscreen">Image</span><div id="mep_1" class="mejs-container mejs-container-keyboard-inactive video mejs-video" tabindex="0" role="application" aria-label="Video Player" style="width: 481.656px; height: 481.656px; min-width: 0px;"><div class="mejs-inner">
+								<div class="mejs-mediaelement">
+									<mediaelementwrapper id="mejs_3442681862920427" poster="">
+										<video class="video is-content" width="900" height="900" webkit-playsinline="" playsinline="" preload="none" poster="img/home2.jpg" loop="" autoplay="" muted="" id="mejs_3442681862920427_html5" src="img/home2.jpg" style="width: 481.656px; height: 481.656px;" data-video="2">
+											<source src="img/home2.jpg" type="video/mp4">
+										</video>
+									</mediaelementwrapper>
+								</div>
+								
+								<div class="mejs-layers">
+									<div class="mejs-poster mejs-layer" style="background-image: url(&quot;img/home2.jpg&quot;); width: 100%; height: 100%; display: none;"><img class="mejs-poster-img" width="0" height="0" src="img/home2.jpg"></div><div class="mejs-overlay mejs-layer" style="width: 100%; height: 100%; display: none;"><div class="mejs-overlay-loading"><span class="mejs-overlay-loading-bg-img"></span></div></div><div class="mejs-overlay mejs-layer" style="display: none; width: 100%; height: 100%;"><div class="mejs-overlay-error"></div></div><div class="mejs-overlay mejs-layer mejs-overlay-play" style="width: 100%; height: 100%; display: none;"><div class="mejs-overlay-button" role="button" tabindex="0" aria-label="Play" aria-pressed="false"></div></div></div><div class="mejs-controls mejs-offscreen" style="opacity: 0;"><div class="mejs-button mejs-playpause-button mejs-pause"><button type="button" aria-controls="mep_1" title="Pause" aria-label="Pause" tabindex="0"></button></div><div class="mejs-time mejs-currenttime-container" role="timer" aria-live="off"><span class="mejs-currenttime">00:05</span></div><div class="mejs-time-rail"><span class="mejs-time-total mejs-time-slider" role="slider" tabindex="0"><span class="mejs-time-buffering" style="display: none;"></span><span class="mejs-time-loaded" style="transform: scaleX(1);"></span><span class="mejs-time-current" style="transform: scaleX(0.36);"></span><span class="mejs-time-hovered no-hover"></span><span class="mejs-time-handle" style="transform: translateX(36px);"><span class="mejs-time-handle-content"></span></span><span class="mejs-time-float"><span class="mejs-time-float-current">00:00</span><span class="mejs-time-float-corner"></span></span></span></div><div class="mejs-time mejs-duration-container"><span class="mejs-duration">00:06</span></div><div class="mejs-button mejs-volume-button mejs-unmute"><button type="button" aria-controls="mep_1" title="Unmute" aria-label="Unmute" tabindex="0"></button><a href="javascript:void(0);" class="mejs-volume-slider" aria-label="Volume Slider" aria-valuemin="0" aria-valuemax="100" role="slider" aria-orientation="vertical" aria-valuenow="0" aria-valuetext="0%"><span class="mejs-offscreen">Use Up/Down Arrow keys to increase or decrease volume.</span><div class="mejs-volume-total"><div class="mejs-volume-current" style="bottom: 0px; height: 0%;"></div><div class="mejs-volume-handle" style="bottom: 0%; margin-bottom: -3px;"></div></div></a></div><div class="mejs-button mejs-fullscreen-button"><button type="button" aria-controls="mep_1" title="Fullscreen" aria-label="Fullscreen" tabindex="0"></button></div></div></div></div>
+					</div>
+				
+					</div>
+				
+						</div>
+					</div><div id="column_75r6t7qun" class="column spacer-column" data-xl-width="1">
+						<div class="content-wrapper">
+							
+						</div>
+					</div><div id="column_jbj3hblu0" class="column" data-xl-width="5" data-valign="center" style="opacity: 0; transform: matrix(1, 0, 0, 1, 100, 0);">
+						<div class="content-wrapper">
+						<div id="content_cwwz0quoq" class="column-content" data-module="paragraph" >
+							<div class="is-content"><div data-content-for="xl"><p style="font-size: 0.888889rem;" data-mce-style="font-size: 0.888889rem;"><span style="letter-spacing: 0.111111rem;" data-mce-style="letter-spacing: 0.111111rem;" class="font_n9wcytiar"><span data-mce-style="color: #a5a5a5; font-family: Karla, sans-serif;" style="color: #a5a5a5; font-family: Karla, sans-serif;">DAVIS HOUSING PRODUCT DESIGNER</span></span></p></div></div>
+						</div>
+		
+						<div id="content_yeuvwiz6e" class="column-content" data-module="paragraph" >
+							<div class="is-content"><div data-content-for="xl"><p style="font-size: 1.66667rem; line-height: 2.22222rem;" data-mce-style="font-size: 1.66667rem; line-height: 2.22222rem;"><span class="font_3zzun8rvt">Producing visual designs for an engaging creative experience</span></p></div></div>
+						</div>
+		
+						<div id="content_uoeb0qr79" class="column-content" data-module="image" >
+							<div class="ce-image" data-align="left"><img class="is-content"  src="img/cstem-tag.svg" alt="tag-cstem" caption="" data-width="original" data-scaling="no"></div>
+						</div>
+
+		
+						<div id="content_60hp972lm" class="column-content" data-module="paragraph" >
+							<div class="is-content"><div data-content-for="xl"><p style="font-family:'Lucida Sans', sans-serif; font-size: 1.11111rem;" data-mce-style="font-size: 1.11111rem;"><span class="font_3qmflxvbd">Crafting an experience that is intuitive, beautiful, and engaging to help people succeed in their apartment search</span></p></div></div>
+						</div>
+					
+						<div id="content_6no0aw9uc" class="column-content" data-module="button" >
+							<div class="ce-button" data-align="left">
+								<div class="is-content" data-width="auto">
+									<a  data-font="font_n9wcytiar" href="https://nehalj.com/dhousing" target="_self">VIEW WORK ➞</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+		</section>				
+			
+	<section id="section_2ytk6iwf9" class="content-block" data-column-mode-sm="single" data-column-mode-xs="single" data-gutter="yes" data-layout="grid" data-height="dynamic" data-valign="center" >
+		<div class="background-video"></div>
+			<div class="container">
+			<div id="row_r8rtv2940" class="row">
+				<div id="column_xuk3mnvaa" class="column" data-xl-width="5" data-valign="center" >
+				<div class="content-wrapper">		
+				<div id="content_vgoinphxh" class="column-content" data-module="paragraph" >
+					<div class="is-content"><div data-content-for="xl"><p style="font-size: 0.888889rem;" data-mce-style="font-size: 0.888889rem;"><span style="letter-spacing: 0.111111rem;" data-mce-style="letter-spacing: 0.111111rem;" class="font_n9wcytiar"><span data-mce-style="color: #a5a5a5; font-family: Karla, sans-serif;" style="color: #a5a5a5; font-family: Karla, sans-serif;">UC DAVIS EXPERIENCE DESIGN INTERN </span></span></p></div></div>
+				</div>
+		
+				<div id="content_x6x9lufsl" class="column-content" data-module="paragraph" >
+					<div class="is-content"><div data-content-for="xl"><p style="font-size: 1.66667rem; line-height: 2.22222rem;" data-mce-style="font-size: 1.66667rem; line-height: 2.22222rem;"><span class="font_3zzun8rvt">Summer 2019 Internship with UC Davis External Tools team </span></p></div></div>
+				</div>
+		
+				<div id="content_2yys6om8z" class="column-content" data-module="image" >
+					<div class="ce-image" data-align="left"><img class="is-content"  src="img/cstem-tag.svg" alt="cstem-tags" caption="" data-width="original" data-scaling="no"></div>
+				</div>
+		
+				<div id="content_st44tlrp8" class="column-content" data-module="paragraph" >
+					<div class="is-content"><div data-content-for="xl"><p style="font-family:'Lucida Sans', sans-serif; font-size: 1.11111rem;" data-mce-style="font-size: 1.11111rem;"><span class="font_3qmflxvbd">Redesigning external tools and visual systems to improve active users and subscription efficiency </span></p></div></div>
+				</div>
+		
+				<div id="content_5zea1hvl8" class="column-content" data-module="button" >
+						
+					<div class="ce-button" data-align="left">
+						<div class="is-content" data-width="auto">
+							<a  data-font="font_n9wcytiar" href="https://nehalj.com/cstem" target="_self">VIEW WORK ➞</a>
+						</div>
+					</div>
+			
+				</div>
+		
+			</div>
+			</div>
+			
+			<div id="column_5x195pmof" class="column spacer-column" data-xl-width="1" >
+				<div class="content-wrapper"></div>
+			</div>
+
+			<div id="column_oed1nzuna" class="column" data-xl-width="5" >
+				<div class="content-wrapper">
+					
+					<div id="content_lt42gilis" class="column-content" data-module="video" >
+						
+						<div class="ce-video" data-hide-controls="on" data-transparent-controls="on" style="width: 100%; max-width: 100%">
+							<span class="mejs-offscreen">Image</span><div id="mep_2" class="mejs-container mejs-container-keyboard-inactive video mejs-video" tabindex="0" role="application" aria-label="Video Player" style="width: 481.656px; height: 481.656px; min-width: 0px;"><div class="mejs-inner"><div class="mejs-mediaelement"><mediaelementwrapper id="mejs_4294832995771247" poster=""><video class="video is-content" width="900" height="900" webkit-playsinline="" playsinline="" preload="none" poster="img/home3.jpg" loop="" autoplay="" muted="" id="mejs_4294832995771247_html5" src="img/home3.jpg" style="width: 481.656px; height: 481.656px;" data-video="3">
+								<source src="img/home3.jpg" type="img/jpg">
+							</video></mediaelementwrapper></div><div class="mejs-layers"><div class="mejs-poster mejs-layer" style="background-image: url(&quot;img/home3.jpg&quot;); width: 100%; height: 100%; display: none;"><img class="mejs-poster-img" width="0" height="0" src="img/home3.jpg"></div><div class="mejs-overlay mejs-layer" style="width: 100%; height: 100%; display: none;"><div class="mejs-overlay-loading"><span class="mejs-overlay-loading-bg-img"></span></div></div><div class="mejs-overlay mejs-layer" style="display: none; width: 100%; height: 100%;"><div class="mejs-overlay-error"></div></div><div class="mejs-overlay mejs-layer mejs-overlay-play" style="width: 100%; height: 100%; display: none;"><div class="mejs-overlay-button" role="button" tabindex="0" aria-label="Play" aria-pressed="false"></div></div></div><div class="mejs-controls"><div class="mejs-button mejs-playpause-button mejs-pause"><button type="button" aria-controls="mep_2" title="Pause" aria-label="Pause" tabindex="0"></button></div><div class="mejs-time mejs-currenttime-container" role="timer" aria-live="off"><span class="mejs-currenttime">00:02</span></div><div class="mejs-time-rail"><span class="mejs-time-total mejs-time-slider" role="slider" tabindex="0"><span class="mejs-time-buffering" style="display: none;"></span><span class="mejs-time-loaded" style="transform: scaleX(1);"></span><span class="mejs-time-current" style="transform: scaleX(0.37);"></span><span class="mejs-time-hovered no-hover"></span><span class="mejs-time-handle" style="transform: translateX(37px);"><span class="mejs-time-handle-content"></span></span><span class="mejs-time-float"><span class="mejs-time-float-current">00:00</span><span class="mejs-time-float-corner"></span></span></span></div><div class="mejs-time mejs-duration-container"><span class="mejs-duration">00:06</span></div><div class="mejs-button mejs-volume-button mejs-unmute"><button type="button" aria-controls="mep_2" title="Unmute" aria-label="Unmute" tabindex="0"></button><a href="javascript:void(0);" class="mejs-volume-slider" aria-label="Volume Slider" aria-valuemin="0" aria-valuemax="100" role="slider" aria-orientation="vertical" aria-valuenow="0" aria-valuetext="0%"><span class="mejs-offscreen">Use Up/Down Arrow keys to increase or decrease volume.</span><div class="mejs-volume-total"><div class="mejs-volume-current" style="bottom: 0px; height: 0%;"></div><div class="mejs-volume-handle" style="bottom: 0%; margin-bottom: -3px;"></div></div></a></div><div class="mejs-button mejs-fullscreen-button"><button type="button" aria-controls="mep_2" title="Fullscreen" aria-label="Fullscreen" tabindex="0"></button></div></div></div></div>
+						</div>
+					
+					</div>
+			
+				</div>
+			</div>
+			
+			<div id="column_4j73kfptu" class="column" data-xl-width="1">
+				<div class="content-wrapper">
+					<div id="content_wptwqf8op" class="column-content hide-for-mobile" data-module="image">
+						<div class="ce-image" data-align="right"><img class="is-content" src="img/cover3.jpg" alt="cstem-rectangle" caption="" data-width="original" data-scaling="no"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</section>				
+
+	
+		<section id="section_8opph6sj0" class="content-block" data-column-mode-sm="single" data-column-mode-xs="single" data-gutter="yes" data-layout="grid" data-height="dynamic" data-valign="center" >
+			<div class="background-video"></div>
+				<div class="container">
+					<div id="row_vqfy4zpi3" class="row">
+						<div id="column_lik3g1vmq" class="column" data-xl-width="1">
+							<div class="content-wrapper">
+								<div id="content_z8gk8jge9" class="column-content hide-for-mobile" data-module="image" style="transform: translate3d(-170.894px, 0px, 0px);">
+									<div class="ce-image" data-align="right"><img class="is-content" src="img/cover4.jpg" alt="rectangle-spotify" caption="" data-width="original" data-scaling="no"></div>
+								</div>
+							</div>
+						</div>
+						
+						<div id="column_4eyg28pib" class="column" data-xl-width="5">
+							<div class="content-wrapper">
+								<div id="content_yov2sbjo2" class="column-content" data-module="video">
+									<div class="ce-video" data-hide-controls="on" data-transparent-controls="on" style="width: 100%; max-width: 100%">
+									<span class="mejs-offscreen">Image</span><div id="mep_1" class="mejs-container mejs-container-keyboard-inactive video mejs-video" tabindex="0" role="application" aria-label="Video Player" style="width: 481.656px; height: 481.656px; min-width: 0px;"><div class="mejs-inner">
+									<div class="mejs-mediaelement">
+										<mediaelementwrapper id="mejs_3442681862920427" poster="">
+											<video class="video is-content" width="900" height="900" webkit-playsinline="" playsinline="" preload="none" poster="img/home4.jpg" loop="" autoplay="" muted="" id="mejs_3442681862920427_html5" src="img/home4.jpg" style="width: 481.656px; height: 481.656px;" data-video="2">
+												<source src="img/home4.jpg" type="video/mp4">
+											</video>
+										</mediaelementwrapper>
+									</div>
+									
+									<div class="mejs-layers">
+										<div class="mejs-poster mejs-layer" style="background-image: url(&quot;img/home2.jpg&quot;); width: 100%; height: 100%; display: none;"><img class="mejs-poster-img" width="0" height="0" src="img/home4.jpg"></div><div class="mejs-overlay mejs-layer" style="width: 100%; height: 100%; display: none;"><div class="mejs-overlay-loading"><span class="mejs-overlay-loading-bg-img"></span></div></div><div class="mejs-overlay mejs-layer" style="display: none; width: 100%; height: 100%;"><div class="mejs-overlay-error"></div></div><div class="mejs-overlay mejs-layer mejs-overlay-play" style="width: 100%; height: 100%; display: none;"><div class="mejs-overlay-button" role="button" tabindex="0" aria-label="Play" aria-pressed="false"></div></div></div><div class="mejs-controls mejs-offscreen" style="opacity: 0;"><div class="mejs-button mejs-playpause-button mejs-pause"><button type="button" aria-controls="mep_1" title="Pause" aria-label="Pause" tabindex="0"></button></div><div class="mejs-time mejs-currenttime-container" role="timer" aria-live="off"><span class="mejs-currenttime">00:05</span></div><div class="mejs-time-rail"><span class="mejs-time-total mejs-time-slider" role="slider" tabindex="0"><span class="mejs-time-buffering" style="display: none;"></span><span class="mejs-time-loaded" style="transform: scaleX(1);"></span><span class="mejs-time-current" style="transform: scaleX(0.36);"></span><span class="mejs-time-hovered no-hover"></span><span class="mejs-time-handle" style="transform: translateX(36px);"><span class="mejs-time-handle-content"></span></span><span class="mejs-time-float"><span class="mejs-time-float-current">00:00</span><span class="mejs-time-float-corner"></span></span></span></div><div class="mejs-time mejs-duration-container"><span class="mejs-duration">00:06</span></div><div class="mejs-button mejs-volume-button mejs-unmute"><button type="button" aria-controls="mep_1" title="Unmute" aria-label="Unmute" tabindex="0"></button><a href="javascript:void(0);" class="mejs-volume-slider" aria-label="Volume Slider" aria-valuemin="0" aria-valuemax="100" role="slider" aria-orientation="vertical" aria-valuenow="0" aria-valuetext="0%"><span class="mejs-offscreen">Use Up/Down Arrow keys to increase or decrease volume.</span><div class="mejs-volume-total"><div class="mejs-volume-current" style="bottom: 0px; height: 0%;"></div><div class="mejs-volume-handle" style="bottom: 0%; margin-bottom: -3px;"></div></div></a></div><div class="mejs-button mejs-fullscreen-button"><button type="button" aria-controls="mep_1" title="Fullscreen" aria-label="Fullscreen" tabindex="0"></button></div></div></div></div>
+						</div>
+					
+						</div>
+					
+							</div>
+						</div>
+						
+						<div id="column_85r6t8qun" class="column spacer-column" data-xl-width="1">
+							<div class="content-wrapper"></div>
+						</div>
+						
+						<div id="column_jbj4hblu0" class="column" data-xl-width="5" data-valign="center" style="opacity: 0; transform: matrix(1, 0, 0, 1, 100, 0);">
+							<div class="content-wrapper">
+							<div id="content_cwwz1quoq" class="column-content" data-module="paragraph" >
+								<div class="is-content"><div data-content-for="xl"><p style="font-size: 0.888889rem;" data-mce-style="font-size: 0.888889rem;"><span style="letter-spacing: 0.111111rem;" data-mce-style="letter-spacing: 0.111111rem;" class="font_n9wcytiar"><span data-mce-style="color: #a5a5a5; font-family: Karla, sans-serif;" style="color: #a5a5a5; font-family: Karla, sans-serif;">PERSONAL RESEARCH PROJECT</span></span></p></div></div>
+							</div>
+			
+							<div id="content_yeuvwiz6e" class="column-content" data-module="paragraph" >
+								<div class="is-content"><div data-content-for="xl"><p style="font-size: 1.66667rem; line-height: 2.22222rem;" data-mce-style="font-size: 1.66667rem; line-height: 2.22222rem;"><span class="font_3zzun8rvt">Creating an original feature based on user research</span></p></div></div>
+							</div>
+			
+							<div id="content_uoeb0qr79" class="column-content" data-module="image" >
+								<div class="ce-image" data-align="left"><img class="is-content" style="padding-right: 0.5rem;" src="img/spotify-tag.svg" alt="tag-spotify" caption="" data-width="original" data-scaling="no"> <img class="is-content" src="img/assemble-tag.svg" alt="tag-spotify" caption="" data-width="original" data-scaling="no"></div>
+							</div>
+	
+			
+							<div id="content_60hp972lm" class="column-content" data-module="paragraph" >
+								<div class="is-content"><div data-content-for="xl"><p style="font-family:'Lucida Sans', sans-serif; font-size: 1.11111rem;" data-mce-style="font-size: 1.11111rem;"><span class="font_3qmflxvbd">Designing an original group feature encompassed in Spotify branding</span></p></div></div>
+							</div>
+						
+							<div id="content_6no0aw8uc" class="column-content" data-module="button" >
+								<div class="ce-button" data-align="left">
+									<div class="is-content" data-width="auto">
+										<a  data-font="font_n9wcytiar" href="https://nehalj.com/assemble" target="_self">VIEW WORK ➞</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</div>
+				</div>
+			</section>				
+				
+			<section id="section_2ytk5iwf7" class="content-block" data-column-mode-sm="single" data-column-mode-xs="single" data-gutter="yes" data-layout="grid" data-height="dynamic" data-valign="center" >
+						<div class="background-video"></div>
+						<div class="container">
+						<div id="row_r8rtv2750" class="row"><div id="column_xuk5mnvaa" class="column" data-xl-width="5" data-valign="center" >
+					<div class="content-wrapper">
+						
+				<div id="content_vgoinphxh" class="column-content" data-module="paragraph" >
+					<div class="is-content"><div data-content-for="xl"><p style="font-size: 0.888889rem;" data-mce-style="font-size: 0.888889rem;"><span style="letter-spacing: 0.111111rem;" data-mce-style="letter-spacing: 0.111111rem;" class="font_n9wcytiar"><span data-mce-style="color: #a5a5a5; font-family: Karla, sans-serif;" style="color: #a5a5a5; font-family: Karla, sans-serif;">DCC PRESIDENT AND CREATIVE DIRECTOR</span></span></p></div></div>
+				</div>
+			
+				<div id="content_x6x9lufsl" class="column-content" data-module="paragraph" >
+					<div class="is-content"><div data-content-for="xl"><p style="font-size: 1.66667rem; line-height: 2.22222rem;" data-mce-style="font-size: 1.66667rem; line-height: 2.22222rem;"><span class="font_3zzun8rvt">Leading the creative vision for UC Davis Design</span></p></div></div>
+				</div>
+			
+				<div id="content_2yys6om8z" class="column-content" data-module="image" >
+					<div class="ce-image" data-align="left"><img class="is-content" style="padding-right: 0.5rem;" src="img/dcc-tag1.svg" alt="dcc-tag" caption="" data-width="original" data-scaling="no"> <img class="is-content" src="img/dcc-tag2.svg" alt="dcc-tag" caption="" data-width="original" data-scaling="no"></div>
+				</div>
+			
+				<div id="content_st54tlrp8" class="column-content" data-module="paragraph" >
+					<div class="is-content"><div data-content-for="xl"><p style="font-family:'Lucida Sans', sans-serif; font-size: 1.11111rem;" data-mce-style="font-size: 1.11111rem;"><span class="font_3qmflxvbd">Guided the design team in visual interface, user experience, and brand identity design</span></p></div></div>
+				</div>
+			
+				<div id="content_5zea2hvl6" class="column-content" data-module="button" >
+					
+				<div class="ce-button" data-align="left">
+					<div class="is-content" data-width="auto">
+						<a  data-font="font_n9wcytiar" href="https://nehalj.com/dcc" target="_self">VIEW WORK ➞</a>
+					</div>
+				</div>
+			
+				</div>
+			
+					</div>
+				</div><div id="column_5x185pmof" class="column spacer-column" data-xl-width="1" >
+					<div class="content-wrapper">
+						
+					</div>
+				</div><div id="column_oed2nzuna" class="column" data-xl-width="5" >
+					<div class="content-wrapper">
+						
+				<div id="content_lt51gilis" class="column-content" data-module="video" >
+					
+					<div class="ce-video" data-hide-controls="on" data-transparent-controls="on" style="width: 100%; max-width: 100%">
+						<span class="mejs-offscreen">Image</span><div id="mep_2" class="mejs-container mejs-container-keyboard-inactive video mejs-video" tabindex="0" role="application" aria-label="Video Player" style="width: 481.656px; height: 481.656px; min-width: 0px;"><div class="mejs-inner"><div class="mejs-mediaelement"><mediaelementwrapper id="mejs_4294832995771247" poster=""><video class="video is-content" width="900" height="900" webkit-playsinline="" playsinline="" preload="none" poster="img/home5.jpg" loop="" autoplay="" muted="" id="mejs_4294832995771247_html5" src="img/home5.jpg" style="width: 481.656px; height: 481.656px;" data-video="3">
+							<source src="img/home5.jpg" type="img/jpg">
+						</video></mediaelementwrapper></div><div class="mejs-layers"><div class="mejs-poster mejs-layer" style="background-image: url(&quot;img/home5.jpg&quot;); width: 100%; height: 100%; display: none;"><img class="mejs-poster-img" width="0" height="0" src="img/home5.jpg"></div><div class="mejs-overlay mejs-layer" style="width: 100%; height: 100%; display: none;"><div class="mejs-overlay-loading"><span class="mejs-overlay-loading-bg-img"></span></div></div><div class="mejs-overlay mejs-layer" style="display: none; width: 100%; height: 100%;"><div class="mejs-overlay-error"></div></div><div class="mejs-overlay mejs-layer mejs-overlay-play" style="width: 100%; height: 100%; display: none;"><div class="mejs-overlay-button" role="button" tabindex="0" aria-label="Play" aria-pressed="false"></div></div></div><div class="mejs-controls"><div class="mejs-button mejs-playpause-button mejs-pause"><button type="button" aria-controls="mep_2" title="Pause" aria-label="Pause" tabindex="0"></button></div><div class="mejs-time mejs-currenttime-container" role="timer" aria-live="off"><span class="mejs-currenttime">00:02</span></div><div class="mejs-time-rail"><span class="mejs-time-total mejs-time-slider" role="slider" tabindex="0"><span class="mejs-time-buffering" style="display: none;"></span><span class="mejs-time-loaded" style="transform: scaleX(1);"></span><span class="mejs-time-current" style="transform: scaleX(0.37);"></span><span class="mejs-time-hovered no-hover"></span><span class="mejs-time-handle" style="transform: translateX(37px);"><span class="mejs-time-handle-content"></span></span><span class="mejs-time-float"><span class="mejs-time-float-current">00:00</span><span class="mejs-time-float-corner"></span></span></span></div><div class="mejs-time mejs-duration-container"><span class="mejs-duration">00:06</span></div><div class="mejs-button mejs-volume-button mejs-unmute"><button type="button" aria-controls="mep_2" title="Unmute" aria-label="Unmute" tabindex="0"></button><a href="javascript:void(0);" class="mejs-volume-slider" aria-label="Volume Slider" aria-valuemin="0" aria-valuemax="100" role="slider" aria-orientation="vertical" aria-valuenow="0" aria-valuetext="0%"><span class="mejs-offscreen">Use Up/Down Arrow keys to increase or decrease volume.</span><div class="mejs-volume-total"><div class="mejs-volume-current" style="bottom: 0px; height: 0%;"></div><div class="mejs-volume-handle" style="bottom: 0%; margin-bottom: -3px;"></div></div></a></div><div class="mejs-button mejs-fullscreen-button"><button type="button" aria-controls="mep_2" title="Fullscreen" aria-label="Fullscreen" tabindex="0"></button></div></div></div></div>
+					</div>
+				
+					</div>
+				
+						</div>
+					</div><div id="column_5j73kfptu" class="column" data-xl-width="1">
+						<div class="content-wrapper">
+							
+					<div id="content_wptwqf5op" class="column-content hide-for-mobile" data-module="image">
+						<div class="ce-image" data-align="right"><img class="is-content" src="img/cover5.jpg" alt="cstem-rectangle" caption="" data-width="original" data-scaling="no"></div>
+					</div>
+				
+			
+					</div>
+				</div></div>
+				</div>
+		</div>
+		
+
+
+        <!-- Footer -->
+		<footer class="footer navbar-light bg-light" 
+		style="background-color: #fff !important;">
+			<div class="footercontainer text-center">
+			<a target="_blank"href="https://www.linkedin.com/in/nehalj98/"><i class="fab fa-linkedin-in"></i></a>
+			<a href="mailto:nehalj98@gmail.com"><i class="fas fa-envelope"></i></a>
+			</div>
+		</footer>
+	</div>
+</div>	
+	</div>
+
+	</section>	
+			
+	
+			
+
+<!-- 
+
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="pswp__bg"></div>
+	<div class="pswp__scroll-wrap">
+		<div class="pswp__container">
+			<div class="pswp__item"></div>
+			<div class="pswp__item"></div>
+			<div class="pswp__item"></div>
+		</div>
+		<div class="pswp__ui pswp__ui--hidden">
+			<div class="pswp__top-bar">
+				<div class="pswp__counter"></div>
+				<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+				<button class="pswp__button pswp__button--share" title="Share"></button>
+				<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+				<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+				<div class="pswp__preloader">
+					<div class="pswp__preloader__icn">
+					  <div class="pswp__preloader__cut">
+						<div class="pswp__preloader__donut"></div>
+					  </div>
+					</div>
+				</div>
             </div>
-
-
-  
-             <!-- Projects Section -->
-        <div id="projects" >
-            <div id="projects_header" class="viewport_vertical_top_padding_20 portfolio_section">
-            <!-- <h3>Projects</h3> -->
-            <div class="container-fluid project_modules">
-                <div class="row">
-                    <div class="col-md-6   col-12   module_wrapper" >
-                        <a class="module_link" href="">
-                        <div class="module" data-slideInRight>
-                            <div id="freebites_image" class="module_image"></div>
-                            <div class="module_description" id="freebites_module_description" >
-                            <span class="project_module_text" id="freebites_module_label">FreeBites<br>(In Process)</span>
-                            </div>
+        
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
             
-                        </div>
-                        </a>
-                    </div>
-
-                    <div class="col-md-6   col-12   module_wrapper" data-slideInLeft>
-                
-                            <div class="content-wrapper">
-						
-                                <div id="content_zkw89v3t4" class="column-content" data-module="paragraph">
-                                    <div class="is-content"><div data-content-for="xl"><p style="font-size: 0.888889rem;" data-mce-style="font-size: 0.888889rem;"><span style="letter-spacing: 0.111111rem;" data-mce-style="letter-spacing: 0.111111rem;" class="font_n9wcytiar"><span data-mce-style="color: #a5a5a5; font-family: Karla, sans-serif;" style="color: #a5a5a5; font-family: Karla, sans-serif;">FREEBITES PRODUCT DESIGNER</span></span></p></div></div>
-                                </div>
-                            
-                                <div id="content_7ypv7aqfm" class="column-content" data-module="paragraph">
-                                    <div class="is-content"><div data-content-for="xl"><p style="font-size: 1.66667rem; line-height: 2.22222rem;" data-mce-style="font-size: 1.66667rem; line-height: 2.22222rem;"><span class="font_3zzun8rvt">Designing the web consumer experience and redesigning the branding</span></p></div></div>
-                                </div>
-                            
-                                <div id="content_doduglyuv" class="column-content" data-module="image">
-                                    <div class="ce-image" data-align="left"><img class="is-content" src="img/freebites-tag.svg" alt="freebites-tag" caption="" data-width="original" data-scaling="no"></div>
-                                </div>
-                            
-                                <div id="content_8j4alqy1p" class="column-content" data-module="paragraph">
-                                    <div class="is-content"><div data-content-for="xl"><p style="font-size: 1.11111rem; padding-top:1.8rem;" data-mce-style="font-size: 1.11111rem;"><span class="font_3qmflxvbd">- Collaborating with a team of designers and engineers to simplify web information architecture and redesigned UI that represents a community that reduces food insecurity.</span></p></div></div>
-                                </div>
-                            
-                                <div id="content_j0se69ex6" class="column-content" data-module="button" style="transform: matrix(1, 0, 0, 1, -10, 0);">
-                                 
-                            
-                                </div>
-                            
-                            </div>
-                    </div></div>
-                
-                <div class="row"> 
-                    <div class="col-md-6   col-12   module_wrapper">
-                        <a class="module_link" href="cstem">
-                        <div class="module" data-slideInRight>
-                            <div id="cstem_image" class="module_image"></div>
-            
-                            <div class="module_description" id="cstem_module_description">
-                            <span class="project_module_text" id="cstem_module_label">UC Davis Website<br>Redesign</span>
-                            </div>
-            
-                        </div>
-                        </a>
-                    </div>
-
-                    <div class="col-md-6   col-12   module_wrapper" data-slideInLeft>
-
-                            <div class="content-wrapper">
-						
-                                <div id="content_zkw89v3t4" class="column-content" data-module="paragraph">
-                                    <div class="is-content"><div data-content-for="xl"><p style="font-size: 0.888889rem;" data-mce-style="font-size: 0.888889rem;"><span style="letter-spacing: 0.111111rem;" data-mce-style="letter-spacing: 0.111111rem;" class="font_n9wcytiar"><span data-mce-style="color: #a5a5a5; font-family: Karla, sans-serif;" style="color: #a5a5a5; font-family: Karla, sans-serif;">UC DAVIS EXPERIENCE DESIGN INTERN</span></span></p></div></div>
-                                </div>
-                            
-                                <div id="content_7ypv7aqfm" class="column-content" data-module="paragraph">
-                                    <div class="is-content"><div data-content-for="xl"><p style="font-size: 1.66667rem; line-height: 2.22222rem;" data-mce-style="font-size: 1.66667rem; line-height: 2.22222rem;"><span class="font_3zzun8rvt">Summer 2019 Internship with UC Davis External Tools team</span></p></div></div>
-                                </div>
-                            
-                                <div id="content_doduglyuv" class="column-content" data-module="image">
-                                    <div class="ce-image" data-align="left"><img class="is-content" src="img/cstem-tag.svg" alt="cstem-tag" caption="" data-width="original" data-scaling="no"></div>
-                                </div>
-                            
-                                <div id="content_8j4alqy1p" class="column-content" data-module="paragraph">
-                                    <div class="is-content"><div data-content-for="xl"><p style="font-size: 1.11111rem; padding-top:1.8rem;" data-mce-style="font-size: 1.11111rem;"><span class="font_3qmflxvbd">Redesigning external tools and visual systems to improve active users and subscription efficiency</span></p></div></div>
-                                </div>
-                            
-                                <div id="content_j0se69ex6" class="column-content" data-module="button" style="transform: matrix(1, 0, 0, 1, -10, 0);">
-                                    
-                            
-                                </div>
-                            
-                                    </div>
-                        </div>
-                            
-                    </div>
-
-                    
-                    
-                    <div class="row">
-                    <div class="col-md-6   col-12   module_wrapper" >
-                        <a class="module_link" href="dhousing">
-                        <div class="module" data-slideInRight>
-                            <div id="dhousing_image" class="module_image"></div>
-            
-                            <div class="module_description" id="dhousing_module_description" >
-                            <span class="project_module_text" id="dhousing_module_label">Davis Housing<br>UX Design</span>
-                            </div>
-            
-                        </div>
-                        </a>
-                    </div>
-
-                    <div class="col-md-6   col-12   module_wrapper" data-slideInLeft>
-                
-                            <div class="content-wrapper">
-						
-                                <div id="content_zkw89v3t4" class="column-content" data-module="paragraph">
-                                    <div class="is-content"><div data-content-for="xl"><p style="font-size: 0.888889rem;" data-mce-style="font-size: 0.888889rem;"><span style="letter-spacing: 0.111111rem;" data-mce-style="letter-spacing: 0.111111rem;" class="font_n9wcytiar"><span data-mce-style="color: #a5a5a5; font-family: Karla, sans-serif;" style="color: #a5a5a5; font-family: Karla, sans-serif;">DAVIS HOUSING PRODUCT DESIGNER</span></span></p></div></div>
-                                </div>
-                            
-                                <div id="content_7ypv7aqfm" class="column-content" data-module="paragraph">
-                                    <div class="is-content"><div data-content-for="xl"><p style="font-size: 1.66667rem; line-height: 2.22222rem;" data-mce-style="font-size: 1.66667rem; line-height: 2.22222rem;"><span class="font_3zzun8rvt">Producing visual designs for an engaging consumer experience</span></p></div></div>
-                                </div>
-                            
-                                <div id="content_doduglyuv" class="column-content" data-module="image">
-                                    <div class="ce-image" data-align="left"><img class="is-content" src="img/davishousing-tag.svg" alt="cstem-tag" caption="" data-width="original" data-scaling="no"></div>
-                                </div>
-                            
-                                <div id="content_8j4alqy1p" class="column-content" data-module="paragraph">
-                                    <div class="is-content"><div data-content-for="xl"><p style="font-size: 1.11111rem; padding-top:1.8rem;" data-mce-style="font-size: 1.11111rem;"><span class="font_3qmflxvbd">Crafting an experience that is intuitive, beautiful, and engaging to help people succeed in their apartment search</span></p></div></div>
-                                </div>
-                            
-                                <div id="content_j0se69ex6" class="column-content" data-module="button" style="transform: matrix(1, 0, 0, 1, -10, 0);">
-                                 
-                            
-                                </div>
-                            
-                            </div>
-                    </div></div>
-
-                    <div class="row">
-                    <div class="col-md-6   col-12   module_wrapper">
-                        <a class="module_link" id="explored_module_description" href="assemble">
-                        <div class="module" data-slideInLeft>
-                            <div id="explored_image" class="module_image"></div>
-            
-                            <div class="module_description" id="explored_module_description">
-                            <span class="project_module_text" id="explored_module_label">Spotify <br>Assemble</span>
-                            </div>
-                        </div>
-                        </a>
-                    </div>
-
-
-                    <div class="col-md-6   col-12   module_wrapper" data-slideInRight>
-                        <div class="content-wrapper">
-						
-                            <div id="content_zkw89v3t4" class="column-content" data-module="paragraph">
-                                <div class="is-content"><div data-content-for="xl"><p style="font-size: 0.888889rem;" data-mce-style="font-size: 0.888889rem;"><span style="letter-spacing: 0.111111rem;" data-mce-style="letter-spacing: 0.111111rem;" class="font_n9wcytiar"><span data-mce-style="color: #a5a5a5; font-family: Karla, sans-serif;" style="color: #a5a5a5; font-family: Karla, sans-serif;">PERSONAL RESEARCH PROJECT</span></span></p></div></div>
-                            </div>
-                        
-                            <div id="content_7ypv7aqfm" class="column-content" data-module="paragraph">
-                                <div class="is-content"><div data-content-for="xl"><p style="font-size: 1.66667rem; line-height: 2.22222rem;" data-mce-style="font-size: 1.66667rem; line-height: 2.22222rem;"><span class="font_3zzun8rvt">Creating an original feature based on user flow </span></p></div></div>
-                            </div>
-                            
-                            
-                            <div id="content_uoeb0qr79" class="column-content" data-module="image">
-                                <div class="ce-image" data-align="left"><img class="is-content" src="img/spotify-tag.svg" alt="tag-spotify" caption="" data-width="original" data-scaling="no"> <img class="is-content" src="img/assemble-tag.svg" alt="tag-spotify" caption="" data-width="original" data-scaling="no"></div>
-                            </div>
-
-                            <div id="content_8j4alqy1p" class="column-content" data-module="paragraph">
-                                <div class="is-content"><div data-content-for="xl"><p style="font-size: 1.11111rem; padding-top:1.8rem;" data-mce-style="font-size: 1.11111rem;"><span class="font_3qmflxvbd">Designing an original group feature encompassed in Spotify branding</span></p></div></div>
-                            </div>
-                        
-                            <div id="content_j0se69ex6" class="column-content" data-module="button" style="transform: matrix(1, 0, 0, 1, -10, 0);">
-                                
-                        
-                            </div>
-                        
-                                </div>
-                
-                    </div></div>
-
-
-                    <div class="row">
-                
-                    <div class="col-md-6   col-12   module_wrapper" >
-                        <a class="module_link" id="ui_module_description" href="uipsych">
-                        <div class="module" data-slideInLeft>
-                            <div id="ui_image" class="module_image"></div>
-            
-                            <div class="module_description" id="ui_module_description">
-                            <span class="project_module_text" id="ui_module_label">UI +<br>Digital Psychology</span>
-                            </div>
-            
-                        </div>
-                        </a>
-                    </div>
-
-                    <div class="col-md-6   col-12   module_wrapper" data-slideInRight>
-                        <div class="content-wrapper">
-						
-                            <div id="content_zkw89v3t4" class="column-content" data-module="paragraph">
-                                <div class="is-content"><div data-content-for="xl"><p style="font-size: 0.888889rem;" data-mce-style="font-size: 0.888889rem;"><span style="letter-spacing: 0.111111rem;" data-mce-style="letter-spacing: 0.111111rem;" class="font_n9wcytiar"><span data-mce-style="color: #a5a5a5; font-family: Karla, sans-serif;" style="color: #a5a5a5; font-family: Karla, sans-serif;">UNDERSTANDING THE PSYCHOLOGY BEHIND DESIGN CHOICES</span></span></p></div></div>
-                            </div>
-                        
-                            <div id="content_7ypv7aqfm" class="column-content" data-module="paragraph">
-                                <div class="is-content"><div data-content-for="xl"><p style="font-size: 1.66667rem; line-height: 2.22222rem;" data-mce-style="font-size: 1.66667rem; line-height: 2.22222rem;"><span class="font_3zzun8rvt">Explorative research in Digital Psychology</span></p></div></div>
-                            </div>
-                        
-                            <div id="content_doduglyuv" class="column-content" data-module="image">
-                                <div class="ce-image" data-align="left"><img class="is-content" src="img/uipsych-tag.svg" alt="cstem-tag" caption="" data-width="original" data-scaling="no"></div>
-                            </div>
-                        
-                            <div id="content_8j4alqy1p" class="column-content" data-module="paragraph">
-                                <div class="is-content"><div data-content-for="xl"><p style="font-size: 1.11111rem; padding-top:1.8rem;" data-mce-style="font-size: 1.11111rem;"><span class="font_3qmflxvbd">Fabricating UI features using persuasive methods to increase the number of active users</span></p></div></div>
-                            </div>
-                        
-                            <div id="content_j0se69ex6" class="column-content" data-module="button" style="transform: matrix(1, 0, 0, 1, -10, 0);">
-                        
-                            </div>
-                        
-                                </div>
-                    </div>
-                
-                
-                </div>
-
-
-                <div class="row">
-                    <div class="col-md-6   col-12   module_wrapper">
-                        <a class="module_link" href="dcc">
-                        <div class="module" data-slideInLeft>
-                            <div id="dcc_image" class="module_image"></div>
-            
-                            <div class="module_description" id="dcc_module_description">
-                            <span class="project_module_text" id="dcc_module_label">DCC Website<br>UI/UX Design</span>
-                            </div>
-                        </div>
-                        </a>
-                    </div>   
-
-                    <div class="col-md-6   col-12   module_wrapper" data-slideInRight>
-                        <div class="content-wrapper">
-						
-                            <div id="content_zkw89v3t4" class="column-content" data-module="paragraph">
-                                <div class="is-content"><div data-content-for="xl"><p style="font-size: 0.888889rem;" data-mce-style="font-size: 0.888889rem;"><span style="letter-spacing: 0.111111rem;" data-mce-style="letter-spacing: 0.111111rem;" class="font_n9wcytiar"><span data-mce-style="color: #a5a5a5; font-family: Karla, sans-serif;" style="color: #a5a5a5; font-family: Karla, sans-serif;">DCC PRESIDENT AND CREATIVE DIRECTOR</span></span></p></div></div>
-                            </div>
-                        
-                            <div id="content_7ypv7aqfm" class="column-content" data-module="paragraph">
-                                <div class="is-content"><div data-content-for="xl"><p style="font-size: 1.66667rem; line-height: 2.22222rem;" data-mce-style="font-size: 1.66667rem; line-height: 2.22222rem;"><span class="font_3zzun8rvt">Leading the creative vision for UC Davis Design</span></p></div></div>
-                            </div>
-                        
-                            <div id="content_doduglyuv" class="column-content" data-module="image">
-                                <div class="ce-image" data-align="left"><img class="is-content" src="img/dcc-tag1.svg" alt="cstem-tag" caption="" data-width="original" data-scaling="no"> <img class="is-content" src="img/dcc-tag2.svg" alt="cstem-tag" caption="" data-width="original" data-scaling="no"></div>
-                            </div>
-                        
-                            <div id="content_8j4alqy1p" class="column-content" data-module="paragraph">
-                                <div class="is-content"><div data-content-for="xl"><p style="font-size: 1.11111rem; padding-top:1.8rem;" data-mce-style="font-size: 1.11111rem;"><span class="font_3qmflxvbd">Guided the design team in visual interface, user experience, and brand identity design</span></p></div></div>
-                            </div>
-                        
-                            <div id="content_j0se69ex6" class="column-content" data-module="button" style="transform: matrix(1, 0, 0, 1, -10, 0);">
-                             
-                        
-                            </div>
-                        
-                                </div>
-                
-                    </div></div>
-                    
-            
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
             </div>
         </div>
     </div>
+    </div>	 -->
 
-        <!-- Footer -->
-        <footer class="footer navbar-light bg-light">
-            <div class="container text-center">
-            <a target="_blank"href="https://www.linkedin.com/in/nehalj98/"><i class="fab fa-linkedin-in"></i></a>
-            <a href="mailto:nnjain@ucdavis.edu"><i class="fas fa-envelope"></i></a>
-            </div>
-            <div class="is-content"><div data-content-for="xl"><h3 style="text-align: center; font-size: 0.9rem; padding-top:0.5%; padding-bottom:1%;" data-mce-style="text-align: center; font-size: 0.777778rem;"><span class="font_acg6rwb1e">© Nehal Jain 2020</span></h6></div></div>
-        </footer>
-        
-        <!-- Custom JS -->
-        <script src="script.js"></script>
-        <script src="assets/smoothscroll/SmoothScroll.js"></script>
-        <script src="assets/smoothscroll/SmoothScroll.min.js"></script>
+    <div class="back-to-top">
+        <a class="semplice-event" data-event-type="helper" data-event="scrollToTop">
+            <svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="53px" height="20px" viewBox="0 0 53 20" enable-background="new 0 0 53 20" xml:space="preserve">
+                <g id="Ebene_3"></g>
+                <g><polygon points="43.886,16.221 42.697,17.687 26.5,4.731 10.303,17.688 9.114,16.221 26.5,2.312 	"/></g>
+            </svg>
+        </a>
+	</div>
 
-        <!-- JQuery -->
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>
-            AOS.init({
-                offset: 200,
-                duration: 1000,
-            });
-          </script>
 
-        
+    <script type='text/javascript' src='js/script.js'></script>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+	<script type="text/javascript" src="js/main-1.0.2.min.js"></script>
+    <script type='text/javascript' src='js/frontend.min.js?'></script>
+    <script type='text/javascript' src='js/wp-embed.min.js'></script>
+	<script type='text/javascript' src='src/ScrollTrigger.js'></script>
+    <script type='text/javascript' src='src/extensions/DefaultOptions.js'></script>
+
+	<script type="text/javascript" id="302-motion-js">
+		(function ($) { "use strict";window.sempliceAnimationsController = new ScrollMagic.Controller(); // create a scene
+		var scene = new ScrollMagic.Scene({
+					triggerElement: "#column_pwr7komj2",
+					triggerHook: "onEnter",
+					duration: "75%",
+				})
+				.setTween("#column_pwr7komj2", { opacity: "1",x: "0",y: "0" })
+				
+				
+				.addTo(window.sempliceAnimationsController);
+	// create a scene
+		var scene = new ScrollMagic.Scene({
+					triggerElement: "#content_qqsp7arqh",
+					triggerHook: ".75",
+					duration: "75%",
+				})
+				.setTween("#content_qqsp7arqh", { x: "0",y: "0" })
+				
+				
+				.addTo(window.sempliceAnimationsController);
+	// create a scene
+		var scene = new ScrollMagic.Scene({
+					triggerElement: "#content_mvh7iisxh",
+					triggerHook: "onEnter",
+					duration: "75%",
+				})
+				.setTween("#content_mvh7iisxh", { x: "0",y: "0" })
+				
+				
+				.addTo(window.sempliceAnimationsController);
+	// create a scene
+		var scene = new ScrollMagic.Scene({
+					triggerElement: "#content_z7gk7jge9",
+					triggerHook: "onEnter",
+					duration: "75%",
+				})
+				.setTween("#content_z7gk7jge9", { x: "0",y: "0" })
+				
+				
+				.addTo(window.sempliceAnimationsController);
+	// create a scene
+		var scene = new ScrollMagic.Scene({
+					triggerElement: "#content_z8gk8jge9",
+					triggerHook: "onEnter",
+					duration: "75%",
+				})
+				.setTween("#content_z8gk8jge9", { x: "0",y: "0" })
+				
+				
+				.addTo(window.sempliceAnimationsController);
+	// create a scene
+		var scene = new ScrollMagic.Scene({
+					triggerElement: "#content_yov1sbjo1",
+					triggerHook: ".75",
+					duration: "75%",
+				})
+				.setTween("#content_yov1sbjo1", { x: "0",y: "0" })
+				
+				
+				.addTo(window.sempliceAnimationsController);
+	// create a scene
+	var scene = new ScrollMagic.Scene({
+					triggerElement: "#content_yov2sbjo2",
+					triggerHook: ".75",
+					duration: "75%",
+				})
+				.setTween("#content_yov2sbjo2", { x: "0",y: "0" })
+				
+				
+				.addTo(window.sempliceAnimationsController);
+	// create a scene
+		var scene = new ScrollMagic.Scene({
+					triggerElement: "#column_jbj3hblu0",
+					triggerHook: "onEnter",
+					duration: "75%",
+				})
+				.setTween("#column_jbj3hblu0", { opacity: "1",x: "0",y: "0" })
+				
+				
+				.addTo(window.sempliceAnimationsController);
+	// create a scene
+		var scene = new ScrollMagic.Scene({
+					triggerElement: "#column_jbj4hblu0",
+					triggerHook: "onEnter",
+					duration: "75%",
+				})
+				.setTween("#column_jbj4hblu0", { opacity: "1",x: "0",y: "0" })
+				
+				
+				.addTo(window.sempliceAnimationsController);
+	// create a scene
+		var scene = new ScrollMagic.Scene({
+					triggerElement: "#column_xuk3mnvaa",
+					triggerHook: "onEnter",
+					duration: "75%",
+				})
+				.setTween("#column_xuk3mnvaa", { opacity: "1",x: "0",y: "0" })
+				
+				
+				.addTo(window.sempliceAnimationsController);
+	// create a scene
+	var scene = new ScrollMagic.Scene({
+					triggerElement: "#column_xuk5mnvaa",
+					triggerHook: "onEnter",
+					duration: "75%",
+				})
+				.setTween("#column_xuk5mnvaa", { opacity: "1",x: "0",y: "0" })
+				
+				
+				.addTo(window.sempliceAnimationsController);
+	// create a scene
+		var scene = new ScrollMagic.Scene({
+					triggerElement: "#content_lt42gilis",
+					triggerHook: ".75",
+					duration: "75%",
+				})
+				.setTween("#content_lt42gilis", { x: "0",y: "0" })
+				
+				
+				.addTo(window.sempliceAnimationsController);
+	// create a scene
+		var scene = new ScrollMagic.Scene({
+					triggerElement: "#content_lt51gilis",
+					triggerHook: ".75",
+					duration: "75%",
+				})
+				.setTween("#content_lt51gilis", { x: "0",y: "0" })
+				
+				
+				.addTo(window.sempliceAnimationsController);
+	// create a scene
+		var scene = new ScrollMagic.Scene({
+					triggerElement: "#content_wptwqf8op",
+					triggerHook: "onEnter",
+					duration: "75%",
+				})
+				.setTween("#content_wptwqf8op", { x: "0",y: "0" })
+	
+	// create a scene
+		var scene = new ScrollMagic.Scene({
+					triggerElement: "#content_wptwqf5op",
+					triggerHook: "onEnter",
+					duration: "75%",
+				})
+				.setTween("#content_wptwqf5op", { x: "0",y: "0" })
+				
+				
+	.addTo(window.sempliceAnimationsController);
+	$(window).on("scroll", function() { }); $(window).scroll();
+		$(document).on("mouseover", "#content_j0se69ex6", function() {
+			TweenLite.to("#content_j0se69ex6", 200 / 1000, {x: "0",y: "0",
+			ease: "Power1.easeInOut",
+			delay: "0",
+		});
+	
+		});
+		$(document).on("mouseout", "#content_j0se69ex6", function() {
+			TweenLite.to("#content_j0se69ex6", 200 / 1000, {x: "-10",y: "0",
+			ease: "Power1.easeInOut",
+			delay: "0",
+		});
+	
+		});
+	
+		$(document).on("mouseover", "#content_6no0aw9uc", function() {
+			TweenLite.to("#content_6no0aw9uc", 200 / 1000, {x: "0",y: "0",
+			ease: "Power1.easeInOut",
+			delay: "0",
+		});
+	
+		});
+		$(document).on("mouseout", "#content_6no0aw9uc", function() {
+			TweenLite.to("#content_6no0aw9uc", 200 / 1000, {x: "-10",y: "0",
+			ease: "Power1.easeInOut",
+			delay: "0",
+		});
+	
+		});
+
+		$(document).on("mouseover", "#content_6no0aw8uc", function() {
+			TweenLite.to("#content_6no0aw8uc", 200 / 1000, {x: "0",y: "0",
+			ease: "Power1.easeInOut",
+			delay: "0",
+		});
+	
+		});
+		$(document).on("mouseout", "#content_6no0aw8uc", function() {
+			TweenLite.to("#content_6no0aw8uc", 200 / 1000, {x: "-10",y: "0",
+			ease: "Power1.easeInOut",
+			delay: "0",
+		});
+	
+		});
+	
+		$(document).on("mouseover", "#content_5zea1hvl8", function() {
+			TweenLite.to("#content_5zea1hvl8", 200 / 1000, {x: "0",y: "0",
+			ease: "Power1.easeInOut",
+			delay: "0",
+		});
+	
+		});
+		$(document).on("mouseout", "#content_5zea1hvl8", function() {
+			TweenLite.to("#content_5zea1hvl8", 200 / 1000, {x: "-10",y: "0",
+			ease: "Power1.easeInOut",
+			delay: "0",
+		});
+	
+		});
+
+		$(document).on("mouseover", "#content_5zea2hvl6", function() {
+			TweenLite.to("#content_5zea2hvl6", 200 / 1000, {x: "0",y: "0",
+			ease: "Power1.easeInOut",
+			delay: "0",
+		});
+	
+		});
+
+		$(document).on("mouseout", "#content_5zea2hvl6", function() {
+			TweenLite.to("#content_5zea2hvl6", 200 / 1000, {x: "-10",y: "0",
+			ease: "Power1.easeInOut",
+			delay: "0",
+		});
+	
+		});
+	})(jQuery);(function ($) { "use strict";$(window).on("scroll", function() { }); $(window).scroll();})(jQuery);
+	</script>
+    
     </body>
-   
 </html>

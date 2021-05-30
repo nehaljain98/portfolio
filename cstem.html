@@ -1,433 +1,768 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Nehal Jain | Portfolio | CSTEM Website Redesign</title>
-	<meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <!-- add Normalize CSS from CDN styles across browsers -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
-  
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="assets/bootstrap-4.0.0-dist/css/bootstrap.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="assets/bootstrap-4.4.1-dist/css/bootstrap.css">
+<html lang="en-US" data-semplice="4.4.9" class=" "><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>UC Davis Web - Nehal Jain</title>
+<link rel="dns-prefetch" href="//nehalj.com">
 
-  <!-- Page Specific Styles -->
-  <link rel="stylesheet" type="text/css" href="styles/cstem_styles.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link rel='stylesheet' id='wp-block-library-css'  href='styles/styles.css' type='text/css' media='all' />
+<link rel="stylesheet" id="wp-block-library-css" href="styles/cstem_styles.css" type="text/css" media="all">
+<link rel='stylesheet' id='wp-block-library-css'  href='styles/style.min.css' type='text/css' media='all' />
+	<link rel='stylesheet' id='semplice-stylesheet-css'  href='styles/semplice4.css' type='text/css' media='all' />
+	<link rel='stylesheet' id='semplice-frontend-stylesheet-css'  href='styles/semplice4.frontend.min.css' type='text/css' media='all' />
+	<link rel='stylesheet' id='mediaelement-css'  href='styles/mediaelementplayer-legacy.min.css' type='text/css' media='all' />
 
-
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171077534-1"></script>
-  <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-171077534-1');
+<script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" src="https://michellegore.com/wp-includes/js/jquery/jquery.js?ver=1.12.4"></script>
+<script type="text/javascript" src="https://michellegore.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1"></script>
+<script type="text/javascript">
+var mejsL10n = {"language":"en","strings":{"mejs.install-flash":"You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https:\/\/get.adobe.com\/flashplayer\/","mejs.fullscreen-off":"Turn off Fullscreen","mejs.fullscreen-on":"Go Fullscreen","mejs.download-video":"Download Video","mejs.fullscreen":"Fullscreen","mejs.time-jump-forward":["Jump forward 1 second","Jump forward %1 seconds"],"mejs.loop":"Toggle Loop","mejs.play":"Play","mejs.pause":"Pause","mejs.close":"Close","mejs.time-slider":"Time Slider","mejs.time-help-text":"Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.","mejs.time-skip-back":["Skip back 1 second","Skip back %1 seconds"],"mejs.captions-subtitles":"Captions\/Subtitles","mejs.captions-chapters":"Chapters","mejs.none":"None","mejs.mute-toggle":"Mute Toggle","mejs.volume-help-text":"Use Up\/Down Arrow keys to increase or decrease volume.","mejs.unmute":"Unmute","mejs.mute":"Mute","mejs.volume-slider":"Volume Slider","mejs.video-player":"Video Player","mejs.audio-player":"Audio Player","mejs.ad-skip":"Skip ad","mejs.ad-skip-info":["Skip in 1 second","Skip in %1 seconds"],"mejs.source-chooser":"Source Chooser","mejs.stop":"Stop","mejs.speed-rate":"Speed Rate","mejs.live-broadcast":"Live Broadcast","mejs.afrikaans":"Afrikaans","mejs.albanian":"Albanian","mejs.arabic":"Arabic","mejs.belarusian":"Belarusian","mejs.bulgarian":"Bulgarian","mejs.catalan":"Catalan","mejs.chinese":"Chinese","mejs.chinese-simplified":"Chinese (Simplified)","mejs.chinese-traditional":"Chinese (Traditional)","mejs.croatian":"Croatian","mejs.czech":"Czech","mejs.danish":"Danish","mejs.dutch":"Dutch","mejs.english":"English","mejs.estonian":"Estonian","mejs.filipino":"Filipino","mejs.finnish":"Finnish","mejs.french":"French","mejs.galician":"Galician","mejs.german":"German","mejs.greek":"Greek","mejs.haitian-creole":"Haitian Creole","mejs.hebrew":"Hebrew","mejs.hindi":"Hindi","mejs.hungarian":"Hungarian","mejs.icelandic":"Icelandic","mejs.indonesian":"Indonesian","mejs.irish":"Irish","mejs.italian":"Italian","mejs.japanese":"Japanese","mejs.korean":"Korean","mejs.latvian":"Latvian","mejs.lithuanian":"Lithuanian","mejs.macedonian":"Macedonian","mejs.malay":"Malay","mejs.maltese":"Maltese","mejs.norwegian":"Norwegian","mejs.persian":"Persian","mejs.polish":"Polish","mejs.portuguese":"Portuguese","mejs.romanian":"Romanian","mejs.russian":"Russian","mejs.serbian":"Serbian","mejs.slovak":"Slovak","mejs.slovenian":"Slovenian","mejs.spanish":"Spanish","mejs.swahili":"Swahili","mejs.swedish":"Swedish","mejs.tagalog":"Tagalog","mejs.thai":"Thai","mejs.turkish":"Turkish","mejs.ukrainian":"Ukrainian","mejs.vietnamese":"Vietnamese","mejs.welsh":"Welsh","mejs.yiddish":"Yiddish"}};
+</script>
+<script type="text/javascript" src="https://michellegore.com/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=4.2.6-78496d1"></script>
+<script type="text/javascript" src="https://michellegore.com/wp-includes/js/mediaelement/mediaelement-migrate.min.js?ver=5.0.13"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/","classPrefix":"mejs-","stretching":"responsive"};
+/* ]]> */
 </script>
 
-</head>
+<!-- <link rel="https://api.w.org/" href="https://michellegore.com/wp-json/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://michellegore.com/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://michellegore.com/wp-includes/wlwmanifest.xml">  -->
+<!-- <meta name="generator" content="WordPress 5.0.13">
+<link rel="canonical" href="https://michellegore.com/project/CStem">
+<link rel="shortlink" href="https://michellegore.com/">
+<link rel="alternate" type="application/json+oembed" href="https://michellegore.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmichellegore.com%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://michellegore.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmichellegore.com%2F&amp;format=xml"> -->
 
-<body>
+<link rel="stylesheet" href="https://use.typekit.net/xbb8sor.css">
 
-	<header>
-    <nav id ="headernav" class="navbar navbar-expand-lg navbar-light">
-
-      <a class="navbar-brand" href="index#main" class="selected">Nehal Jain</a>
-    
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-
-          <li class="nav-object">
-            <a class="nav-link" href=index#projects>Work</a>
-        </li>
-        <li class="nav-object">
-            <a class="nav-link" href="about" >About</a>
-        </li>
   
+<!-- Favicon -->
+<link rel="icon" type="image/jpg" sizes="32x32" href="img/fvicon.jpg">
+<link rel="icon" type="image/jpg" sizes="16x16" href="img/favicon.jpg">
+
+  <style>html{margin-top:0px!important;}#wpadminbar{top:auto!important;bottom:0;}</style>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-110931258-2"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-110931258-2');
+</script>
+	<style type="text/css" id="post_wtqhmj1dl-post-css">.cover-transparent { background: rgba(0,0,0,0) !important; }#content-post_wtqhmj1dl .sections { margin-top: 0px !important; }
   
-    
-        </ul>
-      </div>
-    </nav>
-  </header>
+  #content-post_wtqhmj1dl #cover-309 > .background-video {
+    background-size: cover;
+    background-position: 50% 50%;
+    background-attachment: scroll;
+    background-color: transparent;
+  }
+  
+  #content-post_wtqhmj1dl #cover-309 > .background-video video { 
+    opacity: 1; 
+  }
+  
+  #content-post_wtqhmj1dl #column_m6g01av10 {padding-top: 0rem;}#content-post_wtqhmj1dl #content_gwqmhuy6u {padding-top: 0rem;}#content-post_wtqhmj1dl #content_gwqmhuy6u .is-content {}#content-post_wtqhmj1dl #content_knihcuc93 {padding-top: 3.3333333333333335rem;}#content-post_wtqhmj1dl #content_knihcuc93 .is-content {}#content-post_wtqhmj1dl #content_npgjk86f8 .spacer { background-color: #ffffff; }#content-post_wtqhmj1dl #content_npgjk86f8 .spacer { height: 0.05555555555555555rem; }#content-post_wtqhmj1dl #content_npgjk86f8 {padding-top: 0.8888888888888888rem;opacity: 0.1;}#content-post_wtqhmj1dl #content_npgjk86f8 .is-content {}#content-post_wtqhmj1dl #content_6k23l28lh {padding-top: 0.8888888888888888rem;}#content-post_wtqhmj1dl #content_6k23l28lh .is-content {}#content-post_wtqhmj1dl #content_x05crepop .spacer { background-color: #ffffff; }#content-post_wtqhmj1dl #content_x05crepop .spacer { height: 0.05555555555555555rem; }#content-post_wtqhmj1dl #content_x05crepop {padding-top: 0.8888888888888888rem;opacity: 0.1;}#content-post_wtqhmj1dl #content_x05crepop .is-content {}#content-post_wtqhmj1dl #content_zz9qmce5v {padding-top: 0.8888888888888888rem;}#content-post_wtqhmj1dl #content_zz9qmce5v .is-content {}#content-post_wtqhmj1dl #content_gan2gdhrn .spacer { background-color: #ffffff; }#content-post_wtqhmj1dl #content_gan2gdhrn .spacer { height: 0.05555555555555555rem; }#content-post_wtqhmj1dl #content_gan2gdhrn {padding-top: 0.8888888888888888rem;opacity: 0.1;}#content-post_wtqhmj1dl #content_gan2gdhrn .is-content {}#content-post_wtqhmj1dl #content_4lb96w79e {padding-top: 0.8888888888888888rem;}#content-post_wtqhmj1dl #content_4lb96w79e .is-content {}#content-post_wtqhmj1dl #column_m6g01av10 > .background-video {}#content-post_wtqhmj1dl #section_d97td330p {padding-top: 5.555555555555555rem;padding-bottom: 5.555555555555555rem;}#content-post_wtqhmj1dl #content_sxuuio5ec {padding-top: 0rem;}#content-post_wtqhmj1dl #content_sxuuio5ec .is-content {}#content-post_wtqhmj1dl #content_cvlm9rhwt {padding-top: 0.8888888888888888rem;}#content-post_wtqhmj1dl #content_cvlm9rhwt .is-content {}#content-post_wtqhmj1dl #content_bs875txtg {padding-top: 0rem;}#content-post_wtqhmj1dl #content_bs875txtg .is-content {}#content-post_wtqhmj1dl #content_a9f1ppqo7 {padding-top: 1.6666666666666667rem;}#content-post_wtqhmj1dl #content_a9f1ppqo7 .is-content {}#content-post_wtqhmj1dl #content_lr0k4457v {padding-top: 1.6666666666666667rem;}#content-post_wtqhmj1dl #content_lr0k4457v .is-content {}#content-post_wtqhmj1dl #section_w2jw92a7z {margin-left: 0rem;background-color: #dfe5e6;}#content-post_wtqhmj1dl #content_2jo0hbvrb {margin-right: 0rem;margin-left: 5.555555555555555rem;}#content-post_wtqhmj1dl #content_2jo0hbvrb .is-content {box-shadow: 0rem 0.5555555555555556rem 2.7777777777777777rem 0rem rgba(0,0,0,0.25);}#content-post_wtqhmj1dl #content_e8h1msak7 {margin-top: 0rem;padding-right: 0rem;margin-right: 0rem;margin-bottom: 8.333333333333334rem;margin-left: 0.5555555555555556rem;}#content-post_wtqhmj1dl #content_e8h1msak7 .is-content {}#content-post_wtqhmj1dl #section_gg7adfidh {padding-top: 5.555555555555555rem;}#content-post_wtqhmj1dl #content_bd4kh8nxt {padding-top: 0rem;}#content-post_wtqhmj1dl #content_bd4kh8nxt .is-content {}#content-post_wtqhmj1dl #content_73og4snzw {padding-top: 0.8888888888888888rem;}#content-post_wtqhmj1dl #content_73og4snzw .is-content {}#content-post_wtqhmj1dl #content_p37p18zkx {padding-top: 1.7777777777777777rem;}#content-post_wtqhmj1dl #content_p37p18zkx .is-content {}#content-post_wtqhmj1dl #content_c88o7hbkd {padding-top: 0.8888888888888888rem;}#content-post_wtqhmj1dl #content_c88o7hbkd .is-content {}#content-post_wtqhmj1dl #content_as5jdmgdu {padding-top: 1.7777777777777777rem;}#content-post_wtqhmj1dl #content_as5jdmgdu .is-content {}#content-post_wtqhmj1dl #content_t7p6r0uwd {padding-top: 0.8888888888888888rem;}#content-post_wtqhmj1dl #content_t7p6r0uwd .is-content {}#content-post_wtqhmj1dl #section_4sokmr47p {padding-top: 5.555555555555555rem;}#content-post_wtqhmj1dl #column_ferooujeb {padding-top: 0rem;}#content-post_wtqhmj1dl #content_3gunko26l {padding-top: 0rem;}#content-post_wtqhmj1dl #content_3gunko26l .is-content {}#content-post_wtqhmj1dl #content_73p32272s {padding-top: 1.3333333333333333rem;}#content-post_wtqhmj1dl #content_73p32272s .is-content {}#content-post_wtqhmj1dl #content_wlx0hxpge {padding-top: 0.8333333333333334rem;margin-top: 2.2222222222222223rem;padding-right: 1.6666666666666667rem;padding-bottom: 0.8333333333333334rem;padding-left: 1.6666666666666667rem;background-color: #f4f4f4;}#content-post_wtqhmj1dl #content_wlx0hxpge .is-content {border-style: dashed;}#content-post_wtqhmj1dl #content_byug41tw0 {padding-top: 2.2222222222222223rem;}#content-post_wtqhmj1dl #content_byug41tw0 .is-content {}#content-post_wtqhmj1dl #section_s3wm3gu75 {padding-top: 5.555555555555555rem;}#content-post_wtqhmj1dl #content_ibztk6zt0 {padding-top: 0rem;}#content-post_wtqhmj1dl #content_ibztk6zt0 .is-content {}#content-post_wtqhmj1dl #content_qg0g14hwp {padding-top: 1.3333333333333333rem;}#content-post_wtqhmj1dl #content_qg0g14hwp .is-content {}#content-post_wtqhmj1dl #content_gjf6idp9m {padding-top: 0rem;}#content-post_wtqhmj1dl #content_gjf6idp9m .is-content {}#content-post_wtqhmj1dl #section_rbg4u1tzl {padding-top: 4.444444444444445rem;}#content-post_wtqhmj1dl #content_uds10rf1u {padding-top: 0rem;}#content-post_wtqhmj1dl #content_uds10rf1u .is-content {}#content-post_wtqhmj1dl #content_lqq3owin5 {padding-top: 1.3333333333333333rem;}#content-post_wtqhmj1dl #content_lqq3owin5 .is-content {}#content-post_wtqhmj1dl #section_0qwq7b5bw {padding-top: 0rem;}#content-post_wtqhmj1dl #content_qrcsajd4n {padding-top: 3.5555555555555554rem;}#content-post_wtqhmj1dl #content_qrcsajd4n .is-content {}#content-post_wtqhmj1dl #content_o9n29bbvp {padding-top: 0.8888888888888888rem;}#content-post_wtqhmj1dl #content_o9n29bbvp .is-content {}#gallery-content_wuwjeg6dg .flickity-prev-next-button .arrow { fill: #ffffff !important; }#gallery-content_wuwjeg6dg .flickity-page-dots .dot { background: #000000 !important; }#content-post_wtqhmj1dl #content_wuwjeg6dg {padding-top: 0rem;margin-top: 3.5555555555555554rem;background-color: #dfe5e6;}#content-post_wtqhmj1dl #content_wuwjeg6dg .is-content {}#content-post_wtqhmj1dl #content_n9glptllr {padding-top: 3.5555555555555554rem;}#content-post_wtqhmj1dl #content_n9glptllr .is-content {}#content-post_wtqhmj1dl #content_grgc7w9mc {padding-top: 0.8888888888888888rem;}#content-post_wtqhmj1dl #content_grgc7w9mc .is-content {}#content-post_wtqhmj1dl #content_5p9rku4yh {padding-top: 1.3333333333333333rem;}#content-post_wtqhmj1dl #content_5p9rku4yh .is-content {}#gallery-content_cyndoylcc .flickity-prev-next-button .arrow { fill: #ffffff !important; }#gallery-content_cyndoylcc .flickity-page-dots .dot { background: #000000 !important; }#content-post_wtqhmj1dl #content_cyndoylcc {padding-top: 2.7777777777777777rem;margin-top: 3.5555555555555554rem;padding-right: 2.7777777777777777rem;padding-bottom: 2.7777777777777777rem;margin-bottom: 0rem;padding-left: 2.7777777777777777rem;background-color: #dfe5e6;}#content-post_wtqhmj1dl #content_cyndoylcc .is-content {}#content-post_wtqhmj1dl #section_qqiejmor1 {padding-top: 5.555555555555555rem;}#content-post_wtqhmj1dl #content_9myjv8adj {padding-top: 0rem;}#content-post_wtqhmj1dl #content_9myjv8adj .is-content {}#content-post_wtqhmj1dl #content_zxb50hi37 {padding-top: 1.3333333333333333rem;}#content-post_wtqhmj1dl #content_zxb50hi37 .is-content {}#content-post_wtqhmj1dl #section_8lgudxk3r {padding-top: 5.555555555555555rem;}#content-post_wtqhmj1dl #content_o295wmayv {padding-top: 0rem;}#content-post_wtqhmj1dl #content_o295wmayv .is-content {}#content-post_wtqhmj1dl #content_5tpspidkq {padding-top: 0.4444444444444444rem;}#content-post_wtqhmj1dl #content_5tpspidkq .is-content {}#content-post_wtqhmj1dl #content_sxldky7wn {padding-top: 1.7777777777777777rem;}#content-post_wtqhmj1dl #content_sxldky7wn .is-content {}#content-post_wtqhmj1dl #content_uib654de5 {padding-top: 0.4444444444444444rem;}#content-post_wtqhmj1dl #content_uib654de5 .is-content {}#content-post_wtqhmj1dl #section_cunv48m2z {padding-top: 5.555555555555555rem;padding-bottom: 8.88888888888889rem;}#content-post_wtqhmj1dl #content_y5untgpsu {}#content-post_wtqhmj1dl #content_y5untgpsu .is-content {box-shadow: 0rem 0.5555555555555556rem 2.7777777777777777rem 0rem rgba(0,0,0,0.15);}#content-post_wtqhmj1dl .transition-wrap {}#content-post_wtqhmj1dl #section_3ddc7a236 {padding-top: 5.555555555555555rem;padding-right: 0rem;padding-bottom: 5.555555555555555rem;background-color: #f9f9f9;}#content-post_wtqhmj1dl #content_ffc3a2303 {padding-bottom: 1.7777777777777777rem;}#content-post_wtqhmj1dl #content_ffc3a2303 .is-content {}
+      #content-post_wtqhmj1dl #content_005ead94a .is-content {background-color: transparent;}
+      #content-post_wtqhmj1dl #content_005ead94a .is-content:hover {color: #6b6b6b !important;background-color: transparent !important;}
+      #content-post_wtqhmj1dl #content_005ead94a .is-content a{padding-top: 0.4444444444444444rem;padding-right: 0rem;padding-bottom: 0rem;padding-left: 0rem;color: #6b6b6b;}
+      #content-post_wtqhmj1dl #content_005ead94a .is-content:hover a {color: #a5a5a5 !important;}
+    @media screen and (max-width: 543.98px) { #content-post_wtqhmj1dl #column_67546722f {padding-top: 1.6666666666666667rem;}}@media screen and (max-width: 543.98px) { #content-post_wtqhmj1dl #content_6b687fc6b {padding-top: 0rem;}#content-post_wtqhmj1dl #content_6b687fc6b .is-content {}}#content-post_wtqhmj1dl #content_1d72b90e0 {padding-top: 0.4444444444444444rem;}#content-post_wtqhmj1dl #content_1d72b90e0 .is-content {}@media screen and (max-width: 543.98px) { #content-post_wtqhmj1dl #column_c638fdb82 {padding-top: 1.6666666666666667rem;}}#content-post_wtqhmj1dl #content_92970fe42 {padding-top: 0.4444444444444444rem;}#content-post_wtqhmj1dl #content_92970fe42 .is-content {}.nav_a4k4mp84b { background-color: transparent;; }.nav_a4k4mp84b .navbar-inner .logo a { color: #ffffff; }.nav_a4k4mp84b .navbar-inner .logo a { font-size: 0.8888888888888888rem; }.logo a { text-transform: uppercase; }.logo a { letter-spacing: 0.08333333333333333rem; }.nav_a4k4mp84b .navbar-inner .hamburger a.menu-icon span { background-color: #000000; }.nav_a4k4mp84b .navbar-inner .hamburger a.menu-icon { width: 24; }.nav_a4k4mp84b .navbar-inner .hamburger a.menu-icon span { height: 2px; }.nav_a4k4mp84b .navbar-inner .hamburger a.open-menu span::before { transform: translateY(-6px); }.nav_a4k4mp84b .navbar-inner .hamburger a.open-menu span::after { transform: translateY(6px); }.nav_a4k4mp84b .navbar-inner .hamburger a.open-menu:hover span::before { transform: translateY(-8px); }.nav_a4k4mp84b .navbar-inner .hamburger a.open-menu:hover span::after { transform: translateY(8px); }.nav_a4k4mp84b .navbar-inner .hamburger a.menu-icon { height: 14px; }.nav_a4k4mp84b .navbar-inner .hamburger a.menu-icon span { margin-top: 7px; }.nav_a4k4mp84b .navbar-inner nav ul li a span { color: #ffffff; }.nav_a4k4mp84b .navbar-inner nav ul li a span { text-transform: none; }.nav_a4k4mp84b .navbar-inner nav ul li a span { letter-spacing: 0rem; }.nav_a4k4mp84b .navbar-inner nav ul li a span { border-bottom-width: 0.05555555555555555rem; }.nav_a4k4mp84b .navbar-inner nav ul li a span { border-bottom-color: transparent; }.nav_a4k4mp84b .navbar-inner nav ul li a span { padding-bottom: 0rem; }.nav_a4k4mp84b .navbar-inner nav ul li a:hover span, .navbar-inner nav ul li.current-menu-item a span, .navbar-inner nav ul li.current_page_item a span, .nav_a4k4mp84b .navbar-inner nav ul li.wrap-focus a span { color: #ffffff; }.nav_a4k4mp84b .navbar-inner nav ul li.current-menu-item a span { color: #ffffff; }.nav_a4k4mp84b .navbar-inner nav ul li.current_page_item a span { color: #ffffff; }[data-post-type="project"] .navbar-inner nav ul li.portfolio-grid a span, [data-post-type="post"] .navbar-inner nav ul li.blog-overview a span { color: #ffffff; }.nav_a4k4mp84b .navbar-inner nav ul li a:hover span { border-bottom-color: #ffffff; }.nav_a4k4mp84b .navbar-inner nav ul li.current-menu-item a span { border-bottom-color: #ffffff; }.nav_a4k4mp84b .navbar-inner nav ul li.current_page_item a span { border-bottom-color: #ffffff; }[data-post-type="project"] .navbar-inner nav ul li.portfolio-grid a span, [data-post-type="post"] .navbar-inner nav ul li.blog-overview a span { border-bottom-color: #ffffff; }#overlay-menu { background-color: rgba(245, 245, 245, 1); }@media screen and (min-width: 992px) and (max-width: 1169.98px) { .nav_a4k4mp84b .navbar-inner .hamburger a.menu-icon { height: 14px; }.nav_a4k4mp84b .navbar-inner .hamburger a.menu-icon span { margin-top: 7px; }}@media screen and (min-width: 768px) and (max-width: 991.98px) { .nav_a4k4mp84b .navbar-inner .hamburger a.menu-icon { height: 14px; }.nav_a4k4mp84b .navbar-inner .hamburger a.menu-icon span { margin-top: 7px; }}@media screen and (min-width: 544px) and (max-width: 767.98px) { .nav_a4k4mp84b .navbar-inner .hamburger a.menu-icon { height: 14px; }.nav_a4k4mp84b .navbar-inner .hamburger a.menu-icon span { margin-top: 7px; }}@media screen and (max-width: 543.98px) { .nav_a4k4mp84b .navbar-inner .hamburger a.menu-icon { height: 14px; }.nav_a4k4mp84b .navbar-inner .hamburger a.menu-icon span { margin-top: 7px; }}</style></head>
 
 
-<div class="intro-bg">
-  <div class="intro">
-        <div id="project-date">August - October 2019</div>
-        <div id="project-title">Re-designing a UC Davis Experience</div>
-        <div id="project-description">
-            UC Davis CSTEM Center is a UC Approved Educational Preparation Program for Undergraduate Admission for both K-12 and Community College students to all UC campuses.
-        </div>
-  </div>
-</div>
-
-<div class="bg-img">
-			<img src="img/cstemc.png" alt="japa-banner">
-</div>
-
-
-<div class="project-details-container">
-		<div class="project-details">
-					<div class="detail-container">
-							<div class="detail-title">Duration</div>
-							<div class="emoji-img">⏱</div>
-							<div class="details-description">12 weeks</div>
-					</div>
-			</div>
-
-
-		<div class="project-details">
-					<div class="detail-container">
-							<div class="detail-title">Tools</div>
-							<div class="emoji-img">✒️</div>
-							<div class="details-description">Adobe XD<br>Adobe Illustrator<br>Google Sheets</div>
-					</div>
-		</div>
-
-
-		<div class="project-details">
-					<div class="detail-container">
-							<div class="detail-title">Team</div>
-							<div class="emoji-img">👫</div>
-							<div class="details-description">Nehal Jain<br>Valeria Franco
-							</div>
-					</div>
-		</div>
-
-
-		<div class="project-details">
-					<div class="detail-container">
-							<div class="detail-title">My Role</div>
-							<div class="emoji-img">👩🏻</div>
-							<div class="details-description">UX Designer<br>Brand Development</div>
-					</div>
-		</div>
-
-</div>
-
-
-<div class="storyline-bg">
-  <div class="storyline">
-      <div class="storyline-title">The Story</div>
-      <div class="storyline-description">
-        The UC Davis CStem website is one of the most visited university websites. The site has a lot of different users, but is especially relevant to the 30,000+ K-12 student population that use the site at some point during their robotic and coding career as it contains all of the information about the program's requirements. Unfortunately, as you will see in the "Personas" section of this case study, users find the site unappealing and are often unable to find the information that they need. As a result, both students and faculty are frustrated with the poor web experience.
-        <br><br>
-        <b>The objective:</b> <br><br> My student team was tasked with gathering data about the site’s users, and came up with mockups to explore what a redesigned site might look like. Our objective was to redesign a multi-purpose website that would achieve the center's goal and serve user efficiently.
-        <br><br>
-        <b>My Role:</b> <br><br> I designed and prototyped the branding and layout of the website.
-        Valeria and I contributed to user research, interviews and surveys. We worked frequently and closely with the project manager who was supervising our work.
-      </div>
-  </div>
-</div>
-
-
-<div class="color-bg">
-  <div class="problem-space-container">
-      <div class="small-process-title">Problem Space</div>
-      <div class="main-step-title">Why is the current website design not working?</div>
-          <div class="step-description">
-            The old site’s bad user experience has been a source of frustration for UC Davis students and faculty, so university administrators asked us to explore solutions to the site's problems. We conducted user research and used UC Davis style guides to inform our redesign, and validated our work using a final prototype, which we would present to a group of university stakeholders.
-            <div class="step-description-img">
-              <img src="img/cstembreak.png" alt="animated website imagery">
-            </div>
-
-          </div>
-  </div>
-</div>
-
-
-<div class="background">
-  <div class="current-experience-container">
-    <div class="text">
-      <div class="small-text-title">Current Experience</div>
-      <div class="current-experience-title">Why aren't users engaging with the online presence of this service?</div>
-      The current website design lacks a good information architecture and overwhelms users with loads of information. In this quick demo, we can see that finding information is difficult because the navigation bar has no clear value path. Moreover, due to consistent updates, there are duplicate pages which would confuse users even more. 
-    </div>
-          <div class="current-experience-img">
-            <img src="img/cstem.gif" alt="current CSTEM website experience gif">
-          </div>
-  </div>
-
-  <div class="opportunity-container">
-    <div class="small-text-title">Space for opportunity</div>
-    <div class="problem-title">What if we used this as an opportunity to get students involved?</div>
-      There is only one person who works on the website in the CSTEM department, and unfortunately, he has been unable to redesign it so far. University administrators, who manage department operation, still want to explore improving the user experience:
-      My student team was tasked with gathering data about the site’s users, and came up with mockups to explore what a redesigned site might look like.
-  </div>
-
-
-
-<div class="solution-container">
-		<div class="storyline">
-				<div class="storyline-title">The Solution</div>
-				<div class="storyline-description">
-        We designed a set of new features within the CSTEM website that supports a much wider range of needs. The new design takes new and returning users on a more controlled,
-        personalized journey and uses unique features through the navigation bar that guides users smoothly to their destination.
-        By integrating these features and using the UC Davis branding, the new CSTEM website creates a more full, guided experience for users and builds a more
-				lasting relationship with them.
-				</div>
-		</div>
-		<div class="redesign-banner">
-			<img src="img/cstem.png" alt="CSTEM redesign banner">
-		</div>
-</div>
-
-
-<div class="break-down-container">
-  <div class="break-down-heading">
-    <div class="small-text-title">How did we get there?</div>
-        <div class="storyline-title">User Research</div>
-  </div>
-
-      <div class="break-down-row">
-        <div class="final-gif">
-          <img src="img/cstemsurvey.png" alt="surveyf">
-        </div>
-
-        <div class="break-down-text">
-          <div class="break-down-title">Surveys</div>
-          <div class="break-down-description">
-              We chose to use a survey to discover what the different user segments are. We deliberated on whether an online or an in-person survey was more appropriate. We picked the most effecient user reseach method given our limited resources and decided on online survey.
-              <br>We posted the survey on various faculty and student groups on Facebook. We also emailed school administrators with the survey. In total, we got 56 responses from students and 26 from administrators. Through the survey we gained an understanding of who was using the site, and what they were using it for.
-          </div>
-        </div>
-      </div>
-</div>
-
-<div class="break-down-container">
-      <div class="break-down-row">
-        <div class="break-down-text">
-          <div class="break-down-title">Users and Personas</div>
-          <div class="break-down-description">
-            To get more understanding of what these users’ goals and pain points on the site were, we conducted more in-depth interviews where we would walk through the website with 5 people from each user group.
-            During the interviews, we performed a contextual inquity (or walkthrough) of the website with our interviewees to observe how they used the site and what information they wanted to access. We also asked them both pre-established and follow-up questions about their goals and habits as users.
-            Based off of those interviews, we were able to create personas (who are fictional people with motivations and opinions that average those of the people interviewed).
-          </div>
-        </div>
-        
-
-        <div class="finall-gif">
-          <div class="final-gif">
-            <img src="img/userp1.jpg" alt="user personas">
-            <img src="img/userp2.jpg" alt="user personas"></div>
-
-        <div class="final-gif">
-          <img src="img/userp3.jpg" alt="user personas">
-          <img src="img/userp4.jpg" alt="user personas"></div>
-        </div>
-      </div>
-</div>
-
-<div class="break-down-container">
-	<div class="break-down-heading">
-    <div class="small-text-title">What were the next steps?</div>
-    <div class="storyline-title">Ideation</div>
-	</div>
-
-			<div class="break-down-row">
-				<div class="final-gif">
-					<img src="img/ia-cstem1.png" alt="Original Information Architecture">
-				</div>
-        <div class="break-down-row">
-          <div class="break-down-text">
-            <div class="break-down-title">Information Architecture</div>
-            <div class="break-down-description">
-              Since the organization of information on the website was an issue brought up in our personas, we wanted to take a look at the persona use cases and see:
-              <br><br>1. Where their final page destinations were on the sitemap
-              <br>2. What user navigation paths looked like
-              <br>The person icons indicate the ending page for each of the personas' navigation paths.
-          </div></div>
-        </div>
-  </div>
-</div>
-
-<div class="break-down-container">
-  <div class="break-down-row">
-    <div class="final-gif">
-      <img src="img/ia-cstem2.png" alt="Revised Information Architecture">
-    </div>
-    <div class="break-down-row">
-    <div class="break-down-text">
-      <div class="break-down-description">
-        Our Revised Sitemap
-        <br>We wanted to make sure that all of our personas, especially the parents, could access their information quickly without having to read a lot of text. Accordingly, we restructured the site to facilitate the access of information from the use cases, (the information that they desired most).
-        <br>Since students are the majority of the user population, we made sure that all of the information that they need is within the “Curriculum” section because that’s where they tend to look first (based off of our interview observations). To do this, we regrouped and added some relevant pages to the section. Previously, the modules required another click but we have made all the information available in two clicks.
-        <br>Moreover, we created a different navigation tab for <i>Partners</i>. The tab contains all the information that they would want to access.
-        <br>Downloads are also available in the first tab which was a special request from the center's stakeholders. 
-        <br>The news and events were also cleanly categorized under one nav tab which allows for a smoother user experience.
-      </div>
-    </div>
-  </div>
-</div></div>
-
-<div class="break-down-container">
-			<div class="break-down-row">
-				<div class="break-down-text">
-					<div class="break-down-title">Wireframes</div>
-					<div class="break-down-description">
-            <br>Overall, the information architecture created a cleaner path than the previous website design. This allowed us to move on to wireframing.
-            We created layouts based on user goals and UCD web patterns. After inserting and removing pages, and rearranging pages on the sitemap, we were able to start sketching new website layouts. As we sketched and wireframed, we explored layouts that followed existing UC Davis website patterns, but also entertained new ideas that could help the CSTEM website establish its own unique character.
-            During the wireframing process, we decided that using more modern UC Davis website design patterns would be the best layout choice for several reasons.
-            <br><br>The website would be consistent with modern UC Davis branding and style guides.
-            The website experience would be consistent with other UC Davis sites; this would reduce users' effort to understand the redesigned site and would reduce their cognitive load. Abiding by stylistic standards is important as the school continues to scale the number of websites that it has.
-            Examples of websites with modern UC Davis patterns would be the UC Davis home page and the UC Davis Global Affairs website.
-					</div>
-        </div>
-        <div class="finall-gif">
-          <img src="img/wirecs.png" alt="wireframe cstem">
-          <img src="img/wirecs.png" alt="wireframe cstem">
-        </div>
-      </div>   
-</div>
-
-<div class="break-down-container">
-	<div class="break-down-heading">
-    <div class="small-text-title">What were the final steps?</div>
-    <div class="storyline-title">Validation</div>
-	</div>
-
-			<div class="break-down-row">
-        <div class="break-down-row">
-          <div class="breakk-down-text">
-            <div class="break-down-title">Prototype</div>
-            <div class="break-down-description">
-              After finalizing the ideas generated in the wireframes, we built our prototype. This prototype contains the pages relevant to each of the use cases since we would use it for subsequent usability tests.
-              <br> You can <b>click on the screen</b> and interact with the prototype below.
-          </div></div>
-        </div>
-  </div>
-</div>
-
-<div class="prototype-break">
-  <section class="col-12 prototpye_full_column" style="padding:0;">
-    <div id="prototype_mockup" class="w-100" style="height: 1046px;"></div>
-    <iframe id="prototype" src="https://xd.adobe.com/embed/4889523a-0b56-4854-84af-0ae495fcf61f-1dda/?fullscreen" frameborder="0" allowfullscreen></iframe></section>
-</div>
-
-
-
-<div class="break-down-container">
-			<div class="break-down-row">
-				<div class="breakk-down-text">
-					<div class="break-down-title">Usability Testing</div>
-					<div class="break-down-description">
-            Measuring our redesign's success rate for each use case.
-            For each of the personas, we were able to find 7 people that were willing to help us test out the prototype. A success was measured if a user could get to their target page without pressing any wrong navigation links. Here were our results:
-					</div>
-				</div>
-			</div>
-</div>
-
-<div class="img-breakk">
-  <img src="img/ut-cstem1.png" alt="usability testing image">
-  <img src="img/ut-cstem2.png" alt="usability testing image">
-  <img src="img/ut-cstem3.png" alt="usability testing image">
-  <img src="img/ut-cstem4.png" alt="usability testing image">
-</div>
-
-<div class="break-down-container">
-  <div class="break-down-heading">
-    <div class="small-text-title">What did I learn?</div>
-    <div class="storyline-title">Reflection</div>
-    <div class="break-down-row">
-    <div class="break-down-row">
-        <div class="breakk-down-text">
-              <div class="break-down-title">Outcome</div>
-              <div class="process-description">
-                After the usability tests, Valeria and I used a Powerpoint and Functional Specification Report to present our process and results to key stakeholders in the CSTEM department. They liked our ideas, however, they also explained to us that the department was facing internal debate. Since, the department was facing some budget issues, they could not spare funds for the development of the websites. The intent was to use our research and redesigns to keep for future purposes when they will be able to allocate capital for the online experience. 
-                
-                <br><br>We understood why there would be hesitation in regards to spending financial capital as well as time on this endeavour: 
-                
-                <br><br>1. Changing the site is a lot of work and will require a team of developers
-                <br>2. Changing the site will force people who are used to using the site to relearn the new site
-
-                <br><br>  This gave us a glimpse into the real world where research efforts may not always be financially viable. It was a little bit disappointing to see progress hindered by such matters, but I am still grateful to have gotten the opportunity to learn from this experience. While, it hasn't been implemented yet, there is hope for the future where this research and prototype will be useful.
-
+<body data-rsssl="1" class="home page-template-default page page-id-302 is-frontend dynamic-mode mejs-semplice-ui" data-post-type="project" data-post-id="309" data-breakpoint-js="xl">
+  <div id="content-holder" data-active-post="post_wtqhmj1dl">
+  <div id="content-post_wtqhmj1dl" class="content-container active-content" style="">
+          <header class="nav_a4k4mp84b semplice-navbar active-navbar non-sticky-nav cover-transparent" data-cover-transparent="enabled" data-bg-overlay-visibility="hidden" data-mobile-fallback="enabled" style="opacity: 1;">
+            <div class="container" data-nav="logo-left-menu-right">
+              <div class="navbar-inner menu-type-text" data-xl-width="12" data-navbar-type="container">
+                <div class="logo navbar-left" data-font="font_shi8d64tg"><a href="https://nehalj.com" title="Nehal Jain">Nehal Jain</a></div>
+                <nav class="standard navbar-right" data-font="font_k0ixjyago"><ul class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-480"><a href="https://nehalj.com/work"><span>Work</span></a></li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-537"><a href="https://nehalj.com/play"><span>Play</span></a></li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-491"><a href="https://nehalj.com/about"><span>About</span></a></li>
+                </ul></nav>
+                  <div class="hamburger navbar-right semplice-menu"><a class="open-menu menu-icon"><span></span></a></div>
               </div>
-        </div>
-        <!-- <div class="process-img">
-            <img src="images/JAPA/Prototyping/iterations.png" alt="outcome image">
-        </div> -->
-    </div></div></div></div>
-
-    <div class="break-down-container">
-      <div class="break-down-heading">
-        <div class="break-down-row">
-        <div class="break-down-row">
-            <div class="breakk-down-text">
-                  <div class="break-down-title">Exploring Implementation</div>
-                  <div class="process-description">
-                    In an effort to understand why the website was so costly and time-consuming, I sat down with the Education Service Manager, Daniel Ryan. He helped me understand that the university uses a tool called Sitefarm to build it's websites, which houses templates and assets for creating sites, so a redesign that follows existing UC Davis patterns would be made easier through that resource.
-
-                    Nevertheless, he estimates that with all of the information that would need to be migrated from the old website, the effort could easily take between 1 and 2 months and required good amount of capital.
-    
-                  </div>
             </div>
-            <!-- <div class="process-img">
-                <img src="images/JAPA/Prototyping/iterations.png" alt="iterations overview">
-            </div> -->
-        </div></div></div></div>
-
-        <div class="break-down-container">
-          <div class="break-down-heading">
-            <div class="break-down-row">
-            <div class="break-down-row">
-                <div class="breakk-down-text">
-                      <div class="break-down-title">Thinking Forward</div>
-                      <div class="process-description">
-                        1. Get user feedback while wireframing rather than making personal choices about the layout.
-                        <br>2. Try to increase the number of participants in the interviews and usability tests to get more accurate results.
-                        <br>3. Understand the hidden variables and obstacles between the project and its implementation by asking more questions to clients.
-        
-                      </div>
-                </div>
-                <!-- <div class="process-img">
-                    <img src="images/JAPA/Prototyping/iterations.png" alt="iterations overview">
-                </div> -->
-            </div></div></div>
-
-            <div class="break-down-row">
-              <a class="back_home" href="index.html"><button type="button" class="btn btn-outline-white back_home_button">Back Home</button></a></div>
-          
+          </header>
+                      
+          <div id="overlay-menu">
+            <div class="overlay-menu-inner" data-xl-width="12">
+              <nav class="overlay-nav" data-justify="center" data-align="align-middle">
+                <ul class="container">
+                  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-480"><a href="https://nehalj.com/work"><span>Work</span></a></li>
+                  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-537"><a href="https://nehalj.com/play"><span>Play</span></a></li>
+                  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-491"><a href="https://nehalj.com/about"><span>About</span></a></li>
+                </ul>
+              </nav>
+            </div>
           </div>
+    
+        <div class="transition-wrap"><div class="sections">
+        <section id="cover-309" class="semplice-cover" data-height="fullscreen" data-column-mode-sm="single" data-column-mode-xs="single" data-valign="center" data-cover="visible" data-parallax="parallax" style="height: 513px;">
+          <a class="show-more show-more-visible semplice-event" data-event-type="helper" data-event="scrollToContent"><svg version="1.1" id="Ebene_2_1_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="53px" height="20px" viewBox="0 0 53 20" enable-background="new 0 0 53 20" xml:space="preserve">
+<g>
+<polygon points="26.5,17.688 9.114,3.779 10.303,2.312 26.5,15.269 42.697,2.313 43.886,3.779 	"></polygon>
+</g>
+</svg>
+</a>
+      
+
+<div class="background-video">
+  <img data-object-fit="cover" data-video="0"
+    src="img/cstemhome.jpg" type="img/jpg">
+  </div>
+    
+          <div class="container">
+          <div id="row_cover" class="row"><div id="column_m6g01av10" class="column" data-xl-width="3" data-valign="center"><div class="background-video"></div>
+        <div class="content-wrapper">
+          
+      <div id="content_gwqmhuy6u" class="column-content" data-module="image">
+        <div class="ce-image" data-align="left"><img class="is-content" src="img/ucdavis-logo.svg" alt="CStem Logo" caption="" data-width="original" data-scaling="no"></div>
+      </div>
+    
+      <div id="content_knihcuc93" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="font-size: 0.777778rem;" data-mce-style="font-size: 0.777778rem;"><span class="font_x6tx5d5fi" style="letter-spacing: 0rem; color: rgb(255, 255, 255);" data-mce-style="letter-spacing: 0rem; color: #ffffff;">Role&nbsp;</span></p></div></div>
+      </div>
+    
+      <div id="content_q797hsf0j" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="font-size: 0.888889rem;" data-mce-style="font-size: 0.888889rem;"><span class="font_3qmflxvbd" style="color: rgb(255, 255, 255);" data-mce-style="color: #ffffff;">Web Design, UI/UX Design</span></p></div></div>
+      </div>
+    
+      <div id="content_npgjk86f8" class="column-content" data-module="spacer">
+        
+      <div class="spacer-container">
+        <div class="is-content">
+          <div class="spacer"><!-- horizontal spacer --></div>
+        </div>
+      </div>
+    
+      </div>
+    
+      <div id="content_6k23l28lh" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="font-size: 0.777778rem;" data-mce-style="font-size: 0.777778rem;"><span class="font_x6tx5d5fi" style="letter-spacing: 0rem; color: rgb(255, 255, 255);" data-mce-style="letter-spacing: 0rem; color: #ffffff;">Duration&nbsp;</span></p></div></div>
+      </div>
+    
+      <div id="content_9apnrbg1g" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p><span class="font_3qmflxvbd" style="color: rgb(255, 255, 255);" data-mce-style="color: #ffffff;">8 Weeks</span><br data-mce-bogus="1"></p></div></div>
+      </div>
+    
+      <div id="content_x05crepop" class="column-content" data-module="spacer">
+        
+      <div class="spacer-container">
+        <div class="is-content">
+          <div class="spacer"><!-- horizontal spacer --></div>
+        </div>
+      </div>
+    
+      </div>
+    
+      <div id="content_zz9qmce5v" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="font-size: 0.777778rem;" data-mce-style="font-size: 0.777778rem;"><span class="font_x6tx5d5fi" style="letter-spacing: 0rem; color: rgb(255, 255, 255);" data-mce-style="letter-spacing: 0rem; color: #ffffff;">Tools</span></p></div></div>
+      </div>
+    
+      <div id="content_7l67yv8p6" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="font-size: 0.888889rem;" data-mce-style="font-size: 0.888889rem;"><span class="font_3qmflxvbd" style="color: rgb(255, 255, 255);" data-mce-style="color: #ffffff;">AdobeXD, Illustrator</span></p></div></div>
+      </div>
+    
+      <div id="content_gan2gdhrn" class="column-content" data-module="spacer">
+        
+      <div class="spacer-container">
+        <div class="is-content">
+          <div class="spacer"><!-- horizontal spacer --></div>
+        </div>
+      </div>
+    
+      </div>
+    
+      <div id="content_4lb96w79e" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="font-size: 0.777778rem;" data-mce-style="font-size: 0.777778rem;"><span class="font_x6tx5d5fi" style="letter-spacing: 0rem; color: rgb(255, 255, 255);" data-mce-style="letter-spacing: 0rem; color: #ffffff;">Team</span></p></div></div>
+      </div>
+    
+      <div id="content_br3n1pnt8" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="font-size: 0.888889rem; line-height: 1.5rem;" data-mce-style="font-size: 0.888889rem; line-height: 1.5rem;"><span class="font_3qmflxvbd" style="color: rgb(255, 255, 255);" data-mce-style="color: #ffffff;">Valeria Franco &amp; Daniel Ryan</span><br></p></div></div>
+      </div>
+ 
+        </div>
+      </div></div>
+          </div>
+        </section>				
+      
+        <section id="section_d97td330p" class="content-block" data-column-mode-sm="single" data-column-mode-xs="single" data-justify="center">
+          
+          <div class="container" class= "intro">
+          <div id="row_1r7uw54jz" class="row"><div id="column_e8450ksvp" class="column" data-xl-width="4">
+        <div class="content-wrapper">
+          
+      <div id="content_sxuuio5ec" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="font-size: 2.22222rem; text-align: left; line-height: 2.66667rem;" data-mce-style="font-size: 2.22222rem; text-align: left; line-height: 2.66667rem;"><span class="font_x6tx5d5fi" style="color: rgb(0, 0, 0);" data-mce-style="color: #000000;">CSTEM Center</span></p></div></div>
+      </div>
+    
+      <div id="content_cvlm9rhwt" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="font-size: 1.11111rem;" data-mce-style="font-size: 1.11111rem;"><span class="font_u5ys1fed3" style="color: rgb(165, 165, 165);" data-mce-style="color: #a5a5a5;">July - August 2019</span></p></div></div>
+      </div>
+    
+        </div>
+      </div><div id="column_k0712si5e" class="column spacer-column" data-xl-width="1">
+        <div class="content-wrapper">
+          
+        </div>
+      </div><div id="column_9fcbpkn9j" class="column" data-xl-width="7">
+        <div class="content-wrapper">
+          
+      <div id="content_bs875txtg" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="font-size: 1.33333rem; line-height: 2.11111rem;" data-mce-style="font-size: 1.33333rem; line-height: 2.11111rem;"><span class="font_x6tx5d5fi" style="color: rgb(79, 79, 79);" data-mce-style="color: #4f4f4f;">C-STEM (Computing, Science, Technology, Engineering, & Mathematics) is  a UC Approved Educational Prep Program for Undergraduate Admission for both K-12 & Community College students at all UC campuses.
+        </span></p></div></div>
+      </div>
+    
+      <div id="content_a9f1ppqo7" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="line-height: 1.5rem; font-size: 0.888889rem;" data-mce-style="line-height: 1.5rem; font-size: 0.888889rem;"><span class="font_3qmflxvbd" style="color: rgb(79, 79, 79);" data-mce-style="color: #4f4f4f;">During the summer of my 3rd year of college, I joined the UC Davis External Tools team as a part-time contract Web Production Designer.</span></p></div></div>
+      </div>
+        </div>
+      </div></div>
+          </div>
+        </section>				
+      
+        <div class="bg-img">
+          <img src="img/cstemc.png" alt="cstem-banner">
+    </div>
+      
+        <section id="section_gt7adfidh" class="content-block" data-column-mode-sm="single" data-column-mode-xs="single" data-justify="center">
+          
+          <div class="container">
+          <div id="row_ulg6id6nc" class="row"><div id="column_fvndck89p" class="column" data-xl-width="3">
+        <div class="content-wrapper">
+          
+      <div id="content_mifnrulj3" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="font-size: 1.66667rem; line-height: 2.22222rem;" data-mce-style="font-size: 1.66667rem; line-height: 2.22222rem;"><span class="font_x6tx5d5fi" style="color: rgb(0, 0, 0);" data-mce-style="color: #000000;">Context</span></p></div></div>
+      </div>
+    
+        </div>
+      </div><div id="column_cxalobk82" class="column" data-xl-width="6">
+        <div class="content-wrapper">
+          
+      <div id="content_bd4kh8nxt" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="font-size: 1.11111rem; line-height: 1.83333rem;" data-mce-style="font-size: 1.11111rem; line-height: 1.83333rem;"><span class="font_x6tx5d5fi" style="letter-spacing: 0rem; color: rgb(79, 79, 79);" data-mce-style="letter-spacing: 0rem; color: #4f4f4f;"><span data-mce-style="font-family: Inter, sans-serif;" style="font-family: Inter, sans-serif;"><strong><span class="font_x6tx5d5fi">Overview</span></strong></span></span></p></div></div>
+      </div>
+    
+      <div id="content_73og4snzw" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="line-height: 1.5rem; font-size: 0.888889rem;" data-mce-style="line-height: 1.5rem; font-size: 0.888889rem;"><span class="font_3qmflxvbd" style="letter-spacing: 0rem; color: rgb(79, 79, 79);" data-mce-style="letter-spacing: 0rem; color: #4f4f4f;"> The UC Davis CStem website is one of the most visited university websites. The site has a lot of different users, but is especially relevant to the 30,000+ K-12 student population that use the site at some point during their robotic and coding career as it contains all of the information about the program's requirements. Both students and faculty are frustrated with the poor web experience and have difficulty finding information. For this reason, I collaborated closely with the team to define, develop, and deliver visual designs in a consumer-facing environment.<strong>The ask was to create a web page to inform and educate users about all the opportunities and events offered by the center with the use of UC Davis design systems.</strong></span></p></div></div>
+      </div>
+    
+      <div id="content_p37p18zkx" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="font-size: 1.11111rem; line-height: 1.83333rem;" data-mce-style="font-size: 1.11111rem; line-height: 1.83333rem;"><span class="font_3zzun8rvt" style="letter-spacing: 0rem; color: rgb(79, 79, 79);" data-mce-style="letter-spacing: 0rem; color: #4f4f4f;"><span data-mce-style="font-family: Inter, sans-serif;" style="font-family: Inter, sans-serif;"><strong><span class="font_x6tx5d5fi">My Role</span></strong></span></span></p></div></div>
+      </div>
+    
+      <div id="content_c88o7hbkd" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="font-size: 0.888889rem; line-height: 1.5rem;" data-mce-style="font-size: 0.888889rem; line-height: 1.5rem;"><span class="font_3qmflxvbd" style="color: rgb(79, 79, 79);" data-mce-style="color: #4f4f4f;">As one of the co-designers, I was responsible for designing the UX, rendering layouts, and leading visual refinements. I primarly worked with another designer Valerie Franco and project manager Daniel Ryan. I created frameworks and prototypes to share the vision, design principles, and content strategy. 
+          Valeria and I contributed to user research, interviews and surveys. We worked frequently and closely with the project manager who was supervising our work. This helped to <strong>conceptualize ideas</strong> and <strong>drive decision making</strong>.</span></p></div></div>
+      </div>
+    
+      <div id="content_as5jdmgdu" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="font-size: 1.11111rem; line-height: 1.83333rem;" data-mce-style="font-size: 1.11111rem; line-height: 1.83333rem;"><span class="font_x6tx5d5fi" style="color: rgb(79, 79, 79); letter-spacing: 0rem;" data-mce-style="color: #4f4f4f; letter-spacing: 0rem;">Timeline</span></p></div></div>
+      </div>
+    
+      <div id="content_t7p6r0uwd" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="line-height: 1.5rem; font-size: 0.888889rem;" data-mce-style="line-height: 1.5rem; font-size: 0.888889rem;"><span class="font_3qmflxvbd" style="color: rgb(79, 79, 79);" data-mce-style="color: #4f4f4f;">Over the eight week timeline, we had four creative reviews where the project manager gave feedback and critiques, and one stakeholder review where multiple stakeholders gave higher-level business direction. I roughly had <strong>three weeks of total design</strong> <strong>time</strong>, as I had 18 days for the initial design development and then 1-2 days between reviews for edits.</span></p></div></div>
+      </div>
+    
+        </div>
+      </div></div>
+          </div>
+        </section>				
+      
+        <section id="section_4sokmr47p" class="content-block" data-column-mode-sm="single" data-column-mode-xs="single" data-justify="center">
+          
+          <div class="container">
+          <div id="row_leycsag71" class="row"><div id="column_ferooujeb" class="column" data-xl-width="3">
+        <div class="content-wrapper">
+          
+      <div id="content_wy5a1rcx6" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="font-size: 1.66667rem; line-height: 2.22222rem;" data-mce-style="font-size: 1.66667rem; line-height: 2.22222rem;"><span class="font_x6tx5d5fi" style="letter-spacing: 0rem; color: rgb(0, 0, 0);" data-mce-style="letter-spacing: 0rem; color: #000000;">Project Brief&nbsp;</span></p></div></div>
+      </div>
+    
+        </div>
+      </div><div id="column_uyf73hx77" class="column" data-xl-width="6">
+        <div class="content-wrapper">
+          
+      <div id="content_3gunko26l" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="font-size: 0.888889rem; line-height: 1.5rem;" data-mce-style="font-size: 0.888889rem; line-height: 1.5rem;"><span class="font_3qmflxvbd">The old design showcases bad user experience which has been a source of frustration for both UC Davis students and faculty. Therefore, the university administrators asked us to explore solutions to the older site's problems.</span></p></div></div>
+      </div>
+    
+      <div id="content_73p32272s" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="font-size: 0.888889rem; line-height: 1.5rem;" data-mce-style="font-size: 0.888889rem; line-height: 1.5rem;"><span class="font_3qmflxvbd">We needed to find a way to conduct user research and use UC Davis style guides to inform our redesign. We wanted to validate our work using a final prototype, which we would present to a group of university stakeholders making it <strong> easier to explain and justify our design choices</strong>.</span></p></div></div>
+      </div>
+    
+      <div id="content_wlx0hxpge" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="font-size: 0.888889rem; line-height: 1.66667rem;" data-mce-style="font-size: 0.888889rem; line-height: 1.66667rem;"><span class="font_3qmflxvbd" style="color: rgb(79, 79, 79);" data-mce-style="color: #4f4f4f;"><strong><span class="font_3zzun8rvt">⚡️ The Challenge:</span> <span class="font_3qmflxvbd">Balancing visual design with an efficient user experience</span></strong></span></p></div></div>
+      </div>
+    
+      <div id="content_byug41tw0" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="line-height: 1.5rem;" data-mce-style="line-height: 1.5rem;"><span class="font_3qmflxvbd">The CSTEM Center website must <span class="font_3zzun8rvt">aesthetically</span> and <span class="font_3zzun8rvt">strategically</span> use existing web components and UC Davis design guides while having a <span class="font_3zzun8rvt">consistent experience<span class="font_3qmflxvbd"> across all the web pages</span></span>.</span></p></div></div>
+      </div>
+    
+        </div>
+      </div></div>
+          </div>
+        </section>				
+      
+        <section id="section_s3wm3gu75" class="content-block" data-column-mode-sm="single" data-column-mode-xs="single" data-justify="center">
+          
+          <div class="container">
+          <div id="row_ayxvnurjz" class="row"><div id="column_e9k8eu6ir" class="column" data-xl-width="3">
+        <div class="content-wrapper">
+          
+      <div id="content_rkd4j0qci" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="font-size: 1.66667rem; line-height: 2.22222rem;" data-mce-style="font-size: 1.66667rem; line-height: 2.22222rem;"><span class="font_x6tx5d5fi" style="color: rgb(2, 2, 2);" data-mce-style="color: #020202;">Previous Design</span></p></div></div>
+      </div>
+    
+        </div>
+      </div><div id="column_1q9m22380" class="column" data-xl-width="6">
+        <div class="content-wrapper">
+          
+      <div id="content_ibztk6zt0" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="font-size: 0.888889rem; line-height: 1.5rem;" data-mce-style="font-size: 0.888889rem; line-height: 1.5rem;"><span class="font_3qmflxvbd" style="color: rgb(79, 79, 79);" data-mce-style="color: #4f4f4f;">Why aren't users engaging with the online presence of this service?</span></p></div></div>
+      </div>
+
+      <div id="content_qg0g14hwp" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><ul><li style="font-size: 0.888889rem; line-height: 1.5rem;" data-mce-style="font-size: 0.888889rem; line-height: 1.5rem;"><span class="font_3qmflxvbd" style="color: rgb(79, 79, 79);" data-mce-style="color: #4f4f4f;"><span class="font_x6tx5d5fi">Information Overload</span> -&nbsp;The web pages are full of information which leads to the users feeling overwhelmed when trying to find something</span></li><li style="font-size: 0.888889rem; line-height: 1.5rem;" data-mce-style="font-size: 0.888889rem; line-height: 1.5rem;"><span class="font_3qmflxvbd" style="color: rgb(79, 79, 79);" data-mce-style="color: #4f4f4f;"><strong>User Flow</strong>&nbsp;-&nbsp;The information archietecture is complicated which results in a confusing user</span></li><li style="font-size: 0.888889rem; line-height: 1.5rem;" data-mce-style="font-size: 0.888889rem; line-height: 1.5rem;"><span class="font_3qmflxvbd" style="color: rgb(79, 79, 79);" data-mce-style="color: #4f4f4f;"><strong>Value Path</strong>&nbsp;﻿-&nbsp;Due to consistent updates, there are duplicate pages which would means there are multiple value paths.</span></li></ul></div></div>
+      </div>
+    
+      <div id="content_gjf6idp9m" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="font-size: 0.888889rem; line-height: 1.5rem;" data-mce-style="font-size: 0.888889rem; line-height: 1.5rem;"><span class="font_3qmflxvbd" style="color: rgb(79, 79, 79);" data-mce-style="color: #4f4f4f;">This architectural decision had a major impact on the quality of the user experience and allowed them to quickly familiarize themselves with useful information.</span></p></div></div>
+      </div>
+    
+        </div>
+      </div></div>
+          </div>
+        </section>	
+        
+        <section id="section_rbg4u1tzl" class="content-block" data-column-mode-sm="single" data-column-mode-xs="single" data-gutter="no" data-layout="fluid" data-height="fullscreen" data-justify="center">
+          
+          <div class="container">
+          <div id="row_gm8g6hc7o" class="row"><div id="column_qytghcd0w" class="column" data-xl-width="12">
+        <div class="content-wrapper">
+          
+      <div id="content_uds10rf1u" class="column-content" data-module="image">
+        <div class="ce-image" data-align="center"><img class="is-content" src="https://michellegore.com/wp-content/uploads/2020/12/CStem-CompIterations.png" width="2880" height="2200" alt="CStem-CompIterations" caption="" data-width="grid-width" data-scaling="no"></div>
+      </div>
+    
+      <div id="content_lqq3owin5" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="text-align: center; font-size: 0.777778rem; line-height: 1.44444rem;" data-mce-style="text-align: center; font-size: 0.777778rem; line-height: 1.44444rem;"><span class="font_3qmflxvbd" style="color: rgb(165, 165, 165);" data-mce-style="color: #a5a5a5;">Problems with the previous design</span></p></div></div>
+      </div>
+    
+        </div>
+      </div></div>
+          </div>
+        </section>	
+        
+        <section id="section_gn7adfidh" class="content-block" data-column-mode-sm="single" data-column-mode-xs="single" data-justify="center">
+          
+          <div class="container">
+          <div id="row_ulg6id6nc" class="row"><div id="column_fvndck89p" class="column" data-xl-width="3">
+        <div class="content-wrapper">
+          
+      <div id="content_mifnrulj3" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="font-size: 1.66667rem; line-height: 2.22222rem;" data-mce-style="font-size: 1.66667rem; line-height: 2.22222rem;"><span class="font_x6tx5d5fi" style="color: rgb(0, 0, 0);" data-mce-style="color: #000000;">User Research</span></p></div></div>
+      </div>
+    
+        </div>
+      </div><div id="column_cxalobk82" class="column" data-xl-width="6">
+        <div class="content-wrapper">
+          
+      <div id="content_bd4kh8nxt" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="font-size: 1.11111rem; line-height: 1.83333rem;" data-mce-style="font-size: 1.11111rem; line-height: 1.83333rem;"><span class="font_x6tx5d5fi" style="letter-spacing: 0rem; color: rgb(79, 79, 79);" data-mce-style="letter-spacing: 0rem; color: #4f4f4f;"><span data-mce-style="font-family: Inter, sans-serif;" style="font-family: Inter, sans-serif;"><strong><span class="font_x6tx5d5fi">Surveys</span></strong></span></span></p></div></div>
+      </div>
+    
+      <div id="content_73og4snzw" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="line-height: 1.5rem; font-size: 0.888889rem;" data-mce-style="line-height: 1.5rem; font-size: 0.888889rem;"><span class="font_3qmflxvbd" style="letter-spacing: 0rem; color: rgb(79, 79, 79);" data-mce-style="letter-spacing: 0rem; color: #4f4f4f;"> We chose to use a survey to discover what the different user segments are. We deliberated on whether an online or an in-person survey was more appropriate. We picked the most effecient user reseach method given our limited resources and decided on online survey.</strong></span></p></div></div>
+      </div>
+
+      <div id="content_73og4snzw" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="line-height: 1.5rem; font-size: 0.888889rem;" data-mce-style="line-height: 1.5rem; font-size: 0.888889rem;"><span class="font_3qmflxvbd" style="letter-spacing: 0rem; color: rgb(79, 79, 79);" data-mce-style="letter-spacing: 0rem; color: #4f4f4f;"> We posted the survey on various faculty and student groups on Facebook. We also emailed school administrators with the survey. In total, we got 56 responses from students and 26 from administrators. Through the survey we gained an understanding of who was using the site, and what they were using it for.</strong></span></p></div></div>
+      </div>
+
+      <div id="content_73og4snzw" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl" style="padding-top:4%"><img src="img/cstemsurvey.png" alt="surveyf"></div></div>
+      </div>
+      
+        </div>
+      </div></div>
+          </div>
+        </section>				
+
+  
+      
+        <section id="section_0qwq7b5bw" class="content-block" data-column-mode-sm="single" data-column-mode-xs="single" data-justify="center" data-valign="stretch" data-height="dynamic">
+          
+          <div class="container">
+          <div id="row_wg27x1gsf" class="row"><div id="column_9uzkkv0k2" class="column" data-xl-width="9" data-valign="center">
+        <div class="content-wrapper">
+          
+      <div id="content_qrcsajd4n" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="font-size: 1.11111rem; line-height: 1.83333rem;" data-mce-style="font-size: 1.11111rem; line-height: 1.83333rem;"><span class="font_x6tx5d5fi" style="letter-spacing: 0rem; color: rgb(79, 79, 79);" data-mce-style="letter-spacing: 0rem; color: #4f4f4f;"><span data-mce-style="font-family: Inter, sans-serif;" style="font-family: Inter, sans-serif;"><strong><span class="font_x6tx5d5fi">Users and Personas</span></strong></span></span></p></div></div>
+      </div>
+    
+      <div id="content_o9n29bbvp" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="line-height: 1.5rem; font-size: 0.888889rem;" data-mce-style="line-height: 1.5rem; font-size: 0.888889rem;"><span class="font_3qmflxvbd" style="color: rgb(79, 79, 79);" data-mce-style="color: #4f4f4f;">To get more understanding of what these users’ goals and pain points on the site were, we conducted more in-depth interviews where we would walk through the website with 5 people from each user group.
+          During the interviews, we performed a contextual inquity (or walkthrough) of the website with our interviewees to observe how they used the site and what information they wanted to access. 
+          <br>We also asked them both <strong>pre-established and follow-up questions about their goals and habits as users</strong>.</span></p></div></div>
+      </div>
+
+      <div id="content_wuwjeg6dg" class="column-content" data-module="gallery">
+        <div id="gallery-content_wuwjeg6dg" class="is-content semplice-gallery-slider sgs-slide pagination-below sgs-pagination-false flickity-enabled is-draggable" tabindex="0"><div class="flickity-viewport" style="height: 850px; touch-action: pan-y;"><div class="flickity-slider"><img style="width: auto; padding:3% 0 0 0; " src="img/userp1.jpg" alt="User 1"></div></div></div>
+      </div>
+
+      <div id="content_lqq3owin5" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="text-align: center; font-size: 0.777778rem; line-height: 1.44444rem;" data-mce-style="text-align: center; font-size: 0.777778rem; line-height: 1.44444rem;"><span class="font_3qmflxvbd" style="color: rgb(165, 165, 165);" data-mce-style="color: #a5a5a5;">User 1</span></p></div></div>
+      </div>
+
+      <div id="content_wuwjeg6dg" class="column-content" data-module="gallery">
+        <div id="gallery-content_wuwjeg6dg" class="is-content semplice-gallery-slider sgs-slide pagination-below sgs-pagination-false flickity-enabled is-draggable" tabindex="0"><div class="flickity-viewport" style="height: 850px; touch-action: pan-y;"><div class="flickity-slider"><img style="width: auto; padding:3% 0 0 0; " src="img/userp2.jpg" alt="User 2"></div></div></div>
+      </div>
+
+      <div id="content_lqq3owin5" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="text-align: center; font-size: 0.777778rem; line-height: 1.44444rem;" data-mce-style="text-align: center; font-size: 0.777778rem; line-height: 1.44444rem;"><span class="font_3qmflxvbd" style="color: rgb(165, 165, 165);" data-mce-style="color: #a5a5a5;">User 2</span></p></div></div>
+      </div>
+
+      <div id="content_wuwjeg6dg" class="column-content" data-module="gallery">
+        <div id="gallery-content_wuwjeg6dg" class="is-content semplice-gallery-slider sgs-slide pagination-below sgs-pagination-false flickity-enabled is-draggable" tabindex="0"><div class="flickity-viewport" style="height: 850px; touch-action: pan-y;"><div class="flickity-slider"><img style="width: auto; padding:3% 0 0 0; " src="img/userp3.jpg" alt="User 3"></div></div></div>
+      </div>
+
+      <div id="content_lqq3owin5" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="text-align: center; font-size: 0.777778rem; line-height: 1.44444rem;" data-mce-style="text-align: center; font-size: 0.777778rem; line-height: 1.44444rem;"><span class="font_3qmflxvbd" style="color: rgb(165, 165, 165);" data-mce-style="color: #a5a5a5;">User 3</span></p></div></div>
+      </div>
+
+      <div id="content_wuwjeg6dg" class="column-content" data-module="gallery">
+        <div id="gallery-content_wuwjeg6dg" class="is-content semplice-gallery-slider sgs-slide pagination-below sgs-pagination-false flickity-enabled is-draggable" tabindex="0"><div class="flickity-viewport" style="height: 850px; touch-action: pan-y;"><div class="flickity-slider"><img style="width: auto; padding:3% 0 0 0; " src="img/userp4.jpg" alt="User 4"></div></div></div>
+      </div>
+
+      <div id="content_lqq3owin5" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="text-align: center; font-size: 0.777778rem; line-height: 1.44444rem;" data-mce-style="text-align: center; font-size: 0.777778rem; line-height: 1.44444rem;"><span class="font_3qmflxvbd" style="color: rgb(165, 165, 165);" data-mce-style="color: #a5a5a5;">User 4</span></p></div></div>
+      </div>
+
+      
+      </div>
+    
+        </div>
+      </div></div>
+          </div>
+        </section>	
+
+        <section id="section_gl7adfidh" class="content-block" data-column-mode-sm="single" data-column-mode-xs="single" data-justify="center">
+          
+          <div class="container">
+          <div id="row_ulg6id6nc" class="row"><div id="column_fvndck89p" class="column" data-xl-width="3">
+        <div class="content-wrapper">
+          
+      <div id="content_mifnrulj3" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="font-size: 1.66667rem; line-height: 2.22222rem;" data-mce-style="font-size: 1.66667rem; line-height: 2.22222rem;"><span class="font_x6tx5d5fi" style="color: rgb(0, 0, 0);" data-mce-style="color: #000000;">Ideation</span></p></div></div>
+      </div>
+    
+        </div>
+      </div><div id="column_cxalobk82" class="column" data-xl-width="6">
+        
+      </div></div>
+          </div>
+        </section>		
+
+        <section id="section_0qwq5b5bw" class="content-block" data-column-mode-sm="single" data-column-mode-xs="single" data-justify="center" data-valign="stretch" data-height="dynamic">
+          
+          <div class="container">
+          <div id="row_wg27x1gsf" class="row"><div id="column_9uzkkv0k2" class="column" data-xl-width="9" data-valign="center">
+        <div class="content-wrapper">
+          
+      <div id="content_qrcsajd4n" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="font-size: 1.11111rem; line-height: 1.83333rem;" data-mce-style="font-size: 1.11111rem; line-height: 1.83333rem;"><span class="font_x6tx5d5fi" style="letter-spacing: 0rem; color: rgb(79, 79, 79);" data-mce-style="letter-spacing: 0rem; color: #4f4f4f;"><span data-mce-style="font-family: Inter, sans-serif;" style="font-family: Inter, sans-serif;"><strong><span class="font_x6tx5d5fi">Information Architecture</span></strong></span></span></p></div></div>
+      </div>
+    
+      <div id="content_o9n29bbvp" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="line-height: 1.5rem; font-size: 0.888889rem;" data-mce-style="line-height: 1.5rem; font-size: 0.888889rem;"><span class="font_3qmflxvbd" style="color: rgb(79, 79, 79);" data-mce-style="color: #4f4f4f;">Since the organization of information on the website was an issue brought up in our personas, we wanted to take a look at the persona use cases and see:
+          <br><br>1. Where their final page destinations were on the sitemap
+          <br>2. What user navigation paths looked like
+          <br><br>The person icons indicate the ending page for each of the personas' navigation paths.</span></p></div></div>
+      </div>
+    
+      <div id="content_wuwjeg6dg" class="column-content" data-module="gallery">
+        <div id="gallery-content_wuwjeg6dg" class="is-content semplice-gallery-slider sgs-slide pagination-below sgs-pagination-false flickity-enabled is-draggable" tabindex="0"><div class="flickity-viewport" style="height: 548.938px; touch-action: pan-y;"><div class="flickity-slider"><img style="padding:6.5% 2% 1% 2%; " src="img/ia-cstem1.png" alt="Original Information Architecture"></div></div></div>
+      </div>
+
+      <div id="content_lqq3owin5" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="text-align: center; font-size: 0.777778rem; line-height: 1.44444rem;" data-mce-style="text-align: center; font-size: 0.777778rem; line-height: 1.44444rem;"><span class="font_3qmflxvbd" style="color: rgb(165, 165, 165);" data-mce-style="color: #a5a5a5;">Original Sitemap</span></p></div></div>
+      </div>
+
+      <div id="content_wuwjeg6dg" class="column-content" data-module="gallery">
+        <div id="gallery-content_wuwjeg6dg" class="is-content semplice-gallery-slider sgs-slide pagination-below sgs-pagination-false flickity-enabled is-draggable" tabindex="0"><div class="flickity-viewport" style="height: 548.938px; touch-action: pan-y;"><div class="flickity-slider"><img style="padding:6.5% 2% 1% 2%; " src="img/ia-cstem2.png" alt="Original Information Architecture"></div></div></div>
+      </div>
+
+      <div id="content_lqq3owin5" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="text-align: center; font-size: 0.777778rem; line-height: 1.44444rem;" data-mce-style="text-align: center; font-size: 0.777778rem; line-height: 1.44444rem;"><span class="font_3qmflxvbd" style="color: rgb(165, 165, 165);" data-mce-style="color: #a5a5a5;">Revised Sitemap</span></p></div></div>
+      </div>
+
+      <div id="content_o9n29bbvp" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="line-height: 1.5rem; font-size: 0.888889rem;" data-mce-style="line-height: 1.5rem; font-size: 0.888889rem;"><span class="font_3qmflxvbd" style="color: rgb(79, 79, 79);" data-mce-style="color: #4f4f4f;"><strong>Revised Sitemap</strong>
+          <br><br>We restructured the site to facilitate the access of information from the use cases (the information that they desired most).
+          <br><br>1. Since students are the majority of the user population, we made sure that all of the information that they need is within the “Curriculum” section because that’s where they tend to look first (based off of our interview observations). To do this, we regrouped and added some relevant pages to the section. Previously, the modules required another click but we have made all the information available in two clicks.
+          <br>2. Moreover, we created a different navigation tab for <i>Partners</i>. The tab contains all the information that they would want to access.
+          <br>3. Downloads are also available in the first tab which was a special request from the center's stakeholders. 
+          <br>4. The news and events were also cleanly categorized under one nav tab which allows for a smoother user experience.</span></p></div></div>
+      </div>
+    
+        </div>
+      </div></div>
+          </div>
+        </section>
+        
+        <section id="section_gk7adfidh" class="content-block" data-column-mode-sm="single" data-column-mode-xs="single" data-justify="center">
+          
+          <div class="container">
+          <div id="row_ulg6id6nc" class="row"><div id="column_fvndck89p" class="column" data-xl-width="3">
+        <div class="content-wrapper">
+          
+      <div id="content_mifnrulj3" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="font-size: 1.66667rem; line-height: 2.22222rem;" data-mce-style="font-size: 1.66667rem; line-height: 2.22222rem;"><span class="font_x6tx5d5fi" style="color: rgb(0, 0, 0);" data-mce-style="color: #000000;">Wireframing</span></p></div></div>
+      </div>
+    
+        </div>
+      </div><div id="column_cxalobk82" class="column" data-xl-width="6">
+        <div class="content-wrapper">
+    
+      <div id="content_73og4snzw" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="line-height: 1.5rem; font-size: 0.888889rem;" data-mce-style="line-height: 1.5rem; font-size: 0.888889rem;"><span class="font_3qmflxvbd" style="letter-spacing: 0rem; color: rgb(79, 79, 79);" data-mce-style="letter-spacing: 0rem; color: #4f4f4f;"> We created layouts based on user goals and UCD web patterns. After inserting and removing pages, and rearranging pages on the sitemap, we were able to start sketching new website layouts. As we sketched and wireframed, we explored layouts that followed existing UC Davis website patterns, but also entertained new ideas that could help the CSTEM website establish its own unique character.
+        <br><br>During the wireframing process, we decided that using more modern UC Davis website design patterns would be the best layout choice for several reasons.</span></p></div></div>
+      </div>
+
+      <div id="content_73og4snzw" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl" style="padding-top:4%"><img src="img/wirecs.png" alt="wireframe"></div></div>
+      </div>
+      
+        </div>
+      </div></div>
+          </div>
+        </section>				
+      
+
+        <section id="section_gm7adfidh" class="content-block" data-column-mode-sm="single" data-column-mode-xs="single" data-justify="center">
+          
+          <div class="container">
+          <div id="row_ulg6id6nc" class="row"><div id="column_fvndck89p" class="column" data-xl-width="3">
+        <div class="content-wrapper">
+          
+      <div id="content_mifnrulj3" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="font-size: 1.66667rem; line-height: 2.22222rem;" data-mce-style="font-size: 1.66667rem; line-height: 2.22222rem;"><span class="font_x6tx5d5fi" style="color: rgb(0, 0, 0);" data-mce-style="color: #000000;">Validation</span></p></div></div>
+      </div>
+    
+        </div>
+      </div><div id="column_cxalobk82" class="column" data-xl-width="6">
+        <div class="content-wrapper">
+          
+      <div id="content_bd4kh8nxt" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="font-size: 1.11111rem; line-height: 1.83333rem;" data-mce-style="font-size: 1.11111rem; line-height: 1.83333rem;"><span class="font_x6tx5d5fi" style="letter-spacing: 0rem; color: rgb(79, 79, 79);" data-mce-style="letter-spacing: 0rem; color: #4f4f4f;"><span data-mce-style="font-family: Inter, sans-serif;" style="font-family: Inter, sans-serif;"><strong><span class="font_x6tx5d5fi">Prototype</span></strong></span></span></p></div></div>
+      </div>
+    
+      <div id="content_73og4snzw" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="line-height: 1.5rem; font-size: 0.888889rem;" data-mce-style="line-height: 1.5rem; font-size: 0.888889rem;"><span class="font_3qmflxvbd" style="letter-spacing: 0rem; color: rgb(79, 79, 79);" data-mce-style="letter-spacing: 0rem; color: #4f4f4f;"> After finalizing the ideas generated in the wireframes, we built our prototype. This prototype contains the pages relevant to each of the use cases since we would use it for subsequent usability tests.
+        <br><br>You can <strong>click on the screen</strong> and interact with the prototype below.</span></p></div></div>
+      </div>
+        </div>
+      </div></div>
+          </div>
+        </section>				
+   
+        <section id="section_0qwq7b7bw" class="content-block" data-column-mode-sm="single" data-column-mode-xs="single" data-justify="center" data-valign="stretch" data-height="dynamic">
+          
+          <div class="container">
+          <div id="row_wg27x1gsf" class="row"><div id="column_9uzkkv0k2" class="column" data-xl-width="9" data-valign="center">
+        <div class="content-wrapper">
+    
+    
+      <div id="content_wuwjeg6dg" class="column-content" data-module="gallery">
+        <div id="gallery-content_wuwjeg6dg" class="is-content semplice-gallery-slider sgs-slide pagination-below sgs-pagination-false flickity-enabled is-draggable" tabindex="0"><div class="flickity-viewport" style="height: 700px; touch-action: pan-y;"><div class="flickity-slider"><iframe style="padding:0;" autoplay width="100%" height="1080" src="https://xd.adobe.com/embed/4889523a-0b56-4854-84af-0ae495fcf61f-1dda/?fullscreen" frameborder="0" allowfullscreen></iframe></div></div></div>
+      </div>
+        </div>
+      </div></div>
+          </div>
+        </section>	
+
+        <section id="section_gg7adfidh" class="content-block" data-column-mode-sm="single" data-column-mode-xs="single" data-justify="center">
+          
+          <div class="container">
+          <div id="row_ulg6id6nc" class="row"><div id="column_fvndck89p" class="column" data-xl-width="3">
+        <div class="content-wrapper">
+          
+      <div id="content_mifnrulj3" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="font-size: 1.66667rem; line-height: 2.22222rem;" data-mce-style="font-size: 1.66667rem; line-height: 2.22222rem;"><span class="font_x6tx5d5fi" style="color: rgb(0, 0, 0);" data-mce-style="color: #000000;">Usability Testing</span></p></div></div>
+      </div>
+    
+        </div>
+      </div><div id="column_cxalobk82" class="column" data-xl-width="6">
+        <div class="content-wrapper">
+    
+      <div id="content_73og4snzw" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="line-height: 1.5rem; font-size: 0.888889rem;" data-mce-style="line-height: 1.5rem; font-size: 0.888889rem;"><span class="font_3qmflxvbd" style="letter-spacing: 0rem; color: rgb(79, 79, 79);" data-mce-style="letter-spacing: 0rem; color: #4f4f4f;"> Measuring our redesign's success rate for each use case.For each of the personas, we were able to find 7 people that were willing to help us test out the prototype. A success was measured if a user could get to their target page without pressing any wrong navigation links. Here were our results:</span></p></div></div>
+      </div>
+
+      <div id="content_73og4snzw" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl" style="padding-top:4%"><img src="img/ut-cstem1.png" alt="usability testing image"></div></div>
+      </div>
+
+      <div id="content_73og4snzw" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl" style="padding-top:4%"><img src="img/ut-cstem2.png" alt="usability testing image"></div></div>
+      </div>
+
+      <div id="content_73og4snzw" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl" style="padding-top:4%"><img src="img/ut-cstem3.png" alt="usability testing image"></div></div>
+      </div>
+
+      <div id="content_73og4snzw" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl" style="padding-top:4%"><img src="img/ut-cstem4.png" alt="usability testing image"></div></div>
+      </div>
+      
+        </div>
+      </div></div>
+          </div>
+        </section>	
+
+        <section id="section_qqiejmor1" class="content-block" data-column-mode-sm="single" data-column-mode-xs="single" data-justify="center">
+          
+          <div class="container">
+          <div id="row_mgalk7k2a" class="row"><div id="column_xsgug7u6v" class="column" data-xl-width="3">
+        <div class="content-wrapper">
+          
+      <div id="content_8ix53ru7h" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="font-size: 1.66667rem; line-height: 2.22222rem;" data-mce-style="font-size: 1.66667rem; line-height: 2.22222rem;"><span class="font_x6tx5d5fi" style="letter-spacing: 0rem; color: rgb(0, 0, 0);" data-mce-style="letter-spacing: 0rem; color: #000000;">Result</span></p></div></div>
+      </div>
+    
+        </div>
+      </div><div id="column_ydb2fipfd" class="column" data-xl-width="6">
+        <div class="content-wrapper">
+          
+      <div id="content_9myjv8adj" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="line-height: 1.5rem;" data-mce-style="line-height: 1.5rem;"><span class="font_3qmflxvbd" style="color: rgb(79, 79, 79);" data-mce-style="color: #4f4f4f;">We designed a set of new features within the CSTEM website that supports a much wider range of needs. The new design takes new and returning users on a more controlled,
+          personalized journey and uses unique features through the navigation bar that guides users smoothly to their destination.
+          By integrating these features and using the UC Davis branding, the new CSTEM website creates a more full, guided experience for users and builds a more
+          lasting relationship with them.</span></p></div></div>
+      </div>
+    
+        </div>
+      </div></div>
+          </div>
+        </section>				
+      
+        <section id="section_8lgudxk3r" class="content-block" data-column-mode-sm="single" data-column-mode-xs="single" data-justify="center">
+          
+          <div class="container">
+          <div id="row_a9x0iiv8k" class="row"><div id="column_k9i6x0bow" class="column" data-xl-width="3">
+        <div class="content-wrapper">
+          
+      <div id="content_gk9gwqw0a" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="font-size: 1.66667rem; line-height: 2.22222rem;" data-mce-style="font-size: 1.66667rem; line-height: 2.22222rem;"><span class="font_x6tx5d5fi" style="letter-spacing: 0rem; color: rgb(0, 0, 0);" data-mce-style="letter-spacing: 0rem; color: #000000;">Takeaways</span></p></div></div>
+      </div>
+    
+        </div>
+      </div><div id="column_see385x8g" class="column" data-xl-width="6">
+        <div class="content-wrapper">
+          
+      <div id="content_o295wmayv" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="font-size: 1.11111rem; line-height: 1.83333rem;" data-mce-style="font-size: 1.11111rem; line-height: 1.83333rem;"><span style="color: rgb(79, 79, 79); letter-spacing: 0rem;" data-mce-style="color: #4f4f4f; letter-spacing: 0rem;" class="font_x6tx5d5fi"><strong>Executing Design-to-Development Handoff</strong></span></p></div></div>
+      </div>
+    
+      <div id="content_5tpspidkq" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="font-size: 0.888889rem; line-height: 1.5rem;" data-mce-style="font-size: 0.888889rem; line-height: 1.5rem;"><span class="font_3qmflxvbd" style="color: rgb(79, 79, 79);" data-mce-style="color: #4f4f4f;">This project gave me valuable experience in handing off deliverables for development in a consumer-facing environment. I made a PDF guide with development notes detailing the component types and usage, ensured pixel perfection within organized layers in my final AdobeXD file, and exported all assets with correct naming conventions. This guide helped the developers quickly localize the page for the global market and launch the page as fast as possible.</span></p></div></div>
+      </div>
+
+      <div id="content_sxldky7wn" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="font-size: 1.11111rem; line-height: 1.83333rem;" data-mce-style="font-size: 1.11111rem; line-height: 1.83333rem;"><span class="font_x6tx5d5fi" style="color: rgb(79, 79, 79); letter-spacing: 0rem;" data-mce-style="color: #4f4f4f; letter-spacing: 0rem;">Implementation</span></p></div></div>
+      </div>
+    
+      <div id="content_uib654de5" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="font-size: 0.888889rem; line-height: 1.5rem;" data-mce-style="font-size: 0.888889rem; line-height: 1.5rem;"><span class="font_3qmflxvbd" style="color: rgb(79, 79, 79);" data-mce-style="color: #4f4f4f;">After the usability tests, Valeria and I used a Powerpoint and Functional Specification Report to present our process and results to key stakeholders in the CSTEM department. They liked our ideas, however, they also explained to us that the department was facing internal debate. Since, the department was facing some budget issues, they could not spare funds for the development of the websites. The intent was to use our research and redesigns to keep for future purposes when they will be able to allocate capital for the online experience. 
+          <br><br>We understood why there would be hesitation in regards to spending financial capital as well as time on this endeavour: 
+          <br><br>1. Changing the site is a lot of work and will require a team of developers
+          <br>2. Changing the site will force people who are used to using the site to relearn the new site
+          <br><br>  This gave us a glimpse into the real world where research efforts may not always be financially viable. It was a little bit disappointing to see progress hindered by such matters, but I am still grateful to have gotten the opportunity to learn from this experience. While, it hasn't been implemented yet, there is hope for the future where this research and prototype will be useful..</span></p></div></div>
+    
+      <div id="content_sxldky7wn" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="font-size: 1.11111rem; line-height: 1.83333rem;" data-mce-style="font-size: 1.11111rem; line-height: 1.83333rem;"><span class="font_x6tx5d5fi" style="color: rgb(79, 79, 79); letter-spacing: 0rem;" data-mce-style="color: #4f4f4f; letter-spacing: 0rem;">Thinking Forward!</span></p></div></div>
+      </div>
+    
+      <div id="content_uib654de5" class="column-content" data-module="paragraph">
+        <div class="is-content"><div data-content-for="xl"><p style="font-size: 0.888889rem; line-height: 1.5rem;" data-mce-style="font-size: 0.888889rem; line-height: 1.5rem;"><span class="font_3qmflxvbd" style="color: rgb(79, 79, 79);" data-mce-style="color: #4f4f4f;">1. Get user feedback while wireframing rather than making personal choices about the layout.
+          <br>2. Try to increase the number of participants in the interviews and usability tests to get more accurate results.
+          <br>3. Understand the hidden variables and obstacles between the project and its implementation by asking more questions to clients.</span></p></div></div>
+      </div>
+    
+        </div>
+      </div></div>
+          </div>
+
 
         <!-- Footer -->
-        <footer class="footer navbar-light bg-light">
-          <div class="process-row">
-          <a target="_blank"href="https://www.linkedin.com/in/nehalj98/"><i class="fab fa-linkedin-in"></i></a>
-          <a href="mailto:nnjain@ucdavis.edu"><i class="fas fa-envelope"></i></a>
+      <footer class="footer navbar-light bg-light">
+        <div class="footercontainer text-center">
+        <a target="_blank"href="https://www.linkedin.com/in/nehalj98/"><i class="fab fa-linkedin-in"></i></a>
+        <a href="mailto:nehalj98@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+    </footer>
+        </section>				
+
+      
+      </div></div></div></div>
+  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="pswp__bg"></div>
+<div class="pswp__scroll-wrap">
+  <div class="pswp__container">
+    <div class="pswp__item"></div>
+    <div class="pswp__item"></div>
+    <div class="pswp__item"></div>
+  </div>
+  <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+          <div class="pswp__preloader__donut"></div>
           </div>
-      </footer>
-        <!-- <footer class="footer navbar-light bg-light">
-            <div class="break-down-container text-center">
-            <a target="_blank"href="https://www.linkedin.com/in/nehalj98/"><i class="fab fa-linkedin-in"></i></a>
-            <a href="mailto:nnjain@ucdavis.edu"><i class="fas fa-envelope"></i></a>
-            </div>
-        </footer> -->
-        
-        <!-- Custom JS -->
-        <script src="script.js"></script>
-        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-        <script src="aos.js"></script>
-        <script type="text/javascript">
-          AOS.init({
-              duration: 2000
-            });
-        </script>
-
-        <!-- JQuery -->
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    
+        </div>
+      </div>
     </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div> 
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+  </div>
+</div>
+</div>	<div class="back-to-top" style="display: none; opacity: 1;">
+  <a class="semplice-event" data-event-type="helper" data-event="scrollToTop"><svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="53px" height="20px" viewBox="0 0 53 20" enable-background="new 0 0 53 20" xml:space="preserve">
+<g id="Ebene_3">
+</g>
+<g>
+<polygon points="43.886,16.221 42.697,17.687 26.5,4.731 10.303,17.688 9.114,16.221 26.5,2.312 	"></polygon>
+</g>
+</svg>
+</a>
+</div>
+<script type="text/javascript">
+  /* <![CDATA[ */
+  var semplice = {"default_api_url":"https:\/\/michellegore.com\/wp-json","semplice_api_url":"https:\/\/michellegore.com\/wp-json\/semplice\/v1\/frontend","template_dir":"https:\/\/michellegore.com\/wp-content\/themes\/semplice4","category_base":"\/category\/","tag_base":"\/tag\/","nonce":"56fa0bcf23","frontend_mode":"dynamic","static_transitions":"disabled","site_name":"Michelle Gore","base_url":"https:\/\/michellegore.com","frontpage_id":"302","blog_home":"https:\/\/michellegore.com","blog_navbar":"","sr_status":"disabled","blog_sr_status":"enabled","is_preview":"","password_form":"\r\n<div class=\"post-password-form\">\r\n\t<div class=\"inner\">\r\n\t\t<form action=\"https:\/\/michellegore.com\/wp-login.php?action=postpass\" method=\"post\">\r\n\t\t\t<div class=\"password-lock\"><svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"35\" height=\"52\" viewBox=\"0 0 35 52\">\r\n  <path id=\"Form_1\" data-name=\"Form 1\" d=\"M31.3,25.028H27.056a0.755,0.755,0,0,1-.752-0.757V14.654a8.8,8.8,0,1,0-17.608,0v9.616a0.755,0.755,0,0,1-.752.757H3.7a0.755,0.755,0,0,1-.752-0.757V14.654a14.556,14.556,0,1,1,29.111,0v9.616A0.755,0.755,0,0,1,31.3,25.028Zm-3.495-1.514h2.743V14.654a13.051,13.051,0,1,0-26.1,0v8.859H7.192V14.654a10.309,10.309,0,1,1,20.617,0v8.859Zm4.43,28.475H2.761A2.77,2.77,0,0,1,0,49.213V25.28a1.763,1.763,0,0,1,1.755-1.766H33.242A1.763,1.763,0,0,1,35,25.28V49.213A2.77,2.77,0,0,1,32.239,51.988ZM1.758,25.028a0.252,0.252,0,0,0-.251.252V49.213a1.259,1.259,0,0,0,1.254,1.262H32.239a1.259,1.259,0,0,0,1.254-1.262V25.28a0.252,0.252,0,0,0-.251-0.252H1.758ZM20.849,43h-6.7a0.75,0.75,0,0,1-.61-0.314,0.763,0.763,0,0,1-.1-0.682l1.471-4.44a4.1,4.1,0,1,1,5.184,0L21.563,42a0.763,0.763,0,0,1-.1.682A0.75,0.75,0,0,1,20.849,43ZM15.2,41.487H19.8l-1.319-3.979a0.76,0.76,0,0,1,.33-0.891,2.6,2.6,0,1,0-2.633,0,0.76,0.76,0,0,1,.33.891Z\"\/>\r\n<\/svg>\r\n<\/div>\r\n\t\t\t<p>This content is protected. <br \/><span>To view, please enter the password.<\/span><\/p>\r\n\t\t\t<div class=\"input-fields\">\r\n\t\t\t\t<input name=\"post_password\" class=\"post-password-input\" type=\"password\" size=\"20\" maxlength=\"20\" placeholder=\"Enter password\" \/><a class=\"post-password-submit semplice-event\" data-event-type=\"helper\" data-event=\"postPassword\" data-id=\"302\">Submit<\/a>\t\t\t<\/div>\r\n\t\t<\/form>\r\n\t<\/div>\r\n<\/div>\r\n\r\n","portfolio_order":[70,16,10,493,309,370,191],"gallery":{"prev":"<svg version=\"1.1\" id=\"Ebene_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\"\n\twidth=\"18px\" height=\"40px\"  viewBox=\"0 0 18 40\" enable-background=\"new 0 0 18 40\" xml:space=\"preserve\">\n<g id=\"Ebene_2\">\n\t<g>\n\t\t<polygon points=\"16.3,40 0.3,20 16.3,0 17.7,1 2.5,20 17.7,39 \t\t\"\/>\n\t<\/g>\n<\/g>\n<\/svg>\n","next":"<svg version=\"1.1\" id=\"Ebene_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\"\n\twidth=\"18px\" height=\"40px\" viewBox=\"0 0 18 40\" enable-background=\"new 0 0 18 40\" xml:space=\"preserve\">\n<g id=\"Ebene_2\">\n\t<g>\n\t\t<polygon points=\"0.3,39 15.5,20 0.3,1 1.7,0 17.7,20 1.7,40 \t\t\"\/>\n\t<\/g>\n<\/g>\n<\/svg>\n"},"menus":{"nav_pwjfsgiph":{"html":"\r\n\t\t\t\t\t\t<header class=\"nav_pwjfsgiph semplice-navbar active-navbar sticky-nav \" data-cover-transparent=\"disabled\" data-bg-overlay-visibility=\"visible\"data-mobile-fallback=\"enabled\">\r\n\t\t\t\t\t\t\t<div class=\"container\" data-nav=\"logo-left-menu-right\">\r\n\t\t\t\t\t\t\t\t<div class=\"navbar-inner menu-type-text\" data-xl-width=\"12\" data-navbar-type=\"container\">\r\n\t\t\t\t\t\t\t\t\t<div class=\"logo navbar-left\" data-font=\"regular\"><a href=\"https:\/\/michellegore.com\" title=\"Michelle Gore\">Michelle Gore<\/a><\/div>\r\n\t\t\t\t\t\t\t\t\t<nav class=\"standard navbar-right\"><ul class=\"menu\"><li id=\"menu-item-480\" class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-480\"><a href=\"https:\/\/michellegore.com\/work\"><span>Work<\/span><\/a><\/li>\n<li id=\"menu-item-537\" class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-537\"><a href=\"https:\/\/michellegore.com\/play\"><span>Play<\/span><\/a><\/li>\n<li id=\"menu-item-491\" class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-491\"><a href=\"https:\/\/michellegore.com\/about\"><span>About<\/span><\/a><\/li>\n<\/ul><\/nav>\r\n\t\t\t\t\t\t\t\t\t<div class=\"hamburger navbar-right semplice-menu\"><a class=\"open-menu menu-icon\"><span><\/span><\/a><\/div>\r\n\t\t\t\t\t\t\t\t<\/div>\r\n\t\t\t\t\t\t\t<\/div>\r\n\t\t\t\t\t\t<\/header>\r\n\t\t\t\t\t\t\r\n\t\t\t\t<div id=\"overlay-menu\">\r\n\t\t\t\t\t<div class=\"overlay-menu-inner\" data-xl-width=\"12\">\r\n\t\t\t\t\t\t<nav class=\"overlay-nav\" data-justify=\"center\" data-align=\"align-middle\">\r\n\t\t\t\t\t\t\t<ul class=\"container\"><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-480\"><a href=\"https:\/\/michellegore.com\/work\"><span>Work<\/span><\/a><\/li>\n<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-537\"><a href=\"https:\/\/michellegore.com\/play\"><span>Play<\/span><\/a><\/li>\n<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-491\"><a href=\"https:\/\/michellegore.com\/about\"><span>About<\/span><\/a><\/li>\n<\/ul>\r\n\t\t\t\t\t\t<\/nav>\r\n\t\t\t\t\t<\/div>\r\n\t\t\t\t<\/div>\r\n\t\t\t\r\n\t\t\t\t\t","css":".nav_pwjfsgiph { background-color: rgba(245, 245, 245, 1);; }.nav_pwjfsgiph .navbar-inner .logo a { font-size: 1rem; }.logo a { text-transform: none; }.nav_pwjfsgiph .navbar-inner .hamburger a.menu-icon span { background-color: #000000; }.nav_pwjfsgiph .navbar-inner .hamburger a.menu-icon { width: 24; }.nav_pwjfsgiph .navbar-inner .hamburger a.menu-icon span { height: 2px; }.nav_pwjfsgiph .navbar-inner .hamburger a.open-menu span::before { transform: translateY(-6px); }.nav_pwjfsgiph .navbar-inner .hamburger a.open-menu span::after { transform: translateY(6px); }.nav_pwjfsgiph .navbar-inner .hamburger a.open-menu:hover span::before { transform: translateY(-8px); }.nav_pwjfsgiph .navbar-inner .hamburger a.open-menu:hover span::after { transform: translateY(8px); }.nav_pwjfsgiph .navbar-inner .hamburger a.menu-icon { height: 14px; }.nav_pwjfsgiph .navbar-inner .hamburger a.menu-icon span { margin-top: 7px; }#overlay-menu { background-color: rgba(245, 245, 245, 1); }@media screen and (min-width: 992px) and (max-width: 1169.98px) { .nav_pwjfsgiph .navbar-inner .hamburger a.menu-icon { height: 14px; }.nav_pwjfsgiph .navbar-inner .hamburger a.menu-icon span { margin-top: 7px; }}@media screen and (min-width: 768px) and (max-width: 991.98px) { .nav_pwjfsgiph .navbar-inner .hamburger a.menu-icon { height: 14px; }.nav_pwjfsgiph .navbar-inner .hamburger a.menu-icon span { margin-top: 7px; }}@media screen and (min-width: 544px) and (max-width: 767.98px) { .nav_pwjfsgiph .navbar-inner .hamburger a.menu-icon { height: 14px; }.nav_pwjfsgiph .navbar-inner .hamburger a.menu-icon span { margin-top: 7px; }}@media screen and (max-width: 543.98px) { .nav_pwjfsgiph .navbar-inner .hamburger a.menu-icon { height: 14px; }.nav_pwjfsgiph .navbar-inner .hamburger a.menu-icon span { margin-top: 7px; }}","mobile_css":{"lg":".nav_pwjfsgiph .navbar-inner .hamburger a.menu-icon { height: 14px; }.nav_pwjfsgiph .navbar-inner .hamburger a.menu-icon span { margin-top: 7px; }","md":".nav_pwjfsgiph .navbar-inner .hamburger a.menu-icon { height: 14px; }.nav_pwjfsgiph .navbar-inner .hamburger a.menu-icon span { margin-top: 7px; }","sm":".nav_pwjfsgiph .navbar-inner .hamburger a.menu-icon { height: 14px; }.nav_pwjfsgiph .navbar-inner .hamburger a.menu-icon span { margin-top: 7px; }","xs":".nav_pwjfsgiph .navbar-inner .hamburger a.menu-icon { height: 14px; }.nav_pwjfsgiph .navbar-inner .hamburger a.menu-icon span { margin-top: 7px; }"}},"default":"nav_13dnu2vpq","nav_13dnu2vpq":{"html":"\r\n\t\t\t\t\t\t<header class=\"nav_13dnu2vpq semplice-navbar active-navbar non-sticky-nav \" data-cover-transparent=\"disabled\" data-bg-overlay-visibility=\"visible\"data-mobile-fallback=\"enabled\">\r\n\t\t\t\t\t\t\t<div class=\"container\" data-nav=\"logo-left-menu-left\">\r\n\t\t\t\t\t\t\t\t<div class=\"navbar-inner menu-type-text\" data-xl-width=\"12\" data-navbar-type=\"container\">\r\n\t\t\t\t\t\t\t\t\t<div class=\"navbar-left\">\r\n\t\t\t\t\t\t\t\t\t\t<div class=\"logo\" data-font=\"font_2fuhd72et\"><a href=\"https:\/\/michellegore.com\" title=\"Michelle Gore\">Michelle Gore<\/a><\/div>\r\n\t\t\t\t\t\t\t\t\t\t<nav class=\"standard\" data-font=\"font_acg6rwb1e\"><ul class=\"menu\"><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-480\"><a href=\"https:\/\/michellegore.com\/work\"><span>Work<\/span><\/a><\/li>\n<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-537\"><a href=\"https:\/\/michellegore.com\/play\"><span>Play<\/span><\/a><\/li>\n<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-491\"><a href=\"https:\/\/michellegore.com\/about\"><span>About<\/span><\/a><\/li>\n<\/ul><\/nav>\r\n\t\t\t\t\t\t\t\t\t<\/div>\r\n\t\t\t\t\t\t\t\t\t<div class=\"hamburger navbar-right semplice-menu\"><a class=\"open-menu menu-icon\"><span><\/span><\/a><\/div>\r\n\t\t\t\t\t\t\t\t<\/div>\r\n\t\t\t\t\t\t\t<\/div>\r\n\t\t\t\t\t\t<\/header>\r\n\t\t\t\t\t\t\r\n\t\t\t\t<div id=\"overlay-menu\">\r\n\t\t\t\t\t<div class=\"overlay-menu-inner\" data-xl-width=\"12\">\r\n\t\t\t\t\t\t<nav class=\"overlay-nav\" data-justify=\"center\" data-align=\"align-middle\">\r\n\t\t\t\t\t\t\t<ul class=\"container\"><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-480\"><a href=\"https:\/\/michellegore.com\/work\"><span>Work<\/span><\/a><\/li>\n<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-537\"><a href=\"https:\/\/michellegore.com\/play\"><span>Play<\/span><\/a><\/li>\n<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-491\"><a href=\"https:\/\/michellegore.com\/about\"><span>About<\/span><\/a><\/li>\n<\/ul>\r\n\t\t\t\t\t\t<\/nav>\r\n\t\t\t\t\t<\/div>\r\n\t\t\t\t<\/div>\r\n\t\t\t\r\n\t\t\t\t\t","css":".nav_13dnu2vpq { background-color: transparent;; }.nav_13dnu2vpq .navbar-inner .logo a { color: #020202; }.logo a { text-transform: none; }.nav_13dnu2vpq .navbar-inner .hamburger a.menu-icon span { background-color: #000000; }.nav_13dnu2vpq .navbar-inner .hamburger a.menu-icon { width: 24; }.nav_13dnu2vpq .navbar-inner .hamburger a.menu-icon span { height: 2px; }.nav_13dnu2vpq .navbar-inner .hamburger a.open-menu span::before { transform: translateY(-6px); }.nav_13dnu2vpq .navbar-inner .hamburger a.open-menu span::after { transform: translateY(6px); }.nav_13dnu2vpq .navbar-inner .hamburger a.open-menu:hover span::before { transform: translateY(-8px); }.nav_13dnu2vpq .navbar-inner .hamburger a.open-menu:hover span::after { transform: translateY(8px); }.nav_13dnu2vpq .navbar-inner .hamburger a.menu-icon { height: 14px; }.nav_13dnu2vpq .navbar-inner .hamburger a.menu-icon span { margin-top: 7px; }.nav_13dnu2vpq .navbar-inner nav ul li a:hover span, .navbar-inner nav ul li.current-menu-item a span, .navbar-inner nav ul li.current_page_item a span, .nav_13dnu2vpq .navbar-inner nav ul li.wrap-focus a span { color: #4f4f4f; }.nav_13dnu2vpq .navbar-inner nav ul li.current-menu-item a span { color: #4f4f4f; }.nav_13dnu2vpq .navbar-inner nav ul li.current_page_item a span { color: #4f4f4f; }[data-post-type=\"project\"] .navbar-inner nav ul li.portfolio-grid a span, [data-post-type=\"post\"] .navbar-inner nav ul li.blog-overview a span { color: #4f4f4f; }#overlay-menu { background-color: rgba(245, 245, 245, 1); }@media screen and (min-width: 992px) and (max-width: 1169.98px) { .nav_13dnu2vpq .navbar-inner .hamburger a.menu-icon { height: 14px; }.nav_13dnu2vpq .navbar-inner .hamburger a.menu-icon span { margin-top: 7px; }}@media screen and (min-width: 768px) and (max-width: 991.98px) { .nav_13dnu2vpq .navbar-inner .hamburger a.menu-icon { height: 14px; }.nav_13dnu2vpq .navbar-inner .hamburger a.menu-icon span { margin-top: 7px; }}@media screen and (min-width: 544px) and (max-width: 767.98px) { .nav_13dnu2vpq .navbar-inner .hamburger a.menu-icon { height: 14px; }.nav_13dnu2vpq .navbar-inner .hamburger a.menu-icon span { margin-top: 7px; }}@media screen and (max-width: 543.98px) { .nav_13dnu2vpq .navbar-inner .hamburger a.menu-icon { height: 14px; }.nav_13dnu2vpq .navbar-inner .hamburger a.menu-icon span { margin-top: 7px; }}","mobile_css":{"lg":".nav_13dnu2vpq .navbar-inner .hamburger a.menu-icon { height: 14px; }.nav_13dnu2vpq .navbar-inner .hamburger a.menu-icon span { margin-top: 7px; }","md":".nav_13dnu2vpq .navbar-inner .hamburger a.menu-icon { height: 14px; }.nav_13dnu2vpq .navbar-inner .hamburger a.menu-icon span { margin-top: 7px; }","sm":".nav_13dnu2vpq .navbar-inner .hamburger a.menu-icon { height: 14px; }.nav_13dnu2vpq .navbar-inner .hamburger a.menu-icon span { margin-top: 7px; }","xs":".nav_13dnu2vpq .navbar-inner .hamburger a.menu-icon { height: 14px; }.nav_13dnu2vpq .navbar-inner .hamburger a.menu-icon span { margin-top: 7px; }"}},"nav_a4k4mp84b":{"html":"\r\n\t\t\t\t\t\t<header class=\"nav_a4k4mp84b semplice-navbar active-navbar non-sticky-nav  cover-transparent\" data-cover-transparent=\"enabled\" data-bg-overlay-visibility=\"hidden\"data-mobile-fallback=\"enabled\">\r\n\t\t\t\t\t\t\t<div class=\"container\" data-nav=\"logo-left-menu-right\">\r\n\t\t\t\t\t\t\t\t<div class=\"navbar-inner menu-type-text\" data-xl-width=\"12\" data-navbar-type=\"container\">\r\n\t\t\t\t\t\t\t\t\t<div class=\"logo navbar-left\" data-font=\"font_shi8d64tg\"><a href=\"https:\/\/michellegore.com\" title=\"Michelle Gore\">Michelle Gore<\/a><\/div>\r\n\t\t\t\t\t\t\t\t\t<nav class=\"standard navbar-right\" data-font=\"font_k0ixjyago\"><ul class=\"menu\"><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-480\"><a href=\"https:\/\/michellegore.com\/work\"><span>Work<\/span><\/a><\/li>\n<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-537\"><a href=\"https:\/\/michellegore.com\/play\"><span>Play<\/span><\/a><\/li>\n<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-491\"><a href=\"https:\/\/michellegore.com\/about\"><span>About<\/span><\/a><\/li>\n<\/ul><\/nav>\r\n\t\t\t\t\t\t\t\t\t<div class=\"hamburger navbar-right semplice-menu\"><a class=\"open-menu menu-icon\"><span><\/span><\/a><\/div>\r\n\t\t\t\t\t\t\t\t<\/div>\r\n\t\t\t\t\t\t\t<\/div>\r\n\t\t\t\t\t\t<\/header>\r\n\t\t\t\t\t\t\r\n\t\t\t\t<div id=\"overlay-menu\">\r\n\t\t\t\t\t<div class=\"overlay-menu-inner\" data-xl-width=\"12\">\r\n\t\t\t\t\t\t<nav class=\"overlay-nav\" data-justify=\"center\" data-align=\"align-middle\">\r\n\t\t\t\t\t\t\t<ul class=\"container\"><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-480\"><a href=\"https:\/\/michellegore.com\/work\"><span>Work<\/span><\/a><\/li>\n<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-537\"><a href=\"https:\/\/michellegore.com\/play\"><span>Play<\/span><\/a><\/li>\n<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-491\"><a href=\"https:\/\/michellegore.com\/about\"><span>About<\/span><\/a><\/li>\n<\/ul>\r\n\t\t\t\t\t\t<\/nav>\r\n\t\t\t\t\t<\/div>\r\n\t\t\t\t<\/div>\r\n\t\t\t\r\n\t\t\t\t\t","css":".nav_a4k4mp84b { background-color: transparent;; }.nav_a4k4mp84b .navbar-inner .logo a { color: #ffffff; }.nav_a4k4mp84b .navbar-inner .logo a { font-size: 0.8888888888888888rem; }.logo a { text-transform: uppercase; }.logo a { letter-spacing: 0.08333333333333333rem; }.nav_a4k4mp84b .navbar-inner .hamburger a.menu-icon span { background-color: #000000; }.nav_a4k4mp84b .navbar-inner .hamburger a.menu-icon { width: 24; }.nav_a4k4mp84b .navbar-inner .hamburger a.menu-icon span { height: 2px; }.nav_a4k4mp84b .navbar-inner .hamburger a.open-menu span::before { transform: translateY(-6px); }.nav_a4k4mp84b .navbar-inner .hamburger a.open-menu span::after { transform: translateY(6px); }.nav_a4k4mp84b .navbar-inner .hamburger a.open-menu:hover span::before { transform: translateY(-8px); }.nav_a4k4mp84b .navbar-inner .hamburger a.open-menu:hover span::after { transform: translateY(8px); }.nav_a4k4mp84b .navbar-inner .hamburger a.menu-icon { height: 14px; }.nav_a4k4mp84b .navbar-inner .hamburger a.menu-icon span { margin-top: 7px; }.nav_a4k4mp84b .navbar-inner nav ul li a span { color: #ffffff; }.nav_a4k4mp84b .navbar-inner nav ul li a span { text-transform: none; }.nav_a4k4mp84b .navbar-inner nav ul li a span { letter-spacing: 0rem; }.nav_a4k4mp84b .navbar-inner nav ul li a span { border-bottom-width: 0.05555555555555555rem; }.nav_a4k4mp84b .navbar-inner nav ul li a span { border-bottom-color: transparent; }.nav_a4k4mp84b .navbar-inner nav ul li a span { padding-bottom: 0rem; }.nav_a4k4mp84b .navbar-inner nav ul li a:hover span, .navbar-inner nav ul li.current-menu-item a span, .navbar-inner nav ul li.current_page_item a span, .nav_a4k4mp84b .navbar-inner nav ul li.wrap-focus a span { color: #ffffff; }.nav_a4k4mp84b .navbar-inner nav ul li.current-menu-item a span { color: #ffffff; }.nav_a4k4mp84b .navbar-inner nav ul li.current_page_item a span { color: #ffffff; }[data-post-type=\"project\"] .navbar-inner nav ul li.portfolio-grid a span, [data-post-type=\"post\"] .navbar-inner nav ul li.blog-overview a span { color: #ffffff; }.nav_a4k4mp84b .navbar-inner nav ul li a:hover span { border-bottom-color: #ffffff; }.nav_a4k4mp84b .navbar-inner nav ul li.current-menu-item a span { border-bottom-color: #ffffff; }.nav_a4k4mp84b .navbar-inner nav ul li.current_page_item a span { border-bottom-color: #ffffff; }[data-post-type=\"project\"] .navbar-inner nav ul li.portfolio-grid a span, [data-post-type=\"post\"] .navbar-inner nav ul li.blog-overview a span { border-bottom-color: #ffffff; }#overlay-menu { background-color: rgba(245, 245, 245, 1); }@media screen and (min-width: 992px) and (max-width: 1169.98px) { .nav_a4k4mp84b .navbar-inner .hamburger a.menu-icon { height: 14px; }.nav_a4k4mp84b .navbar-inner .hamburger a.menu-icon span { margin-top: 7px; }}@media screen and (min-width: 768px) and (max-width: 991.98px) { .nav_a4k4mp84b .navbar-inner .hamburger a.menu-icon { height: 14px; }.nav_a4k4mp84b .navbar-inner .hamburger a.menu-icon span { margin-top: 7px; }}@media screen and (min-width: 544px) and (max-width: 767.98px) { .nav_a4k4mp84b .navbar-inner .hamburger a.menu-icon { height: 14px; }.nav_a4k4mp84b .navbar-inner .hamburger a.menu-icon span { margin-top: 7px; }}@media screen and (max-width: 543.98px) { .nav_a4k4mp84b .navbar-inner .hamburger a.menu-icon { height: 14px; }.nav_a4k4mp84b .navbar-inner .hamburger a.menu-icon span { margin-top: 7px; }}","mobile_css":{"lg":".nav_a4k4mp84b .navbar-inner .hamburger a.menu-icon { height: 14px; }.nav_a4k4mp84b .navbar-inner .hamburger a.menu-icon span { margin-top: 7px; }","md":".nav_a4k4mp84b .navbar-inner .hamburger a.menu-icon { height: 14px; }.nav_a4k4mp84b .navbar-inner .hamburger a.menu-icon span { margin-top: 7px; }","sm":".nav_a4k4mp84b .navbar-inner .hamburger a.menu-icon { height: 14px; }.nav_a4k4mp84b .navbar-inner .hamburger a.menu-icon span { margin-top: 7px; }","xs":".nav_a4k4mp84b .navbar-inner .hamburger a.menu-icon { height: 14px; }.nav_a4k4mp84b .navbar-inner .hamburger a.menu-icon span { margin-top: 7px; }"}},"nav_zzlvek8xx":{"html":"\r\n\t\t\t\t\t\t<header class=\"nav_zzlvek8xx semplice-navbar active-navbar non-sticky-nav  cover-transparent\" data-cover-transparent=\"enabled\" data-bg-overlay-visibility=\"hidden\"data-mobile-fallback=\"enabled\">\r\n\t\t\t\t\t\t\t<div class=\"container\" data-nav=\"logo-left-menu-right\">\r\n\t\t\t\t\t\t\t\t<div class=\"navbar-inner menu-type-text\" data-xl-width=\"12\" data-navbar-type=\"container\">\r\n\t\t\t\t\t\t\t\t\t<div class=\"logo navbar-left\" data-font=\"font_shi8d64tg\"><a href=\"https:\/\/michellegore.com\" title=\"Michelle Gore\">Michelle Gore<\/a><\/div>\r\n\t\t\t\t\t\t\t\t\t<nav class=\"standard navbar-right\" data-font=\"font_k0ixjyago\"><ul class=\"menu\"><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-480\"><a href=\"https:\/\/michellegore.com\/work\"><span>Work<\/span><\/a><\/li>\n<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-537\"><a href=\"https:\/\/michellegore.com\/play\"><span>Play<\/span><\/a><\/li>\n<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-491\"><a href=\"https:\/\/michellegore.com\/about\"><span>About<\/span><\/a><\/li>\n<\/ul><\/nav>\r\n\t\t\t\t\t\t\t\t\t<div class=\"hamburger navbar-right semplice-menu\"><a class=\"open-menu menu-icon\"><span><\/span><\/a><\/div>\r\n\t\t\t\t\t\t\t\t<\/div>\r\n\t\t\t\t\t\t\t<\/div>\r\n\t\t\t\t\t\t<\/header>\r\n\t\t\t\t\t\t\r\n\t\t\t\t<div id=\"overlay-menu\">\r\n\t\t\t\t\t<div class=\"overlay-menu-inner\" data-xl-width=\"12\">\r\n\t\t\t\t\t\t<nav class=\"overlay-nav\" data-justify=\"center\" data-align=\"align-middle\">\r\n\t\t\t\t\t\t\t<ul class=\"container\"><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-480\"><a href=\"https:\/\/michellegore.com\/work\"><span>Work<\/span><\/a><\/li>\n<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-537\"><a href=\"https:\/\/michellegore.com\/play\"><span>Play<\/span><\/a><\/li>\n<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-491\"><a href=\"https:\/\/michellegore.com\/about\"><span>About<\/span><\/a><\/li>\n<\/ul>\r\n\t\t\t\t\t\t<\/nav>\r\n\t\t\t\t\t<\/div>\r\n\t\t\t\t<\/div>\r\n\t\t\t\r\n\t\t\t\t\t","css":".nav_zzlvek8xx { background-color: transparent;; }.nav_zzlvek8xx .navbar-inner .logo a { color: #020202; }.nav_zzlvek8xx .navbar-inner .logo a { font-size: 0.8888888888888888rem; }.logo a { text-transform: uppercase; }.logo a { letter-spacing: 0.08333333333333333rem; }.nav_zzlvek8xx .navbar-inner .hamburger a.menu-icon span { background-color: #000000; }.nav_zzlvek8xx .navbar-inner .hamburger a.menu-icon { width: 24; }.nav_zzlvek8xx .navbar-inner .hamburger a.menu-icon span { height: 2px; }.nav_zzlvek8xx .navbar-inner .hamburger a.open-menu span::before { transform: translateY(-6px); }.nav_zzlvek8xx .navbar-inner .hamburger a.open-menu span::after { transform: translateY(6px); }.nav_zzlvek8xx .navbar-inner .hamburger a.open-menu:hover span::before { transform: translateY(-8px); }.nav_zzlvek8xx .navbar-inner .hamburger a.open-menu:hover span::after { transform: translateY(8px); }.nav_zzlvek8xx .navbar-inner .hamburger a.menu-icon { height: 14px; }.nav_zzlvek8xx .navbar-inner .hamburger a.menu-icon span { margin-top: 7px; }.nav_zzlvek8xx .navbar-inner nav ul li a span { color: #020202; }.nav_zzlvek8xx .navbar-inner nav ul li a span { text-transform: none; }.nav_zzlvek8xx .navbar-inner nav ul li a span { letter-spacing: 0rem; }.nav_zzlvek8xx .navbar-inner nav ul li a span { border-bottom-width: 0.05555555555555555rem; }.nav_zzlvek8xx .navbar-inner nav ul li a span { border-bottom-color: transparent; }.nav_zzlvek8xx .navbar-inner nav ul li a:hover span, .navbar-inner nav ul li.current-menu-item a span, .navbar-inner nav ul li.current_page_item a span, .nav_zzlvek8xx .navbar-inner nav ul li.wrap-focus a span { color: #020202; }.nav_zzlvek8xx .navbar-inner nav ul li.current-menu-item a span { color: #020202; }.nav_zzlvek8xx .navbar-inner nav ul li.current_page_item a span { color: #020202; }[data-post-type=\"project\"] .navbar-inner nav ul li.portfolio-grid a span, [data-post-type=\"post\"] .navbar-inner nav ul li.blog-overview a span { color: #020202; }.nav_zzlvek8xx .navbar-inner nav ul li a:hover span { border-bottom-color: #020202; }.nav_zzlvek8xx .navbar-inner nav ul li.current-menu-item a span { border-bottom-color: #020202; }.nav_zzlvek8xx .navbar-inner nav ul li.current_page_item a span { border-bottom-color: #020202; }[data-post-type=\"project\"] .navbar-inner nav ul li.portfolio-grid a span, [data-post-type=\"post\"] .navbar-inner nav ul li.blog-overview a span { border-bottom-color: #020202; }#overlay-menu { background-color: rgba(245, 245, 245, 1); }@media screen and (min-width: 992px) and (max-width: 1169.98px) { .nav_zzlvek8xx .navbar-inner .hamburger a.menu-icon { height: 14px; }.nav_zzlvek8xx .navbar-inner .hamburger a.menu-icon span { margin-top: 7px; }}@media screen and (min-width: 768px) and (max-width: 991.98px) { .nav_zzlvek8xx .navbar-inner .hamburger a.menu-icon { height: 14px; }.nav_zzlvek8xx .navbar-inner .hamburger a.menu-icon span { margin-top: 7px; }}@media screen and (min-width: 544px) and (max-width: 767.98px) { .nav_zzlvek8xx .navbar-inner .hamburger a.menu-icon { height: 14px; }.nav_zzlvek8xx .navbar-inner .hamburger a.menu-icon span { margin-top: 7px; }}@media screen and (max-width: 543.98px) { .nav_zzlvek8xx .navbar-inner .hamburger a.menu-icon { height: 14px; }.nav_zzlvek8xx .navbar-inner .hamburger a.menu-icon span { margin-top: 7px; }}","mobile_css":{"lg":".nav_zzlvek8xx .navbar-inner .hamburger a.menu-icon { height: 14px; }.nav_zzlvek8xx .navbar-inner .hamburger a.menu-icon span { margin-top: 7px; }","md":".nav_zzlvek8xx .navbar-inner .hamburger a.menu-icon { height: 14px; }.nav_zzlvek8xx .navbar-inner .hamburger a.menu-icon span { margin-top: 7px; }","sm":".nav_zzlvek8xx .navbar-inner .hamburger a.menu-icon { height: 14px; }.nav_zzlvek8xx .navbar-inner .hamburger a.menu-icon span { margin-top: 7px; }","xs":".nav_zzlvek8xx .navbar-inner .hamburger a.menu-icon { height: 14px; }.nav_zzlvek8xx .navbar-inner .hamburger a.menu-icon span { margin-top: 7px; }"}},"system_default":{"html":"\r\n\t\t\t\t\t\t<header class=\"nav_a4k4mp84b semplice-navbar active-navbar non-sticky-nav  cover-transparent\" data-cover-transparent=\"enabled\" data-bg-overlay-visibility=\"hidden\"data-mobile-fallback=\"enabled\">\r\n\t\t\t\t\t\t\t<div class=\"container\" data-nav=\"logo-left-menu-right\">\r\n\t\t\t\t\t\t\t\t<div class=\"navbar-inner menu-type-text\" data-xl-width=\"12\" data-navbar-type=\"container\">\r\n\t\t\t\t\t\t\t\t\t<div class=\"logo navbar-left\" data-font=\"font_shi8d64tg\"><a href=\"https:\/\/michellegore.com\" title=\"Michelle Gore\">Michelle Gore<\/a><\/div>\r\n\t\t\t\t\t\t\t\t\t<nav class=\"standard navbar-right\" data-font=\"font_k0ixjyago\"><ul class=\"menu\"><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-480\"><a href=\"https:\/\/michellegore.com\/work\"><span>Work<\/span><\/a><\/li>\n<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-537\"><a href=\"https:\/\/michellegore.com\/play\"><span>Play<\/span><\/a><\/li>\n<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-491\"><a href=\"https:\/\/michellegore.com\/about\"><span>About<\/span><\/a><\/li>\n<\/ul><\/nav>\r\n\t\t\t\t\t\t\t\t\t<div class=\"hamburger navbar-right semplice-menu\"><a class=\"open-menu menu-icon\"><span><\/span><\/a><\/div>\r\n\t\t\t\t\t\t\t\t<\/div>\r\n\t\t\t\t\t\t\t<\/div>\r\n\t\t\t\t\t\t<\/header>\r\n\t\t\t\t\t\t\r\n\t\t\t\t<div id=\"overlay-menu\">\r\n\t\t\t\t\t<div class=\"overlay-menu-inner\" data-xl-width=\"12\">\r\n\t\t\t\t\t\t<nav class=\"overlay-nav\" data-justify=\"center\" data-align=\"align-middle\">\r\n\t\t\t\t\t\t\t<ul class=\"container\"><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-480\"><a href=\"https:\/\/michellegore.com\/work\"><span>Work<\/span><\/a><\/li>\n<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-537\"><a href=\"https:\/\/michellegore.com\/play\"><span>Play<\/span><\/a><\/li>\n<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-491\"><a href=\"https:\/\/michellegore.com\/about\"><span>About<\/span><\/a><\/li>\n<\/ul>\r\n\t\t\t\t\t\t<\/nav>\r\n\t\t\t\t\t<\/div>\r\n\t\t\t\t<\/div>\r\n\t\t\t\r\n\t\t\t\t\t","css":".nav_a4k4mp84b { background-color: transparent;; }.nav_a4k4mp84b .navbar-inner .logo a { color: #ffffff; }.nav_a4k4mp84b .navbar-inner .logo a { font-size: 0.8888888888888888rem; }.logo a { text-transform: uppercase; }.logo a { letter-spacing: 0.08333333333333333rem; }.nav_a4k4mp84b .navbar-inner .hamburger a.menu-icon span { background-color: #000000; }.nav_a4k4mp84b .navbar-inner .hamburger a.menu-icon { width: 24; }.nav_a4k4mp84b .navbar-inner .hamburger a.menu-icon span { height: 2px; }.nav_a4k4mp84b .navbar-inner .hamburger a.open-menu span::before { transform: translateY(-6px); }.nav_a4k4mp84b .navbar-inner .hamburger a.open-menu span::after { transform: translateY(6px); }.nav_a4k4mp84b .navbar-inner .hamburger a.open-menu:hover span::before { transform: translateY(-8px); }.nav_a4k4mp84b .navbar-inner .hamburger a.open-menu:hover span::after { transform: translateY(8px); }.nav_a4k4mp84b .navbar-inner .hamburger a.menu-icon { height: 14px; }.nav_a4k4mp84b .navbar-inner .hamburger a.menu-icon span { margin-top: 7px; }.nav_a4k4mp84b .navbar-inner nav ul li a span { color: #ffffff; }.nav_a4k4mp84b .navbar-inner nav ul li a span { text-transform: none; }.nav_a4k4mp84b .navbar-inner nav ul li a span { letter-spacing: 0rem; }.nav_a4k4mp84b .navbar-inner nav ul li a span { border-bottom-width: 0.05555555555555555rem; }.nav_a4k4mp84b .navbar-inner nav ul li a span { border-bottom-color: transparent; }.nav_a4k4mp84b .navbar-inner nav ul li a span { padding-bottom: 0rem; }.nav_a4k4mp84b .navbar-inner nav ul li a:hover span, .navbar-inner nav ul li.current-menu-item a span, .navbar-inner nav ul li.current_page_item a span, .nav_a4k4mp84b .navbar-inner nav ul li.wrap-focus a span { color: #ffffff; }.nav_a4k4mp84b .navbar-inner nav ul li.current-menu-item a span { color: #ffffff; }.nav_a4k4mp84b .navbar-inner nav ul li.current_page_item a span { color: #ffffff; }[data-post-type=\"project\"] .navbar-inner nav ul li.portfolio-grid a span, [data-post-type=\"post\"] .navbar-inner nav ul li.blog-overview a span { color: #ffffff; }.nav_a4k4mp84b .navbar-inner nav ul li a:hover span { border-bottom-color: #ffffff; }.nav_a4k4mp84b .navbar-inner nav ul li.current-menu-item a span { border-bottom-color: #ffffff; }.nav_a4k4mp84b .navbar-inner nav ul li.current_page_item a span { border-bottom-color: #ffffff; }[data-post-type=\"project\"] .navbar-inner nav ul li.portfolio-grid a span, [data-post-type=\"post\"] .navbar-inner nav ul li.blog-overview a span { border-bottom-color: #ffffff; }#overlay-menu { background-color: rgba(245, 245, 245, 1); }@media screen and (min-width: 992px) and (max-width: 1169.98px) { .nav_a4k4mp84b .navbar-inner .hamburger a.menu-icon { height: 14px; }.nav_a4k4mp84b .navbar-inner .hamburger a.menu-icon span { margin-top: 7px; }}@media screen and (min-width: 768px) and (max-width: 991.98px) { .nav_a4k4mp84b .navbar-inner .hamburger a.menu-icon { height: 14px; }.nav_a4k4mp84b .navbar-inner .hamburger a.menu-icon span { margin-top: 7px; }}@media screen and (min-width: 544px) and (max-width: 767.98px) { .nav_a4k4mp84b .navbar-inner .hamburger a.menu-icon { height: 14px; }.nav_a4k4mp84b .navbar-inner .hamburger a.menu-icon span { margin-top: 7px; }}@media screen and (max-width: 543.98px) { .nav_a4k4mp84b .navbar-inner .hamburger a.menu-icon { height: 14px; }.nav_a4k4mp84b .navbar-inner .hamburger a.menu-icon span { margin-top: 7px; }}","mobile_css":{"lg":".nav_a4k4mp84b .navbar-inner .hamburger a.menu-icon { height: 14px; }.nav_a4k4mp84b .navbar-inner .hamburger a.menu-icon span { margin-top: 7px; }","md":".nav_a4k4mp84b .navbar-inner .hamburger a.menu-icon { height: 14px; }.nav_a4k4mp84b .navbar-inner .hamburger a.menu-icon span { margin-top: 7px; }","sm":".nav_a4k4mp84b .navbar-inner .hamburger a.menu-icon { height: 14px; }.nav_a4k4mp84b .navbar-inner .hamburger a.menu-icon span { margin-top: 7px; }","xs":".nav_a4k4mp84b .navbar-inner .hamburger a.menu-icon { height: 14px; }.nav_a4k4mp84b .navbar-inner .hamburger a.menu-icon span { margin-top: 7px; }"}}},"post_ids":{"privacy-policy":"3","art":"149","2019-2":"8","about2019":"83","work-2020":"243","about-2020":"280","home":"302","work":"479","about":"488","play":"527","venmoredesign":"10","alpha-kappa-psi-marketing":"16","hackdavis-2019":"70","doordash-redesign":"191","CStem":"309","airbnb":"370","hackdavis":"493"},"transition":{"in":{"effect":"moveBottomToTop","position":"bottom","to":"-100%","visibility":"","easing":"Power1.easeInOut","duration":1},"out":{"effect":"moveBottomToTop","position":"normal","to":"-100%","visibility":"","easing":"Power1.easeInOut","duration":1},"optimize":"disabled","status":"enabled","preset":"bottomToTop","scrollToTop":"enabled"},"sr_options":{"viewFactor":0.2,"distance":"15","easing":"ease-in-out","duration":"700","opacity":0.8,"scale":1,"mobile":"true"}};
+  /* ]]> */
+  </script>
+<script type="text/javascript" src="https://michellegore.com/wp-content/themes/semplice4/assets/js/frontend.min.js?ver=4.4.9"></script>
+<script type="text/javascript" src="https://michellegore.com/wp-includes/js/wp-embed.min.js?ver=5.0.13"></script>
 
-</body>
-</html>
+      
+      
+<script type="text/javascript" id="post_wtqhmj1dl-motion-js">(function ($) { "use strict";$(window).on("scroll", function() { }); $(window).scroll();})(jQuery);(function ($) { "use strict";$(window).on("scroll", function() { }); $(window).scroll();})(jQuery);</script></body></html>

@@ -197,6 +197,14 @@ footer{
   z-index: 1;
 }
 
+#section_88fbaa4be{
+  position: absolute;
+  background:#fff;
+  height:1200px;
+  bottom: 0;
+  z-index: 1;
+}
+
 .bg-light {
   background-color: #fff !important;
 }
@@ -480,6 +488,14 @@ padding-right: 5px;
   background:#fff;
   top: 400px;
   height: 700px;
+  bottom: 0;
+  z-index: 1;
+}
+
+#section_88fbaa4be{
+  position: absolute;
+  background:#fff;
+  height:600px;
   bottom: 0;
   z-index: 1;
 }

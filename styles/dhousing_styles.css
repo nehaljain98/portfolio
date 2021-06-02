@@ -230,6 +230,11 @@ padding-right: 5px;
   bottom: 0;
   z-index: 1;
 }
+
+.footer{
+  padding-top: 15%;
+  padding-bottom:2%;
+}
 }
 
 

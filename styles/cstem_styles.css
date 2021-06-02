@@ -200,8 +200,9 @@ body{
   background-color: #fff !important;
 }
 
-.footercontainer{
-  padding-top:2%;
+.footer{
+  padding-top:20%;
+  padding-bottom:5%;
 }
 #prototype{
   z-index: 1;

@@ -93,7 +93,7 @@ body{
   background:#fff;
   top: 840px;
   padding-top: 80px;
-  height: 900px;
+  height: 1200px;
   bottom: 0;
   z-index: 1;
 }
@@ -103,7 +103,7 @@ body{
   position: absolute;
   background:#fff;
   top: 800px;
-  height: 4950px;
+  height: 1760px;
   bottom: 0;
   z-index: 1;
 }
@@ -409,7 +409,7 @@ padding-right: 5px;
   position: absolute;
   background:#fff;
   top: 800px;
-  height: 4950px;
+  height: 1970px;
   bottom: 0;
   z-index: 1;
 }
@@ -424,7 +424,7 @@ padding-right: 5px;
 #section_0qwq5b5bw{
   position: absolute;
   background:#fff;
-  height:2000px;
+  height:2500px;
   bottom: 0;
   z-index: 1;
 }
@@ -465,7 +465,7 @@ padding-right: 5px;
 #section_qqiejmor1{
   position: absolute;
   background:#fff;
-  height: 500px;
+  height: 450px;
   bottom: 0;
   z-index: 1;
 }
